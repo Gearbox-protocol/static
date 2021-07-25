@@ -1,0 +1,7 @@
+{
+  "name": "static",
+  "version": "0.0.1",
+  "description": "Static files for gearbox services",
+  "main": "index.js",
+  "license": "MIT"
+}
