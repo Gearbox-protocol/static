@@ -1,9 +1,11 @@
-export const IconTwitter = (
+import React from "react";
+import {IconProps} from "../core/icon";
+
+export const IconTwitter = ({size}: IconProps) => (
   <svg
     fill="none"
-    height="22"
-    viewBox="0 0 25 22"
-    width="25"
+    width={size || 24}
+    height={size || 24}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path

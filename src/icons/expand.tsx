@@ -1,4 +1,6 @@
-export const IconExpand = (
+import React from "react";
+
+export const IconExpand = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 306 306"
@@ -8,10 +10,10 @@ export const IconExpand = (
     x="0px"
     version="1.1"
   >
-    <g style="fill:#ffffff" transform="rotate(180,153,153)" id="g836">
-      <g style="fill:#ffffff" id="expand-less">
+    <g fill="#ffffff" transform="rotate(180,153,153)" id="g836">
+      <g fill="#ffffff" id="expand-less">
         <polygon
-          style="fill:#ffffff"
+          fill="#ffffff"
           id="polygon833"
           points="0,211.65 35.7,247.35 153,130.05 270.3,247.35 306,211.65 153,58.65 "
         />
