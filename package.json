@@ -1,8 +1,9 @@
 {
   "name": "@diesellabs/gearbox-static",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Static files for gearbox services",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.15",
