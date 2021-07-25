@@ -1,6 +1,6 @@
 {
   "name": "@diesellabs/gearbox-static",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Static files for gearbox services",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
