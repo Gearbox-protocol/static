@@ -1,14 +1,14 @@
 import React from "react";
+import { IconProps } from "../core/icon";
 
-export const IconExpand = () => (
+export const IconExpand = ({ size, style, onClick }: IconProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    width={size || 24}
+    height={size || 24}
+    style={style}
     viewBox="0 0 306 306"
-    height="306px"
-    width="306px"
-    y="0px"
-    x="0px"
-    version="1.1"
+    onClick={onClick}
   >
     <g fill="#ffffff" transform="rotate(180,153,153)" id="g836">
       <g fill="#ffffff" id="expand-less">

@@ -4,7 +4,6 @@
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
@@ -15,7 +14,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
-    "sourceMap": true,
     "typeRoots": [
       "index.d.ts",
       "node_modules/@types"
@@ -25,7 +23,7 @@
     // "sourceMap": true,                     /* Generates corresponding '.map' file. */
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
     "outDir": "./lib/" /* Redirect output structure to the directory. */,
-    "rootDir": "./src" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+    "rootDir": "./src/" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
     // "removeComments": true,                /* Do not emit comments to output. */
     //  "noEmit": true,                           /* Do not emit outputs. */
     // "incremental": true,                   /* Enable incremental compilation */

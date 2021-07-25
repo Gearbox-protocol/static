@@ -1,11 +1,13 @@
 import React from "react";
 import {IconProps} from "../core/icon";
 
-export const IconTwitter = ({size}: IconProps) => (
+export const IconTwitter = ({size, style}: IconProps) => (
   <svg
     fill="none"
     width={size || 24}
     height={size || 24}
+    style={style}
+    viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path

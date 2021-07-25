@@ -1,16 +1,24 @@
-export { IconCard } from "./src/icons/card";
-export { IconClose } from "./src/icons/close";
-export { IconExpand } from "./src/icons/expand";
-export { IconGear } from "./src/icons/gear";
-export { IconGraph } from "./src/icons/graph";
-export { IconHistory } from "./src/icons/history";
-export { IconTrianle } from "./src/icons/triangle";
+export { IconCard } from "./icons/card";
+export { IconClose } from "./icons/close";
+export { IconExpand } from "./icons/expand";
+export { IconGear } from "./icons/gear";
+export { IconGraph } from "./icons/graph";
+export { IconHistory } from "./icons/history";
+export { IconTriangle } from "./icons/triangle";
 
-export {IconBook} from "./src/menu/book"
-export {IconCheck} from "./src/menu/check"
-export {IconCreditCard} from "./src/menu/credit-card"
-export {IconEarn} from "./src/menu/earn"
-export {IconMessage} from "./src/menu/message"
-export {IconPieChart} from "./src/menu/piechart"
-export {IconSquare} from "./src/menu/square"
-export {IconZap} from "./src/menu/zap"
+export {IconBook} from "./menu/book"
+export {IconCheck} from "./menu/check"
+export {IconCode} from "./menu/code"
+export {IconCreditCard} from "./menu/credit-card"
+export {IconEarn} from "./menu/earn"
+export {IconInfo} from "./menu/info"
+export {IconMessage} from "./menu/message"
+export {IconPieChart} from "./menu/piechart"
+export {IconSquare} from "./menu/square"
+export {IconZap} from "./menu/zap"
+
+export {IconDiscord} from "./social/discord"
+export {IconGithub} from "./social/github"
+export {IconTelegram} from "./social/telegram"
+export {IconTwitter} from "./social/twitter"
+
