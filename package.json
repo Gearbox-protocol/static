@@ -1,6 +1,6 @@
 {
   "name": "@diesellabs/gearbox-static",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Static files for gearbox services",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "pub": "rm -rf ./lib && tsc  && yarn publish",
+    "pub": "rm -rf ./lib && tsc && yarn publish",
     "copy-files": "cp -R ./src/assets ./lib"
   }
 }
