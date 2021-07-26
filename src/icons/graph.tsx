@@ -7,7 +7,7 @@ export const IconGraph= ({size, style}: IconProps) => (
     width={size || 24}
     height={size || 24}
     style={style}
-    viewBox="0 0 24 24"
+    viewBox="0 0 100 100"
     fill="none"
     stroke="#ffffff"
     strokeWidth="2"

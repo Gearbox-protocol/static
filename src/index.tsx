@@ -22,3 +22,6 @@ export {IconGithub} from "./social/github"
 export {IconTelegram} from "./social/telegram"
 export {IconTwitter} from "./social/twitter"
 
+export const STATIC_SERVER = 'https://static.gearbox.fi'
+
+export const getStatic = (url: string) => `${STATIC_SERVER}${url}`
