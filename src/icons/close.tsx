@@ -1,12 +1,13 @@
 import React from "react";
 import { IconProps } from "../core/icon";
 
-export const IconClose = ({ size, style }: IconProps) => (
+export const IconClose = ({ size, style, onClick }: IconProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size || 24}
     height={size || 24}
     style={style}
+    onClick={onClick}
     viewBox="0 0 512 512"
   >
     <path

@@ -1,6 +1,7 @@
-export { IconCard } from "./icons/card";
 export { IconClose } from "./icons/close";
 export { IconExpand } from "./icons/expand";
+export { IconExternal } from "./icons/external";
+export { IconLinkArrow } from "./icons/linkArrow";
 export { IconGear } from "./icons/gear";
 export { IconGraph } from "./icons/graph";
 export { IconHistory } from "./icons/history";
