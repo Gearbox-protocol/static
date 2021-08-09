@@ -1,18 +1,20 @@
 import React from "react";
 import { IconProps } from "../core/icon";
 
-export const IconClose = ({ size, style, onClick }: IconProps) => (
+export const IconTool = ({ size, style, onClick }: IconProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size || 24}
     height={size || 24}
     style={style}
     onClick={onClick}
-    viewBox="0 0 512 512"
+    viewBox="0 0 24 24"
+    stroke="white"
+    strokeWidth={1.5}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-tool"
   >
-    <path
-      d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"
-      fill="#a0a0a0"
-    />
+    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
   </svg>
 );
