@@ -5,6 +5,7 @@ export { IconLinkArrow } from "./icons/linkArrow";
 export { IconGear } from "./icons/gear";
 export { IconGraph } from "./icons/graph";
 export { IconHistory } from "./icons/history";
+export { IconSearch} from "./icons/search";
 export { IconTool} from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
 
