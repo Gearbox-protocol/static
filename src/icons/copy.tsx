@@ -1,5 +1,5 @@
 import React from "react";
-import { IconProps } from "@diesellabs/gearbox-static/lib/core/icon";
+import { IconProps } from "../core/icon";
 
 export function IconCopy({
   size,
@@ -8,8 +8,8 @@ export function IconCopy({
 }: IconProps): React.ReactElement {
   return (
     <svg
-      width={size || "10"}
-      height={size || "10"}
+      width={size || "24px"}
+      height={size || "24px"}
       viewBox={`0 0 ${size || 10} ${size || 10}`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,5 @@
 export { IconClose } from "./icons/close";
+export { IconCopy } from "./icons/copy";
 export { IconExpand } from "./icons/expand";
 export { IconExternal } from "./icons/external";
 export { IconLinkArrow } from "./icons/linkArrow";
