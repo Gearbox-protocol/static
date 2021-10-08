@@ -15,5 +15,6 @@
     "build": "tsc",
     "pub": "rm -rf ./lib && tsc && yarn publish",
     "copy-files": "cp -R ./src/assets ./lib"
-  }
+  },
+  "dependencies": {}
 }
