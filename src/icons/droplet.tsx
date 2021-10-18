@@ -1,7 +1,7 @@
 import React from "react";
 import { IconProps } from "../core/icon";
 
-export function IconEdit({
+export function IconDroplet({
   size,
   style,
   onClick,
@@ -20,8 +20,7 @@ export function IconEdit({
       style={style}
       onClick={onClick}
     >
-      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
     </svg>
   );
 }

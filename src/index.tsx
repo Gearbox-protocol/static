@@ -1,31 +1,33 @@
 export { IconClose } from "./icons/close";
 export { IconCopy } from "./icons/copy";
+export { IconDroplet } from "./icons/droplet";
+export { IconEdit } from "./icons/edit";
 export { IconExpand } from "./icons/expand";
 export { IconExternal } from "./icons/external";
 export { IconLinkArrow } from "./icons/linkArrow";
 export { IconGear } from "./icons/gear";
 export { IconGraph } from "./icons/graph";
 export { IconHistory } from "./icons/history";
-export { IconSearch} from "./icons/search";
-export { IconTool} from "./icons/tool";
+export { IconSearch } from "./icons/search";
+export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
 
-export {IconBook} from "./menu/book"
-export {IconCheck} from "./menu/check"
-export {IconCode} from "./menu/code"
-export {IconCreditCard} from "./menu/credit-card"
-export {IconEarn} from "./menu/earn"
-export {IconInfo} from "./menu/info"
-export {IconMessage} from "./menu/message"
-export {IconPieChart} from "./menu/piechart"
-export {IconSquare} from "./menu/square"
-export {IconZap} from "./menu/zap"
+export { IconBook } from "./menu/book";
+export { IconCheck } from "./menu/check";
+export { IconCode } from "./menu/code";
+export { IconCreditCard } from "./menu/credit-card";
+export { IconEarn } from "./menu/earn";
+export { IconInfo } from "./menu/info";
+export { IconMessage } from "./menu/message";
+export { IconPieChart } from "./menu/piechart";
+export { IconSquare } from "./menu/square";
+export { IconZap } from "./menu/zap";
 
-export {IconDiscord} from "./social/discord"
-export {IconGithub} from "./social/github"
-export {IconTelegram} from "./social/telegram"
-export {IconTwitter} from "./social/twitter"
+export { IconDiscord } from "./social/discord";
+export { IconGithub } from "./social/github";
+export { IconTelegram } from "./social/telegram";
+export { IconTwitter } from "./social/twitter";
 
-export const STATIC_SERVER = 'https://static.gearbox.fi'
+export const STATIC_SERVER = "https://static.gearbox.fi";
 
-export const getStatic = (url: string) => `${STATIC_SERVER}${url}`
+export const getStatic = (url: string) => `${STATIC_SERVER}${url}`;

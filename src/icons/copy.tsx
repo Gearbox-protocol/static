@@ -10,7 +10,7 @@ export function IconCopy({
     <svg
       width={size || "24px"}
       height={size || "24px"}
-      viewBox={`0 0 ${size || 10} ${size || 10}`}
+      viewBox={"0 0 10 10"}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}

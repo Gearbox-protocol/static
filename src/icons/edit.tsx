@@ -1,7 +1,7 @@
 import React from "react";
 import { IconProps } from "../core/icon";
 
-export function IconCopy({
+export function IconEdit({
   size,
   style,
   onClick,
@@ -10,20 +10,18 @@ export function IconCopy({
     <svg
       width={size || "24px"}
       height={size || "24px"}
-      viewBox={`0 0 ${size || 10} ${size || 10}`}
+      viewBox={"0 0 24 24"}
       fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       onClick={onClick}
     >
-      <path
-        d="M6.25 3.125H0.625C0.279824 3.125 0 3.40482 0 3.75V9.375C0 9.72018 0.279824 10 0.625 10H6.25C6.59518 10 6.875 9.72018 6.875 9.375V3.75C6.875 3.40482 6.59518 3.125 6.25 3.125ZM6.25 9.375H0.625V3.75H6.25V9.375Z"
-        fill="#AAAAAA"
-      />
-      <path
-        d="M9.375 0H3.75C3.40482 0 3.125 0.279824 3.125 0.625V2.1875H3.75V0.625H9.375V6.25H7.8125V6.875H9.375C9.72018 6.875 10 6.59518 10 6.25V0.625C10 0.279824 9.72018 0 9.375 0Z"
-        fill="#AAAAAA"
-      />
+      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
     </svg>
   );
 }
