@@ -11,6 +11,7 @@ export { IconHistory } from "./icons/history";
 export { IconSearch } from "./icons/search";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
+export { IconNavigation } from "./icons/navigation";
 
 export { IconBook } from "./menu/book";
 export { IconCheck } from "./menu/check";
