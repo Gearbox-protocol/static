@@ -12,6 +12,7 @@ export { IconSearch } from "./icons/search";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
 export { IconNavigation } from "./icons/navigation";
+export { IconLogout } from "./icons/logout";
 export { IconBook } from "./menu/book";
 export { IconCheck } from "./menu/check";
 export { IconCode } from "./menu/code";
