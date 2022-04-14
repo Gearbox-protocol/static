@@ -13,6 +13,7 @@ export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
 export { IconNavigation } from "./icons/navigation";
 export { IconLogout } from "./icons/logout";
+export { IconPending } from "./icons/pending";
 
 export { IconBook } from "./menu/book";
 export { IconCheck } from "./menu/check";
