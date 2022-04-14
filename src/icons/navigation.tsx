@@ -1,5 +1,5 @@
-import React from 'react';
-import { IconProps } from '../core/icon';
+import React from "react";
+import { IconProps } from "../core/icon";
 
 export const IconNavigation = ({ size, style, onClick }: IconProps) => (
   <svg
@@ -9,11 +9,11 @@ export const IconNavigation = ({ size, style, onClick }: IconProps) => (
     width={size || 24}
     height={size || 24}
     viewBox="0 0 24 24"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     stroke="#ffffff"
-    >
-      <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+  >
+    <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
   </svg>
 );
