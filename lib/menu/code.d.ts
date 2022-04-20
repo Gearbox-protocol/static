@@ -1,3 +1,3 @@
 /// <reference types="react" />
 import { IconProps } from "../core/icon";
-export declare const IconCode: ({ size, style }: IconProps) => JSX.Element;
+export declare const IconCode: ({ style, onClick, size }: IconProps) => JSX.Element;

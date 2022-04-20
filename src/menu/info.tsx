@@ -1,12 +1,13 @@
 import React from "react";
-import {IconProps} from "../core/icon";
+import { IconProps } from "../core/icon";
 
-export const IconInfo =  ({size, style}: IconProps) => (
+export const IconInfo = ({ style, onClick, size = 24 }: IconProps) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size || 24}
-    height={size || 24}
+    width={size}
+    height={size}
     style={style}
+    onClick={onClick}
+    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     fill="none"
     stroke="white"
@@ -15,8 +16,8 @@ export const IconInfo =  ({size, style}: IconProps) => (
     strokeLinejoin="round"
     className="feather feather-info"
   >
-    <circle cx="12" cy="12" r="10"/>
-    <line x1="12" y1="16" x2="12" y2="12"/>
-    <line x1="12" y1="8" x2="12.01" y2="8"/>
+    <circle cx="12" cy="12" r="10" />
+    <line x1="12" y1="16" x2="12" y2="12" />
+    <line x1="12" y1="8" x2="12.01" y2="8" />
   </svg>
 );

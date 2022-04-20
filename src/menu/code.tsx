@@ -1,12 +1,13 @@
 import React from "react";
-import {IconProps} from "../core/icon";
+import { IconProps } from "../core/icon";
 
-export const IconCode =  ({size, style}: IconProps) => (
+export const IconCode = ({ style, onClick, size = 24 }: IconProps) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size || 24}
-    height={size || 24}
+    width={size}
+    height={size}
     style={style}
+    onClick={onClick}
+    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     fill="none"
     stroke="white"
@@ -15,7 +16,7 @@ export const IconCode =  ({size, style}: IconProps) => (
     strokeLinejoin="round"
     className="feather feather-code"
   >
-    <polyline points="16 18 22 12 16 6"/>
-    <polyline points="8 6 2 12 8 18"/>
+    <polyline points="16 18 22 12 16 6" />
+    <polyline points="8 6 2 12 8 18" />
   </svg>
 );

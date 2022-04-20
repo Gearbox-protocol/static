@@ -1,3 +1,3 @@
 /// <reference types="react" />
 import { IconProps } from "../core/icon";
-export declare const IconPieChart: ({ size, style }: IconProps) => JSX.Element;
+export declare const IconPieChart: ({ style, onClick, size }: IconProps) => JSX.Element;
