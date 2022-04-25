@@ -14,6 +14,7 @@ export { IconTriangle } from "./icons/triangle";
 export { IconNavigation } from "./icons/navigation";
 export { IconLogout } from "./icons/logout";
 export { IconPending } from "./icons/pending";
+export { IconCoins } from "./icons/coins";
 export { IconBook } from "./menu/book";
 export { IconCheck } from "./menu/check";
 export { IconCode } from "./menu/code";
