@@ -1,28 +1,28 @@
-import React from 'react';
-import { IconProps } from '../core/icon';
+import React from "react";
+import { IconProps } from "../core/icon";
 
 export function IconLogout({
-    size,
-    style,
-    onClick
-  }: IconProps): React.ReactElement {
-    return (
-      <svg
-        width={size || "24px"}
-        height={size || "24px"}
-        viewBox={"0 0 24 24"}
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        xmlns="http://www.w3.org/2000/svg"
-        style={style}
-        onClick={onClick}
-      >
-        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-        <polyline points="16 17 21 12 16 7"></polyline>
-        <line x1="21" y1="12" x2="9" y2="12"></line>
-      </svg>
-    );
-  }
+  size = 24,
+  style,
+  onClick,
+}: IconProps): React.ReactElement {
+  return (
+    <svg
+      width={size}
+      height={size}
+      style={style}
+      onClick={onClick}
+      viewBox={"0 0 24 24"}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+      <polyline points="16 17 21 12 16 7"></polyline>
+      <line x1="21" y1="12" x2="9" y2="12"></line>
+    </svg>
+  );
+}

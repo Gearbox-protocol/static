@@ -1,12 +1,13 @@
 import React from "react";
-import {IconProps} from "../core/icon";
+import { IconProps } from "../core/icon";
 
-export const IconTwitter = ({size, style}: IconProps) => (
+export const IconTwitter = ({ style, onClick, size = 24 }: IconProps) => (
   <svg
-    fill="none"
-    width={size || 24}
-    height={size || 24}
+    width={size}
+    height={size}
     style={style}
+    onClick={onClick}
+    fill="none"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >

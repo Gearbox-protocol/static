@@ -1,12 +1,13 @@
 import React from "react";
-import {IconProps} from "../core/icon";
+import { IconProps } from "../core/icon";
 
-export const IconGraph= ({size, style}: IconProps) => (
+export const IconGraph = ({ style, onClick, size = 24 }: IconProps) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size || 24}
-    height={size || 24}
+    width={size}
+    height={size}
     style={style}
+    onClick={onClick}
+    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 100 100"
     fill="none"
     stroke="#ffffff"

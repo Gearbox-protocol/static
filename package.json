@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "dev": "tsc -w",
     "pub": "rm -rf ./lib && tsc && yarn publish",
     "copy-files": "cp -R ./src/assets ./lib"
   },

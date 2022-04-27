@@ -1,11 +1,12 @@
 import React from "react";
 import { IconProps } from "../core/icon";
 
-export const IconCheck = ({ size, style }: IconProps) => (
+export const IconCheck = ({ style, onClick, size = 24 }: IconProps) => (
   <svg
-    width={size || 24}
-    height={size || 24}
+    width={size}
+    height={size}
     style={style}
+    onClick={onClick}
     viewBox="0 0 24 24"
     fill="none"
     stroke="white"
