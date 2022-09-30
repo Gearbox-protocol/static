@@ -18,8 +18,8 @@
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "prettier:ci": "npx prettier --check .",
-    "lint": "eslint \"**/*.ts\" --fix",
-    "lint:ci": "eslint \"**/*.ts\"",
+    "lint": "eslint . --ext .tsx,.ts --fix",
+    "lint:ci": "eslint . --ext .tsx,.ts",
     "typecheck:ci": "tsc --noEmit"
   },
   "dependencies": {},

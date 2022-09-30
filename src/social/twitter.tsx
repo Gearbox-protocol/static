@@ -1,4 +1,5 @@
 import React from "react";
+
 import { IconProps } from "../core/icon";
 
 export const IconTwitter = ({ style, onClick, size = 24 }: IconProps) => (
