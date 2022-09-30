@@ -17,6 +17,7 @@ export { IconPending } from "./icons/pending";
 export { IconCoins } from "./icons/coins";
 export { IconChart } from "./icons/chart";
 export { IconFire } from "./icons/fire";
+export { IconShield } from "./icons/shield";
 
 export { IconBook } from "./menu/book";
 export { IconCheck } from "./menu/check";
