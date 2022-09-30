@@ -13,7 +13,7 @@
     "compile": "tsc",
     "dev": "tsc -w",
     "clean": "rm -rf ./lib",
-    "copy-files": "cp -R ./src/assets ./lib",
+    "copy-files": "mkdir -p ./src/assets && cp -R ./src/assets ./lib",
     "build": "yarn compile && yarn copy-files",
     "prepare": "husky install",
     "prettier": "prettier --write .",
