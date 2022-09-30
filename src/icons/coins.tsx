@@ -4,7 +4,7 @@ import { IconProps } from "../core/icon";
 export function IconCoins({
   size = 24,
   style,
-  onClick
+  onClick,
 }: IconProps): React.ReactElement {
   return (
     <svg

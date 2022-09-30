@@ -1,11 +1,7 @@
 {
   "name": "Gearbox TokenList",
   "logoURI": "https://ipfs.infura.io/ipfs/QmW352GziwqjYCF8F9kqEVbHdnHBoEf5EeWbwZypcuBbXq",
-  "keywords": [
-    "audited",
-    "verified",
-    "special tokens"
-  ],
+  "keywords": ["audited", "verified", "special tokens"],
   "timestamp": "2020-06-12T00:00:00+00:00",
   "tokens": [
     {
@@ -33,36 +29,36 @@
       "logoURI": "https://static.gearbox.fi/tokens/repv2.svg"
     },
     {
-        "chainId": 1,
-        "address": "0xB48891df9267EF65AABd32F497F6F2d1eB22A186",
-        "symbol": "SNX",
-        "name": "Synthetix token",
-        "decimals": 18,
-        "logoURI": "https://static.gearbox.fi/tokens/snx.svg"
+      "chainId": 1,
+      "address": "0xB48891df9267EF65AABd32F497F6F2d1eB22A186",
+      "symbol": "SNX",
+      "name": "Synthetix token",
+      "decimals": 18,
+      "logoURI": "https://static.gearbox.fi/tokens/snx.svg"
     },
     {
-        "chainId": 1,
-        "address": "0x31EeB2d0F9B6fD8642914aB10F4dD473677D80df",
-        "symbol": "USDC",
-        "name": "USDC token",
-        "decimals": 6,
-        "logoURI": "https://static.gearbox.fi/tokens/usdc.svg"
+      "chainId": 1,
+      "address": "0x31EeB2d0F9B6fD8642914aB10F4dD473677D80df",
+      "symbol": "USDC",
+      "name": "USDC token",
+      "decimals": 6,
+      "logoURI": "https://static.gearbox.fi/tokens/usdc.svg"
     },
     {
-        "chainId": 1,
-        "address": "0xE36bC5d8b689AD6d80e78c3e736670e80d4b329D",
-        "symbol": "WBTC",
-        "name": "Wrapped BTC",
-        "decimals": 8,
-        "logoURI": "https://static.gearbox.fi/tokens/wbtc.svg"
+      "chainId": 1,
+      "address": "0xE36bC5d8b689AD6d80e78c3e736670e80d4b329D",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "logoURI": "https://static.gearbox.fi/tokens/wbtc.svg"
     },
     {
-        "chainId": 1,
-        "address": "0xB730c1449c58f29C69df33ccD5bd9d3cA66b23C1",
-        "symbol": "ZRX",
-        "name": "0x token",
-        "decimals": 18,
-        "logoURI": "https://static.gearbox.fi/tokens/zrx.svg"
+      "chainId": 1,
+      "address": "0xB730c1449c58f29C69df33ccD5bd9d3cA66b23C1",
+      "symbol": "ZRX",
+      "name": "0x token",
+      "decimals": 18,
+      "logoURI": "https://static.gearbox.fi/tokens/zrx.svg"
     }
   ],
   "version": {
