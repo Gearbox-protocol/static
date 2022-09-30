@@ -1,4 +1,5 @@
 import React from "react";
+
 import { IconProps } from "../core/icon";
 
 export const IconFire = ({ style, onClick, size = 18 }: IconProps) => (

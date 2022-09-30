@@ -1,6 +1,7 @@
 import React from "react";
-import { IconProps } from "../core/icon";
 import { Settings } from "react-feather";
+
+import { IconProps } from "../core/icon";
 
 export const IconPending = ({ size, style, onClick }: IconProps) => {
   return (

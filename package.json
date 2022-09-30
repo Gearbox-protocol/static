@@ -1,22 +1,48 @@
 {
   "name": "@gearbox-protocol/static",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Static files for gearbox services",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^17.0.15",
-    "prettier": "^2.3.2",
-    "react": "^17.0.1",
-    "react-feather": "^2.0.9",
-    "typescript": "^4.3.5"
-  },
+  "private": true,
   "scripts": {
-    "build": "tsc",
+    "compile": "tsc",
     "dev": "tsc -w",
-    "pub": "rm -rf ./lib && tsc && yarn publish",
-    "copy-files": "cp -R ./src/assets ./lib"
+    "clean": "rm -rf ./lib",
+    "copy-files": "mkdir -p ./src/assets && cp -R ./src/assets ./lib",
+    "build": "yarn compile && yarn copy-files",
+    "prepare": "husky install",
+    "prettier": "prettier --write .",
+    "prettier:ci": "npx prettier --check .",
+    "lint": "eslint . --ext .tsx,.ts --fix",
+    "lint:ci": "eslint . --ext .tsx,.ts",
+    "typecheck:ci": "tsc --noEmit"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@gearbox-protocol/eslint-config": "^1.6.1",
+    "@gearbox-protocol/prettier-config": "^1.5.0",
+    "@types/react": "^18.0.21",
+    "eslint": "^8.24.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "react": "^17.0.1",
+    "react-feather": "^2.0.10",
+    "typescript": "^4.8.4"
+  },
+  "prettier": "@gearbox-protocol/prettier-config",
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": "prettier --write"
+  }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { IconProps } from "../core/icon";
 
 export function IconLogout({
