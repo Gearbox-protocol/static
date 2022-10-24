@@ -1,9 +1,7 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - "main"
+  workflow_dispatch:
 
 env:
   HUSKY: 0
@@ -16,19 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
         with:
-          cache: "yarn"
-          node-version-file: ".nvmrc"
-
-      # No lint or prettier here since they were supposed to run on PR action
-      - name: Build
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
-
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: ${{ secrets.CF_PROJECT_NAME }}
+          directory: public
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
