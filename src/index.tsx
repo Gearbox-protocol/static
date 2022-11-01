@@ -13,6 +13,7 @@ export { IconHistory } from "./icons/history";
 export { IconLinkArrow } from "./icons/linkArrow";
 export { IconLogout } from "./icons/logout";
 export { IconNavigation } from "./icons/navigation";
+export { IconNexus } from "./icons/nexus";
 export { IconPending } from "./icons/pending";
 export { IconSearch } from "./icons/search";
 export { IconShield } from "./icons/shield";
