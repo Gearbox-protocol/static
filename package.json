@@ -8,7 +8,6 @@
     "lib"
   ],
   "license": "MIT",
-  "private": true,
   "scripts": {
     "compile": "tsc",
     "dev": "tsc -w",
