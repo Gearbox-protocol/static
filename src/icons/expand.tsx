@@ -1,5 +1,4 @@
 import React from "react";
-
 import { IconProps } from "../core/icon";
 
 export const IconExpand = ({ style, onClick, size = 24 }: IconProps) => (
