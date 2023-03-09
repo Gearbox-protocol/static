@@ -16,6 +16,7 @@ export { IconNavigation } from "./icons/navigation";
 export { IconNexus } from "./icons/nexus";
 export { IconPending } from "./icons/pending";
 export { IconSearch } from "./icons/search";
+export { SuccessCircle } from "./icons/successCircle";
 export { IconShield } from "./icons/shield";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
