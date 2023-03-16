@@ -15,6 +15,7 @@ export { IconLogout } from "./icons/logout";
 export { IconNavigation } from "./icons/navigation";
 export { IconNexus } from "./icons/nexus";
 export { IconPending } from "./icons/pending";
+export { IconDeadRobot } from "./icons/robotDead";
 export { IconSearch } from "./icons/search";
 export { IconShield } from "./icons/shield";
 export { SuccessCircle } from "./icons/successCircle";
