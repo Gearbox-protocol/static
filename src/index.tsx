@@ -18,6 +18,7 @@ export { IconPending } from "./icons/pending";
 export { IconDeadRobot } from "./icons/robotDead";
 export { IconSearch } from "./icons/search";
 export { IconShield } from "./icons/shield";
+export { IconSliderSimple } from "./icons/slidersSimple";
 export { SuccessCircle } from "./icons/successCircle";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
