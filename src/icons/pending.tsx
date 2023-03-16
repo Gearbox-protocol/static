@@ -8,7 +8,6 @@ export const IconPending = ({ size, style, onClick }: IconProps) => (
     size={size}
     onClick={onClick}
     style={{
-      marginTop: "2px",
       animationDuration: "3s",
       animationName: "spin",
       animationIterationCount: "infinite",
