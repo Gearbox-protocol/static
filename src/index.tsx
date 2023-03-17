@@ -20,6 +20,7 @@ export { IconSearch } from "./icons/search";
 export { IconShield } from "./icons/shield";
 export { IconSliderSimple } from "./icons/slidersSimple";
 export { SuccessCircle } from "./icons/successCircle";
+export { IconTiles } from "./icons/tiles";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
 export { IconWallet } from "./icons/wallet";
