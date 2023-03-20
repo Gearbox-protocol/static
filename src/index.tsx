@@ -1,3 +1,4 @@
+export { IconArrowUnderlying } from "./icons/arrowUnderlying";
 export { IconChart } from "./icons/chart";
 export { IconClose } from "./icons/close";
 export { IconCoins } from "./icons/coins";
