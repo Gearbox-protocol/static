@@ -1,3 +1,4 @@
+export { IconArrowUnderlying } from "./icons/arrowUnderlying";
 export { IconChart } from "./icons/chart";
 export { IconClose } from "./icons/close";
 export { IconCoins } from "./icons/coins";
@@ -20,6 +21,7 @@ export { IconSearch } from "./icons/search";
 export { IconShield } from "./icons/shield";
 export { IconSliderSimple } from "./icons/slidersSimple";
 export { SuccessCircle } from "./icons/successCircle";
+export { IconTiles } from "./icons/tiles";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
 export { IconWallet } from "./icons/wallet";
