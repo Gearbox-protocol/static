@@ -25,6 +25,8 @@ export { SuccessCircle } from "./icons/successCircle";
 export { IconTiles } from "./icons/tiles";
 export { IconTool } from "./icons/tool";
 export { IconTriangle } from "./icons/triangle";
+export { IconVoteDown } from "./icons/voteDown";
+export { IconVoteUp } from "./icons/voteUp";
 export { IconWallet } from "./icons/wallet";
 export { IconBook } from "./menu/book";
 export { IconCheck } from "./menu/check";
