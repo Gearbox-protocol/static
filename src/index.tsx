@@ -20,6 +20,8 @@ export { IconQuestionCircle } from "./icons/questionCircle";
 export { IconDeadRobot } from "./icons/robotDead";
 export { IconSearch } from "./icons/search";
 export { IconShield } from "./icons/shield";
+export { IconVoteDown } from "./icons/voteDown";
+export { IconVoteUp } from "./icons/voteUp";
 export { IconSliderSimple } from "./icons/slidersSimple";
 export { SuccessCircle } from "./icons/successCircle";
 export { IconTiles } from "./icons/tiles";
