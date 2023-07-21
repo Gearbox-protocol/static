@@ -14,8 +14,8 @@ export const IconVoteDown = ({ style, onClick, size = 24 }: IconProps) => (
   >
     <path
       d="M0.700002 10C0.700001 4.86375 4.86375 0.7 10 0.7C15.1362 0.699999 19.3 4.86375 19.3 10C19.3 15.1362 15.1362 19.3 10 19.3C4.86375 19.3 0.700002 15.1362 0.700002 10Z"
-      stroke="#92FFB0"
       strokeWidth="1.4"
+      stroke="#FF5050"
     />
     <path
       fillRule="evenodd"
