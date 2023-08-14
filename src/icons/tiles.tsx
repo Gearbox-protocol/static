@@ -14,7 +14,7 @@ export const IconTiles = ({ style, onClick, size = 24 }: IconProps) => (
   >
     <path
       d="M12.8889 4V9.33333H20V4M12.8889 20H20V11.1111H12.8889M4 20H11.1111V14.6667H4M4 12.8889H11.1111V4H4V12.8889Z"
-      fill="white"
+      fill="currentColor"
     />
   </svg>
 );
