@@ -14,7 +14,7 @@ export const IconVoteUp = ({ style, onClick, size = 24 }: IconProps) => (
   >
     <path
       d="M19.3 10C19.3 15.1362 15.1362 19.3 10 19.3C4.86375 19.3 0.7 15.1362 0.7 10C0.7 4.86375 4.86375 0.7 10 0.7C15.1362 0.7 19.3 4.86375 19.3 10Z"
-      stroke="#FF5050"
+      stroke="#92FFB0"
       strokeWidth="1.4"
     />
     <path
