@@ -5,6 +5,7 @@ export { IconCoins } from "./icons/coins";
 export { IconCopy } from "./icons/copy";
 export { IconDroplet } from "./icons/droplet";
 export { IconEdit } from "./icons/edit";
+export * from "./icons/editPen";
 export { IconExpand } from "./icons/expand";
 export { IconExternal } from "./icons/external";
 export { IconFire } from "./icons/fire";
