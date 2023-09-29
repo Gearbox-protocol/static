@@ -4,6 +4,7 @@ export * from "./icons/checkMarkCircle";
 export * from "./icons/close";
 export * from "./icons/coins";
 export * from "./icons/copy";
+export * from "./icons/cover";
 export * from "./icons/crossCircle";
 export * from "./icons/droplet";
 export * from "./icons/edit";
