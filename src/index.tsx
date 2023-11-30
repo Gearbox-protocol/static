@@ -1,3 +1,4 @@
+export * from "./icons/agents";
 export * from "./icons/arrowUnderlying";
 export * from "./icons/chart";
 export * from "./icons/checkMarkCircle";
