@@ -24,6 +24,7 @@ export * from "./icons/nexus";
 export * from "./icons/pending";
 export * from "./icons/questionCircle";
 export * from "./icons/robotDead";
+export * from "./icons/rocket";
 export * from "./icons/search";
 export * from "./icons/shield";
 export * from "./icons/slidersSimple";
