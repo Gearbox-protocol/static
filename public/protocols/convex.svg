@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 124.2 143.6" style="enable-background:new 0 0 124.2 143.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#1682FE;}
-	.st1{fill:#60D8A4;}
-	.st2{fill:#F4BB3B;}
-	.st3{fill:#FF5A5A;}
-	.st4{fill:#3A3A3A;}
-</style>
-<rect x="71.8" y="28" class="st0" width="10" height="15.1"/>
-<rect x="43.1" class="st0" width="10" height="15.1"/>
-<rect x="14.4" y="14.4" class="st1" width="10" height="15.1"/>
-<rect y="71.8" class="st2" width="10.1" height="43.1"/>
-<rect y="28.7" class="st1" width="10.1" height="43.1"/>
-<rect x="86.1" y="42.4" class="st0" width="10" height="15.1"/>
-<rect x="86.1" y="86.1" class="st3" width="10" height="15.1"/>
-<rect x="71.8" y="100.5" class="st3" width="10" height="15.1"/>
-<rect x="43.1" y="128.5" class="st3" width="10" height="15.1"/>
-<rect x="14.4" y="114.1" class="st2" width="10" height="15.1"/>
-<path class="st4" d="M124.2,57.4V28.7h-14.4V14.4H81.1V0H52.4v14.4H23.7v14.4H9.3v86.1h14.4v14.4h28.7v14.4h28.7v-14.4h28.7v-14.4  h14.4V86.1H95.5v14.4H81.1v14.4H52.4v-14.4H38.1V43.1h14.4V28.7h28.7v14.4h14.4v14.4H124.2z"/>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3289_4598)">
+<circle cx="12" cy="12" r="12" fill="white"/>
+<path d="M13.9034 7.4248H12.9373V9.0021H13.9034V7.4248Z" fill="#1682FE"/>
+<path d="M11.1305 4.5H10.1643V6.0773H11.1305V4.5Z" fill="#1682FE"/>
+<path d="M8.35754 6.00415H7.39136V7.58145H8.35754V6.00415Z" fill="#60D8A4"/>
+<path d="M6.97585 12H6V16.5021H6.97585V12Z" fill="#F4BB3B"/>
+<path d="M6.97585 7.4978H6V11.9999H6.97585V7.4978Z" fill="#60D8A4"/>
+<path d="M15.285 8.92896H14.3188V10.5063H15.285V8.92896Z" fill="#1682FE"/>
+<path d="M15.285 13.4937H14.3188V15.071H15.285V13.4937Z" fill="#FF5A5A"/>
+<path d="M13.9034 14.9978H12.9373V16.5751H13.9034V14.9978Z" fill="#FF5A5A"/>
+<path d="M11.1305 17.9226H10.1643V19.4999H11.1305V17.9226Z" fill="#FF5A5A"/>
+<path d="M8.35754 16.4185H7.39136V17.9958H8.35754V16.4185Z" fill="#F4BB3B"/>
+<path d="M18 10.4958V7.49791H16.6087V6.00418H13.8358V4.5H11.0628V6.00418H8.28986V7.50836H6.89856V16.5021H8.28986V18.0063H11.0628V19.5104H13.8358V18.0063H16.6087V16.5021H18V13.4937H15.2271V14.9979H13.8358V16.5021H11.0628V14.9979H9.68117V9.00209H11.0725V7.49791H13.8454V9.00209H15.2367V10.5063H18V10.4958Z" fill="#3A3A3A"/>
+</g>
+<defs>
+<clipPath id="clip0_3289_4598">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
 </svg>
