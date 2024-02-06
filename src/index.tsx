@@ -14,6 +14,7 @@ export * from "./icons/expand";
 export * from "./icons/external";
 export * from "./icons/farm";
 export * from "./icons/fire";
+export * from "./icons/gamepad";
 export * from "./icons/gear";
 export * from "./icons/graph";
 export * from "./icons/history";
