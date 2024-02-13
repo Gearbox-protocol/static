@@ -18,6 +18,7 @@ export * from "./icons/gamepad";
 export * from "./icons/gear";
 export * from "./icons/graph";
 export * from "./icons/history";
+export * from "./icons/key";
 export * from "./icons/linkArrow";
 export * from "./icons/logout";
 export * from "./icons/navigation";
