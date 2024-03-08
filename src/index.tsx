@@ -9,6 +9,7 @@ export * from "./icons/cover";
 export * from "./icons/crossCircle";
 export * from "./icons/droplet";
 export * from "./icons/edit";
+export * from "./icons/lighting";
 export * from "./icons/editPen";
 export * from "./icons/expand";
 export * from "./icons/external";
