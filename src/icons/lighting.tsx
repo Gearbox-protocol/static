@@ -20,7 +20,7 @@ export function IconLighting({
         fillRule="evenodd"
         clipRule="evenodd"
         d="M14 0L0 11H6.5L3 21L17 11H10.5L14 0Z"
-        fill="#FFFFFF"
+        fill="currentColor"
       />
     </svg>
   );
