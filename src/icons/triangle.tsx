@@ -2,8 +2,14 @@ import React from "react";
 
 import { IconProps } from "../core/icon";
 
-export const IconTriangle = ({ style, onClick, size = 24 }: IconProps) => (
+export const IconTriangle = ({
+  style,
+  onClick,
+  size = 24,
+  className,
+}: IconProps) => (
   <svg
+    className={className}
     width={size}
     height={size}
     style={style}

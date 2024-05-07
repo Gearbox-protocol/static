@@ -2,8 +2,15 @@ import React from "react";
 
 import { IconProps } from "../core/icon";
 
-export const IconCreditCard = ({ style, onClick, size = 24 }: IconProps) => (
+export const IconCreditCard = ({
+  style,
+  onClick,
+  size = 24,
+  className,
+}: IconProps) => (
   <svg
+    className={className}
+    s
     width={size}
     height={size}
     style={style}

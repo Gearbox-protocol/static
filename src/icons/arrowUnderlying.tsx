@@ -6,8 +6,10 @@ export const IconArrowUnderlying = ({
   style,
   onClick,
   size = 24,
+  className,
 }: IconProps) => (
   <svg
+    className={className}
     width={size}
     height={size}
     style={style}

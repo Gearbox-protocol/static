@@ -3,8 +3,9 @@ import { Settings } from "react-feather";
 
 import { IconProps } from "../core/icon";
 
-export const IconPending = ({ size, style, onClick }: IconProps) => (
+export const IconPending = ({ size, style, onClick, className }: IconProps) => (
   <Settings
+    className={className}
     size={size}
     onClick={onClick}
     style={{

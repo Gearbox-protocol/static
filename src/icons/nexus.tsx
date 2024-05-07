@@ -2,8 +2,14 @@ import React from "react";
 
 import { IconProps } from "../core/icon";
 
-export const IconNexus = ({ style, onClick, size = 25 }: IconProps) => (
+export const IconNexus = ({
+  style,
+  onClick,
+  size = 25,
+  className,
+}: IconProps) => (
   <svg
+    className={className}
     width={size}
     height={size}
     style={style}

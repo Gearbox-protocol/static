@@ -6,9 +6,10 @@ export function IconEditPen({
   size = 24,
   style,
   onClick,
-}: IconProps): React.ReactElement {
+, className}: IconProps): React.ReactElement {
   return (
     <svg
+      className={className}
       width={size}
       height={size}
       style={style}
