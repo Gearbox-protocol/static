@@ -21,7 +21,6 @@ export const IconGraph = ({
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="sc-gbOuXE cIgTHR"
   >
     <path
       fill="#ffffff"

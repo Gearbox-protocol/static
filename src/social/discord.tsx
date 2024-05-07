@@ -21,7 +21,6 @@ export const IconDiscord = ({
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-square"
   >
     <path
       fill="currentColor"

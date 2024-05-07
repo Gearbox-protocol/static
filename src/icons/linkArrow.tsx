@@ -21,7 +21,6 @@ export const IconLinkArrow = ({
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-external-link"
   >
     <path d="M15 3H21V9" />
     <path d="M10 14L21 3" />
