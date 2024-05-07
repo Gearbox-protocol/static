@@ -2,8 +2,14 @@ import React from "react";
 
 import { IconProps } from "../core/icon";
 
-export const IconInfo = ({ style, onClick, size = 24 }: IconProps) => (
+export const IconInfo = ({
+  style,
+  onClick,
+  size = 24,
+  className,
+}: IconProps) => (
   <svg
+    className={className}
     width={size}
     height={size}
     style={style}
@@ -15,7 +21,6 @@ export const IconInfo = ({ style, onClick, size = 24 }: IconProps) => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-info"
   >
     <circle cx="12" cy="12" r="10" />
     <line x1="12" y1="16" x2="12" y2="12" />

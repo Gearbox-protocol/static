@@ -2,8 +2,14 @@ import React from "react";
 
 import { IconProps } from "../core/icon";
 
-export const IconDiscord = ({ style, onClick, size = 24 }: IconProps) => (
+export const IconDiscord = ({
+  style,
+  onClick,
+  size = 24,
+  className,
+}: IconProps) => (
   <svg
+    className={className}
     width={size}
     height={size}
     style={style}
@@ -15,7 +21,6 @@ export const IconDiscord = ({ style, onClick, size = 24 }: IconProps) => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-square"
   >
     <path
       fill="currentColor"

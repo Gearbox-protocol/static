@@ -33,7 +33,6 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react": "18.2.0",
-    "react-feather": "^2.0.10",
     "typescript": "5.0.4"
   },
   "prettier": "@gearbox-protocol/prettier-config",

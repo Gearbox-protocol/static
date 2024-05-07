@@ -6,9 +6,11 @@ export function IconCoins({
   size = 24,
   style,
   onClick,
+  className,
 }: IconProps): React.ReactElement {
   return (
     <svg
+      className={className}
       width={size}
       height={size}
       style={style}
