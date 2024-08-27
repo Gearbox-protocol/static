@@ -14,6 +14,7 @@ export * from "./icons/fire";
 export * from "./icons/gamepad";
 export * from "./icons/history";
 export * from "./icons/key";
+export * from "./icons/layer";
 export * from "./icons/lighting";
 export * from "./icons/linkArrow";
 export * from "./icons/pending";
