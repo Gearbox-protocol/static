@@ -2,6 +2,7 @@ export * from "./icons/agents";
 export * from "./icons/arrowUnderlying";
 export * from "./icons/blockScout";
 export * from "./icons/chartLine";
+export * from "./icons/chartsArrow";
 export * from "./icons/coins";
 export * from "./icons/copy";
 export * from "./icons/cover";
