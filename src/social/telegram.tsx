@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IconProps } from "@gearbox-protocol/static/src/core/icon";
+import { IconProps } from "../core/icon";
 
 export const IconTelegram = ({
   style,
