@@ -27,7 +27,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@gearbox-protocol/eslint-config": "^1.6.1",
     "@gearbox-protocol/prettier-config": "^1.5.0",
-    "@types/react": "18.2.14",
+    "@types/react": "18.2.0",
     "eslint": "^8.24.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
