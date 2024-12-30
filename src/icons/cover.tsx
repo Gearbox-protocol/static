@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IconProps } from "../core/icon";
+import type { IconProps } from "../core/icon";
 
 export const IconCover = ({
   style,
