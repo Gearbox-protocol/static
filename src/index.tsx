@@ -19,6 +19,7 @@ export * from "./icons/lighting";
 export * from "./icons/linkArrow";
 export * from "./icons/pending";
 export * from "./icons/questionCircle";
+export * from "./icons/plus";
 export * from "./icons/robotDead";
 export * from "./icons/shield";
 export * from "./icons/slidersSimple";
