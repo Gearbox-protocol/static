@@ -33,6 +33,8 @@ export * from "./social/discord";
 export * from "./social/github";
 export * from "./social/telegram";
 export * from "./social/twitter";
+export * from "./core/strategy";
+export * from "./strategies";
 
 export const STATIC_SERVER = "https://static.gearbox.fi";
 
