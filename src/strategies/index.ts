@@ -15,6 +15,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     ],
     releaseAt: 1740398400000,
     issuesOnClose: [300, 309],
+    maxLeverage: 39_00,
   },
   {
     name: "Mellow rstETH",

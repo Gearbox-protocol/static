@@ -41,8 +41,6 @@ export interface StrategyPayload {
   // pools in which additional quota should be bought for current token
   // pool - boolean
   additionalRewardQuotas?: PartialRecord<Address, Address[]>;
-  // is equal to additionalRewardQuotas in not specified
-  rewardsToKeepOnLiquidation?: PartialRecord<Address, Address[]>;
 }
 
 type VersionRange = [number, number];
