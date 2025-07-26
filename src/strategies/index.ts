@@ -16,6 +16,19 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     releaseAt: 1740398400000,
     issuesOnClose: [300, 309],
     maxLeverage: 39_00,
+    zeroSlippage: {
+      // cp0x
+      ["0xf00b548f1b69cb5ee559d891e03a196fb5101d4a"]: true,
+    },
+    additionalRewardQuotas: {
+      // cp0x
+      ["0xf00b548f1b69cb5ee559d891e03a196fb5101d4a"]: [
+        // obol
+        "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7",
+        // ssv
+        "0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
+      ],
+    },
   },
   {
     name: "Mellow rstETH",
