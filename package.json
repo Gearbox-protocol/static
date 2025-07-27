@@ -14,6 +14,7 @@
     "clean": "rm -rf ./lib",
     "copy-files": "mkdir -p ./src/assets && cp -R ./src/assets ./lib",
     "build": "yarn compile && yarn copy-files",
+    "generate-strategies:ts": "npx ts-node scripts/generate-strategies.ts",
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "prettier:ci": "npx prettier --check .",
