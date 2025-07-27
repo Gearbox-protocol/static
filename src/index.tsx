@@ -1,3 +1,4 @@
+export * from "./core/strategy";
 export * from "./icons/agents";
 export * from "./icons/arrowUnderlying";
 export * from "./icons/blockScout";
