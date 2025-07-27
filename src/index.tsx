@@ -1,3 +1,4 @@
+export * from "./core/strategy";
 export * from "./icons/agents";
 export * from "./icons/arrowUnderlying";
 export * from "./icons/blockScout";
@@ -33,7 +34,6 @@ export * from "./social/discord";
 export * from "./social/github";
 export * from "./social/telegram";
 export * from "./social/twitter";
-export * from "./core/strategy";
 
 export const STATIC_SERVER = "https://static.gearbox.fi";
 

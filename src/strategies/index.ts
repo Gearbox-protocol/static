@@ -1,4 +1,4 @@
-import { StrategyPayload } from "../core/strategy";
+import type { StrategyPayload } from "../core/strategy";
 
 export const STRATEGIES_LIST: Array<StrategyPayload> = [
   {
@@ -18,11 +18,11 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     maxLeverage: 39_00,
     zeroSlippage: {
       // cp0x
-      ["0xf00b548f1b69cb5ee559d891e03a196fb5101d4a"]: true,
+      "0xf00b548f1b69cb5ee559d891e03a196fb5101d4a": true,
     },
     additionalRewardQuotas: {
       // cp0x
-      ["0xf00b548f1b69cb5ee559d891e03a196fb5101d4a"]: [
+      "0xf00b548f1b69cb5ee559d891e03a196fb5101d4a": [
         // obol
         "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7",
         // ssv

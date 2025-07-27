@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+
 import { STRATEGIES_LIST } from "../src/strategies";
 
 function generateStrategiesJson(): void {
