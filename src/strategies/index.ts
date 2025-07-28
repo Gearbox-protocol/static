@@ -528,7 +528,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     tokenOut: "mTBILL",
     chainId: 42793,
     network: "Etherlink",
-    creditManagers: ["0x665dc232f3459fce23ed98974f9e4483f7781ff7"],
+    creditManagers: ["0xaaacd19c74d0f966b771b3da67dc6a12e1ed81e8"],
   },
   {
     name: "mBASIS",
@@ -536,7 +536,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     tokenOut: "mBASIS",
     chainId: 42793,
     network: "Etherlink",
-    creditManagers: ["0x665dc232f3459fce23ed98974f9e4483f7781ff7"],
+    creditManagers: ["0xaaacd19c74d0f966b771b3da67dc6a12e1ed81e8"],
   },
 
   {
