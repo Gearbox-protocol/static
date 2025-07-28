@@ -506,6 +506,40 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     issuesOnClose: true,
   },
   {
+    name: "USDX",
+    id: "USDX",
+    tokenOut: "USDX",
+    chainId: 56,
+    network: "BNB",
+    creditManagers: [],
+  },
+  {
+    name: "Pendle sUSDX PT (1 sep 2025)",
+    id: "PT_sUSDX_1SEP2025",
+    tokenOut: "PT_sUSDX_1SEP2025",
+    chainId: 56,
+    network: "BNB",
+    creditManagers: [],
+  },
+
+  {
+    name: "mTBILL",
+    id: "mTBILL",
+    tokenOut: "mTBILL",
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0x665dc232f3459fce23ed98974f9e4483f7781ff7"],
+  },
+  {
+    name: "mBASIS",
+    id: "mBASIS",
+    tokenOut: "mBASIS",
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0x665dc232f3459fce23ed98974f9e4483f7781ff7"],
+  },
+
+  {
     name: "Beets stS",
     id: "stS",
     tokenOut: "stS",
