@@ -1,3 +1,12 @@
+export type TokenTypeStrategy =
+  | "eth"
+  | "s"
+  | "btc"
+  | "stable"
+  | "wbnb"
+  | "wxtz"
+  | "bfBTC";
+
 export interface StrategyPayload {
   name: string;
   id: string;
@@ -7,6 +16,8 @@ export interface StrategyPayload {
   network: string;
   // if a chain doesn't have credit managers - strategy won't be shown on that chain
   creditManagers: Array<Address>;
+  // strategy type; used for filtering
+  strategyType: [TokenTypeStrategy];
 
   /*  
     undefined - released

@@ -5,6 +5,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Mellow DVstETH",
     id: "DVstETH",
     tokenOut: "DVstETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -34,6 +35,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Mellow rstETH",
     id: "rstETH",
     tokenOut: "rstETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -46,6 +48,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "cp0xLRT",
     id: "cp0xLRT",
     tokenOut: "cp0xLRT",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -59,6 +62,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Falcon staked USDf",
     id: "sUSDf",
     tokenOut: "sUSDf",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -72,6 +76,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "PT sUSDf 25SEP2025",
     id: "PT_sUSDf_25SEP2025",
     tokenOut: "PT_sUSDf_25SEP2025",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -85,6 +90,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Convex-staked USDC/USDf",
     id: "stkcvxUSDCUSDf",
     tokenOut: "stkcvxUSDCUSDf",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -98,6 +104,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "PT USDf 29JAN2026",
     id: "PT_USDf_29JAN2026",
     tokenOut: "PT_USDf_29JAN2026",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -111,6 +118,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Convex stkcvxRLUSD/USDC",
     id: "stkcvxRLUSDUSDC",
     tokenOut: "stkcvxRLUSDUSDC",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -126,6 +134,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Convex scrvUSD/sUSDe",
     id: "stkcvxllamathena",
     tokenOut: "stkcvxllamathena",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -141,6 +150,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Sky Rewards Rate",
     id: "stkUSDS",
     tokenOut: "stkUSDS",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -156,6 +166,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "uptBTC",
     id: "uptBTC",
     tokenOut: "uptBTC",
+    strategyType: ["btc"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -169,6 +180,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Pendle uptBTC PT (14 aug 2025)",
     id: "PT_uptBTC_14AUG2025",
     tokenOut: "PT_uptBTC_14AUG2025",
+    strategyType: ["btc"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -182,6 +194,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Ether.fi eBTC",
     id: "eBTC",
     tokenOut: "eBTC",
+    strategyType: ["btc"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -196,6 +209,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "LBTC",
     id: "LBTC",
     tokenOut: "LBTC",
+    strategyType: ["btc"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -209,6 +223,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Stakestone Berachain Vault",
     id: "beraSTONE",
     tokenOut: "beraSTONE",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -219,6 +234,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Renzo ETH",
     id: "ezETH",
     tokenOut: "ezETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -228,6 +244,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Ether.fi ETH",
     id: "weETH",
     tokenOut: "weETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -240,6 +257,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Lido stETH",
     id: "STETH",
     tokenOut: "STETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -252,6 +270,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Ethena staked USDe",
     id: "sUSDe",
     tokenOut: "sUSDe",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -270,6 +289,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Renzo pzETH",
     id: "pzETH",
     tokenOut: "pzETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -279,6 +299,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Savings crvUSD",
     id: "scrvUSD",
     tokenOut: "scrvUSD",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -294,6 +315,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Coinshift csUSDL",
     id: "csUSDL",
     tokenOut: "csUSDL",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -309,6 +331,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Treehouse tETH",
     id: "tETH",
     tokenOut: "tETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -319,6 +342,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Pump BTC",
     id: "pumpBTC",
     tokenOut: "pumpBTC",
+    strategyType: ["btc"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [],
@@ -328,6 +352,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Sky Savings Rate",
     id: "sUSDS",
     tokenOut: "sUSDS",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -345,6 +370,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Mellow Re7LRT",
     id: "Re7LRT",
     tokenOut: "Re7LRT",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -354,6 +380,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Kelp rsETH",
     id: "rsETH",
     tokenOut: "rsETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -363,6 +390,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Swell rswEth",
     id: "rswETH",
     tokenOut: "rswETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -372,6 +400,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Ethena USDe",
     id: "USDe",
     tokenOut: "USDe",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -389,6 +418,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Mellow steakLRT",
     id: "steakLRT",
     tokenOut: "steakLRT",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [],
@@ -398,6 +428,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Mellow amphrETH",
     id: "amphrETH",
     tokenOut: "amphrETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -407,6 +438,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Puffer pufETH",
     id: "pufETH",
     tokenOut: "pufETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
@@ -416,6 +448,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Maker sDAI",
     id: "sDAI",
     tokenOut: "sDAI",
+    strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -434,6 +467,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Rocketpool ETH",
     id: "rETH",
     tokenOut: "rETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x6dc0eb1980fa6b3fa89f5b29937b9baab5865b3e"],
@@ -442,6 +476,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Stakewise ETH",
     id: "osETH",
     tokenOut: "osETH",
+    strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x6dc0eb1980fa6b3fa89f5b29937b9baab5865b3e"],
@@ -450,6 +485,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Renzo ETH",
     id: "ezETH",
     tokenOut: "ezETH",
+    strategyType: ["eth"],
     chainId: 10,
     network: "Optimism",
     creditManagers: [
@@ -462,6 +498,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Lido wstETH",
     id: "wstETH",
     tokenOut: "wstETH",
+    strategyType: ["eth"],
     chainId: 10,
     network: "Optimism",
     creditManagers: [
@@ -473,6 +510,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Rocketpool ETH",
     id: "rETH",
     tokenOut: "rETH",
+    strategyType: ["eth"],
     chainId: 10,
     network: "Optimism",
     creditManagers: [
@@ -484,6 +522,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "ynBNBx",
     id: "ynBNBx",
     tokenOut: "ynBNBx",
+    strategyType: ["wbnb"],
     chainId: 56,
     network: "BNB",
     creditManagers: [
@@ -496,6 +535,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "sUSDX",
     id: "sUSDX",
     tokenOut: "sUSDX",
+    strategyType: ["stable"],
     chainId: 56,
     network: "BNB",
     creditManagers: [
@@ -509,6 +549,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "USDX",
     id: "USDX",
     tokenOut: "USDX",
+    strategyType: ["stable"],
     chainId: 56,
     network: "BNB",
     creditManagers: [],
@@ -517,6 +558,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Pendle sUSDX PT (1 sep 2025)",
     id: "PT_sUSDX_1SEP2025",
     tokenOut: "PT_sUSDX_1SEP2025",
+    strategyType: ["stable"],
     chainId: 56,
     network: "BNB",
     creditManagers: [],
@@ -526,6 +568,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "mTBILL",
     id: "mTBILL",
     tokenOut: "mTBILL",
+    strategyType: ["stable"],
     chainId: 42793,
     network: "Etherlink",
     creditManagers: ["0xaaacd19c74d0f966b771b3da67dc6a12e1ed81e8"],
@@ -534,6 +577,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "mBASIS",
     id: "mBASIS",
     tokenOut: "mBASIS",
+    strategyType: ["stable"],
     chainId: 42793,
     network: "Etherlink",
     creditManagers: ["0xaaacd19c74d0f966b771b3da67dc6a12e1ed81e8"],
@@ -543,6 +587,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Beets stS",
     id: "stS",
     tokenOut: "stS",
+    strategyType: ["s"],
     chainId: 146,
     network: "Sonic",
     creditManagers: [
@@ -555,6 +600,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Rings scUSD",
     id: "scUSD",
     tokenOut: "scUSD",
+    strategyType: ["stable"],
     chainId: 146,
     network: "Sonic",
     creditManagers: [
@@ -567,6 +613,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Lisk lskETH",
     id: "lskETH",
     tokenOut: "lskETH",
+    strategyType: ["eth"],
     chainId: 1135,
     network: "Lisk",
     creditManagers: [
@@ -584,6 +631,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Lido wstETH",
     id: "wstETH",
     tokenOut: "wstETH",
+    strategyType: ["eth"],
     chainId: 1135,
     network: "Lisk",
     creditManagers: [
@@ -595,6 +643,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Renzo ETH",
     id: "ezETH",
     tokenOut: "ezETH",
+    strategyType: ["eth"],
     chainId: 42161,
     network: "Arbitrum",
     creditManagers: [
@@ -607,6 +656,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Lido wstETH",
     id: "wstETH",
     tokenOut: "wstETH",
+    strategyType: ["eth"],
     chainId: 42161,
     network: "Arbitrum",
     creditManagers: [
@@ -618,6 +668,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Rocketpool ETH",
     id: "rETH",
     tokenOut: "rETH",
+    strategyType: ["eth"],
     chainId: 42161,
     network: "Arbitrum",
     creditManagers: [
@@ -629,6 +680,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Coinbase cbETH",
     id: "cbETH",
     tokenOut: "cbETH",
+    strategyType: ["eth"],
     chainId: 42161,
     network: "Arbitrum",
     creditManagers: [
@@ -640,6 +692,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Ethena USDe",
     id: "USDe",
     tokenOut: "USDe",
+    strategyType: ["stable"],
     chainId: 42161,
     network: "Arbitrum",
     creditManagers: [
@@ -651,6 +704,7 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
     name: "Kelp rsETH",
     id: "rsETH",
     tokenOut: "rsETH",
+    strategyType: ["eth"],
     chainId: 42161,
     network: "Arbitrum",
     creditManagers: [
