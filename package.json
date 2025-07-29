@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc",
-    "dev": "tsc -w",
+    "dev": "tsc && yarn generate-strategies:ts",
     "clean": "rm -rf ./lib",
     "copy-files": "mkdir -p ./src/assets && cp -R ./src/assets ./lib",
     "build": "yarn compile && yarn generate-strategies:ts && yarn copy-files",
