@@ -70,7 +70,6 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
     ],
     issuesOnClose: true,
-    hideInProd: true,
   },
   {
     name: "PT sUSDf 25SEP2025",
@@ -84,7 +83,6 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
     ],
     issuesOnClose: true,
-    hideInProd: true,
   },
   {
     name: "Convex-staked USDC/USDf",
@@ -98,7 +96,6 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
     ],
     issuesOnClose: true,
-    hideInProd: true,
   },
   {
     name: "PT USDf 29JAN2026",
@@ -112,7 +109,6 @@ export const STRATEGIES_LIST: Array<StrategyPayload> = [
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
     ],
     issuesOnClose: true,
-    hideInProd: true,
   },
   {
     name: "Convex stkcvxRLUSD/USDC",
