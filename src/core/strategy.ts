@@ -7,7 +7,7 @@ export type TokenTypeStrategy =
   | "wxtz"
   | "bfBTC";
 
-export interface StrategyPayload {
+export interface StrategyConfigPayload {
   name: string;
   id: string;
   tokenOut: string;
