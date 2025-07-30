@@ -1,6 +1,6 @@
-import type { StrategyPayload } from "../core/strategy";
+import type { StrategyConfigPayload } from "../core/strategy";
 
-export const STRATEGIES_LIST: Array<StrategyPayload> = [
+export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Mellow DVstETH",
     id: "DVstETH",
