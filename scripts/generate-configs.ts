@@ -6,11 +6,6 @@ import { STRATEGIES_LIST } from "../src/strategies";
 
 const CONFIG = [
   {
-    outputDir: ["..", "public", "strategies"],
-    outputFile: "strategies.json",
-    source: STRATEGIES_LIST,
-  },
-  {
     outputDir: ["..", "public", "client-v3", "configs", "strategies"],
     outputFile: "strategies.json",
     source: STRATEGIES_LIST,
