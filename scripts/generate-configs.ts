@@ -3,13 +3,9 @@ import * as path from "path";
 
 import { POOLS_LIST } from "../src/pools";
 import { STRATEGIES_LIST } from "../src/strategies";
+import { TRADING_PAIRS_LIST } from "../src/trading";
 
 const CONFIG = [
-  {
-    outputDir: ["..", "public", "strategies"],
-    outputFile: "strategies.json",
-    source: STRATEGIES_LIST,
-  },
   {
     outputDir: ["..", "public", "client-v3", "configs", "strategies"],
     outputFile: "strategies.json",
@@ -19,6 +15,11 @@ const CONFIG = [
     outputDir: ["..", "public", "client-v3", "configs", "pools"],
     outputFile: "pools.json",
     source: POOLS_LIST,
+  },
+  {
+    outputDir: ["..", "public", "client-v3", "configs", "trading"],
+    outputFile: "trading.json",
+    source: TRADING_PAIRS_LIST,
   },
 ];
 

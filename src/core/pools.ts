@@ -5,7 +5,7 @@ export interface PoolConfigPayload {
   name: string;
   // pool address
   address: Address;
-  // chain id and network type as in sdk. wrong entries are being omitted
+  // chain id and network type as they are written in sdk. wrong entries are being omitted
   chainId: number;
   network: string;
   // is used to recognize pool in the list; maybe show this name instead name from sdk?
