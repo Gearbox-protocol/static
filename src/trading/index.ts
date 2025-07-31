@@ -1,4 +1,4 @@
-import { TradingPairConfigPayload } from "../core/trading";
+import type { TradingPairConfigPayload } from "../core/trading";
 
 export const TRADING_PAIRS_LIST: Array<TradingPairConfigPayload> = [
   // long
