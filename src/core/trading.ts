@@ -23,6 +23,12 @@ export interface TradingPairConfigPayload {
   // an options to show strategies in dev environment only
   // undefined, false = no
   hideInProd?: boolean;
+
+  /*
+   undefined - no restrictions
+   number - one value for the current chain
+  */
+  maxLeverage?: number;
 }
 
 type Address = `0x${string}`;
