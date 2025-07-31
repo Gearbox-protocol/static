@@ -1,4 +1,4 @@
-import { TradingPairConfigPayload } from "../core/trading";
+import type { TradingPairConfigPayload } from "../core/trading";
 
 export const TRADING_PAIRS_LIST: Array<TradingPairConfigPayload> = [
   // long
@@ -224,6 +224,49 @@ export const TRADING_PAIRS_LIST: Array<TradingPairConfigPayload> = [
       "0xe5e2d4bb15d26a6036805fce666c5488367623e2",
       "0xb780dd9cec259a0bbf7b32587802f33730353e86",
     ],
+  },
+
+  {
+    name: "WETH / USDC.e",
+    type: "long",
+    id: "WETHUSDC_e",
+    tokenOut: "WETH",
+    pricePair: ["WETH", "USDC.e"],
+    chainId: 43111,
+    network: "Hemi",
+    creditManagers: [
+      "0xa71dc7d3a6d6ad31fddad74018cc126ac47862b6",
+      "0xa3eeee69aef880ecde8b6acaa3d3bf4a750575bb",
+    ],
+    maxLeverage: 3_00,
+  },
+  {
+    name: "WBTC / USDC.e",
+    type: "long",
+    id: "WBTCUSDC_e",
+    tokenOut: "WBTC",
+    pricePair: ["WBTC", "USDC.e"],
+    chainId: 43111,
+    network: "Hemi",
+    creditManagers: [
+      "0xa71dc7d3a6d6ad31fddad74018cc126ac47862b6",
+      "0xa3eeee69aef880ecde8b6acaa3d3bf4a750575bb",
+    ],
+    maxLeverage: 3_00,
+  },
+  {
+    name: "hemiBTC / USDC.e",
+    type: "long",
+    id: "HEMIBTCUSDC_e",
+    tokenOut: "hemiBTC",
+    pricePair: ["hemiBTC", "USDC.e"],
+    chainId: 43111,
+    network: "Hemi",
+    creditManagers: [
+      "0xa71dc7d3a6d6ad31fddad74018cc126ac47862b6",
+      "0xa3eeee69aef880ecde8b6acaa3d3bf4a750575bb",
+    ],
+    maxLeverage: 3_00,
   },
 
   // short
