@@ -9,10 +9,12 @@ export type TokenTypeStrategy =
 
 export interface StrategyConfigPayload {
   name: string;
-  // id === tokenOut; token symbol of the strategy
-  // should be equal to sdk-gov-legacy SupportedSymbol or, if token is not present in that list, should be equal to symbol which provides sdk
+  // token symbol of the strategy, is used as key in the strategies list
+  // ideally should be equal to sdk-gov-legacy SupportedSymbol or, if token is not present in that list, should be equal to symbol which provides sdk
   id: string;
   tokenOut: string;
+  // token address of the strategy
+  tokenOutAddress: Address;
   // chain id and network type as they are written in sdk. wrong entries are being omitted
   chainId: number;
   network: string;
