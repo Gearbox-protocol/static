@@ -6,14 +6,8 @@ export interface TradingPairConfigPayload {
   // trading pair identifier, e.g. "WETHUSDC"; long and short version of the pair should have the same id
   // is used as key in the pairs list
   id: string;
-  // token symbol of the pair
-  // should be equal to sdk-gov-legacy SupportedSymbol or, if token is not present in that list, should be equal to symbol which provides sdk
-  tokenOut: string;
   // token address of the pair
   tokenOutAddress: Address;
-  // token symbol of token without yield tokenOut is based on (ex. WETH for tokenOut=STETH)
-  // should be equal to sdk-gov-legacy SupportedSymbol or, if token is not present in that list, should be equal to symbol which provides sdk
-  baseOfTokenOut?: string;
   // token address of token without yield tokenOut is based on (ex. WETH for tokenOut=STETH)
   baseOfTokenOutAddress?: Address;
   // tuple of token symbols of CM underlying token and token out; long and short version of the pair should have the same pricePair
