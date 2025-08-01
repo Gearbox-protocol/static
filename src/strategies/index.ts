@@ -4,7 +4,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Mellow DVstETH",
     id: "DVstETH",
-    tokenOut: "DVstETH",
     tokenOutAddress: "0x5e362eb2c0706bd1d134689ec75176018385430b",
     strategyType: ["eth"],
     chainId: 1,
@@ -35,7 +34,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Mellow rstETH",
     id: "rstETH",
-    tokenOut: "rstETH",
     tokenOutAddress: "0x7a4effd87c2f3c55ca251080b1343b605f327e3a",
     strategyType: ["eth"],
     chainId: 1,
@@ -49,7 +47,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "cp0xLRT",
     id: "cp0xLRT",
-    tokenOut: "cp0xLRT",
     tokenOutAddress: "0xb908c9fe885369643adb5fba4407d52bd726c72d",
     strategyType: ["eth"],
     chainId: 1,
@@ -64,7 +61,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Falcon staked USDf",
     id: "sUSDf",
-    tokenOut: "sUSDf",
     tokenOutAddress: "0xc8cf6d7991f15525488b2a83df53468d682ba4b0",
     strategyType: ["stable"],
     chainId: 1,
@@ -78,7 +74,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "PT sUSDf 25SEP2025",
     id: "PT_sUSDf_25SEP2025",
-    tokenOut: "PT_sUSDf_25SEP2025",
     tokenOutAddress: "0xab365c0879024481e4ad3b47bd6fea9c10014fbc",
     strategyType: ["stable"],
     chainId: 1,
@@ -92,7 +87,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Convex-staked USDC/USDf",
     id: "stkcvxUSDCUSDf",
-    tokenOut: "stkcvxUSDCUSDf",
     tokenOutAddress: "0xa327d7f665afe9ecb0963b5561c84c48c7ec71ab",
     strategyType: ["stable"],
     chainId: 1,
@@ -106,7 +100,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "PT USDf 29JAN2026",
     id: "PT_USDf_29JAN2026",
-    tokenOut: "PT_USDf_29JAN2026",
     tokenOutAddress: "0xec3b5e45dd278d5ab9cdb31754b54db314e9d52a",
     strategyType: ["stable"],
     chainId: 1,
@@ -120,7 +113,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Convex stkcvxRLUSD/USDC",
     id: "stkcvxRLUSDUSDC",
-    tokenOut: "stkcvxRLUSDUSDC",
     tokenOutAddress: "0x444fa0ffb033265591895b66c81c2e5ff606e097",
     strategyType: ["stable"],
     chainId: 1,
@@ -137,7 +129,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Convex scrvUSD/sUSDe",
     id: "stkcvxllamathena",
-    tokenOut: "stkcvxllamathena",
     tokenOutAddress: "0x72ed19788bce2971a5ed6401662230ee57e254b7",
     strategyType: ["stable"],
     chainId: 1,
@@ -154,7 +145,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Sky Rewards Rate",
     id: "stkUSDS",
-    tokenOut: "stkUSDS",
     tokenOutAddress: "0xcb5d10a57aeb622b92784d53f730ee2210ab370e",
     strategyType: ["stable"],
     chainId: 1,
@@ -171,7 +161,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "uptBTC",
     id: "uptBTC",
-    tokenOut: "uptBTC",
     tokenOutAddress: "0x8aca0841993ef4c87244d519166e767f49362c21",
     strategyType: ["btc"],
     chainId: 1,
@@ -186,7 +175,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Pendle uptBTC PT (14 aug 2025)",
     id: "PT_uptBTC_14AUG2025",
-    tokenOut: "PT_uptBTC_14AUG2025",
     tokenOutAddress: "0x7c853d6bfb49256af65af672dcc3f66c015e96e0",
     strategyType: ["btc"],
     chainId: 1,
@@ -201,7 +189,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Ether.fi eBTC",
     id: "eBTC",
-    tokenOut: "eBTC",
     tokenOutAddress: "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
     strategyType: ["btc"],
     chainId: 1,
@@ -217,7 +204,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "LBTC",
     id: "LBTC",
-    tokenOut: "LBTC",
     tokenOutAddress: "0x8236a87084f8b84306f72007f36f2618a5634494",
     strategyType: ["btc"],
     chainId: 1,
@@ -232,7 +218,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Stakestone Berachain Vault",
     id: "beraSTONE",
-    tokenOut: "beraSTONE",
     tokenOutAddress: "0x97ad75064b20fb2b2447fed4fa953bf7f007a706",
     strategyType: ["eth"],
     chainId: 1,
@@ -244,7 +229,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Renzo ETH",
     id: "ezETH",
-    tokenOut: "ezETH",
     tokenOutAddress: "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
     strategyType: ["eth"],
     chainId: 1,
@@ -255,7 +239,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Ether.fi ETH",
     id: "weETH",
-    tokenOut: "weETH",
     tokenOutAddress: "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
     strategyType: ["eth"],
     chainId: 1,
@@ -269,7 +252,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Lido stETH",
     id: "STETH",
-    tokenOut: "STETH",
     tokenOutAddress: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
     strategyType: ["eth"],
     chainId: 1,
@@ -283,7 +265,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Ethena staked USDe",
     id: "sUSDe",
-    tokenOut: "sUSDe",
     tokenOutAddress: "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
     strategyType: ["stable"],
     chainId: 1,
@@ -303,7 +284,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Renzo pzETH",
     id: "pzETH",
-    tokenOut: "pzETH",
     tokenOutAddress: "0x8c9532a60e0e7c6bbd2b2c1303f63ace1c3e9811",
     strategyType: ["eth"],
     chainId: 1,
@@ -314,7 +294,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Savings crvUSD",
     id: "scrvUSD",
-    tokenOut: "scrvUSD",
     tokenOutAddress: "0x0655977feb2f289a4ab78af67bab0d17aab84367",
     strategyType: ["stable"],
     chainId: 1,
@@ -331,7 +310,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Coinshift csUSDL",
     id: "csUSDL",
-    tokenOut: "csUSDL",
     tokenOutAddress: "0xbeefc011e94f43b8b7b455ebab290c7ab4e216f1",
     strategyType: ["stable"],
     chainId: 1,
@@ -348,7 +326,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Treehouse tETH",
     id: "tETH",
-    tokenOut: "tETH",
     tokenOutAddress: "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
     strategyType: ["eth"],
     chainId: 1,
@@ -360,7 +337,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Pump BTC",
     id: "pumpBTC",
-    tokenOut: "pumpBTC",
     tokenOutAddress: "0xf469fbd2abcd6b9de8e169d128226c0fc90a012e",
     strategyType: ["btc"],
     chainId: 1,
@@ -371,7 +347,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Sky Savings Rate",
     id: "sUSDS",
-    tokenOut: "sUSDS",
     tokenOutAddress: "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
     strategyType: ["stable"],
     chainId: 1,
@@ -390,7 +365,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Mellow Re7LRT",
     id: "Re7LRT",
-    tokenOut: "Re7LRT",
     tokenOutAddress: "0x84631c0d0081fde56deb72f6de77abbbf6a9f93a",
     strategyType: ["eth"],
     chainId: 1,
@@ -401,7 +375,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Kelp rsETH",
     id: "rsETH",
-    tokenOut: "rsETH",
     tokenOutAddress: "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
     strategyType: ["eth"],
     chainId: 1,
@@ -412,7 +385,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Swell rswEth",
     id: "rswETH",
-    tokenOut: "rswETH",
     tokenOutAddress: "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
     strategyType: ["eth"],
     chainId: 1,
@@ -423,7 +395,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Ethena USDe",
     id: "USDe",
-    tokenOut: "USDe",
     tokenOutAddress: "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
     strategyType: ["stable"],
     chainId: 1,
@@ -442,7 +413,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Mellow steakLRT",
     id: "steakLRT",
-    tokenOut: "steakLRT",
     tokenOutAddress: "0xbeef69ac7870777598a04b2bd4771c71212e6abc",
     strategyType: ["eth"],
     chainId: 1,
@@ -453,7 +423,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Mellow amphrETH",
     id: "amphrETH",
-    tokenOut: "amphrETH",
     tokenOutAddress: "0x5fd13359ba15a84b76f7f87568309040176167cd",
     strategyType: ["eth"],
     chainId: 1,
@@ -464,7 +433,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Puffer pufETH",
     id: "pufETH",
-    tokenOut: "pufETH",
     tokenOutAddress: "0xd9a442856c234a39a81a089c06451ebaa4306a72",
     strategyType: ["eth"],
     chainId: 1,
@@ -475,7 +443,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Maker sDAI",
     id: "sDAI",
-    tokenOut: "sDAI",
     tokenOutAddress: "0x83f20f44975d03b1b09e64809b757c47f942beea",
     strategyType: ["stable"],
     chainId: 1,
@@ -495,7 +462,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Rocketpool ETH",
     id: "rETH",
-    tokenOut: "rETH",
     tokenOutAddress: "0xae78736cd615f374d3085123a210448e74fc6393",
     strategyType: ["eth"],
     chainId: 1,
@@ -505,7 +471,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Stakewise ETH",
     id: "osETH",
-    tokenOut: "osETH",
     tokenOutAddress: "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
     strategyType: ["eth"],
     chainId: 1,
@@ -515,7 +480,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Renzo ETH",
     id: "ezETH",
-    tokenOut: "ezETH",
     tokenOutAddress: "0x2416092f143378750bb29b79ed961ab195cceea5",
     strategyType: ["eth"],
     chainId: 10,
@@ -529,7 +493,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Lido wstETH",
     id: "wstETH",
-    tokenOut: "wstETH",
     tokenOutAddress: "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
     strategyType: ["eth"],
     chainId: 10,
@@ -542,7 +505,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Rocketpool ETH",
     id: "rETH",
-    tokenOut: "rETH",
     tokenOutAddress: "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
     strategyType: ["eth"],
     chainId: 10,
@@ -555,7 +517,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "ynBNBx",
     id: "ynBNBx",
-    tokenOut: "ynBNBx",
     tokenOutAddress: "0x32c830f5c34122c6afb8ae87aba541b7900a2c5f",
     strategyType: ["wbnb"],
     chainId: 56,
@@ -569,7 +530,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "sUSDX",
     id: "sUSDX",
-    tokenOut: "sUSDX",
     tokenOutAddress: "0x7788a3538c5fc7f9c7c8a74eac4c898fc8d87d92",
     strategyType: ["stable"],
     chainId: 56,
@@ -584,7 +544,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "USDX",
     id: "USDX",
-    tokenOut: "USDX",
     tokenOutAddress: "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
     strategyType: ["stable"],
     chainId: 56,
@@ -594,7 +553,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Pendle sUSDX PT (1 sep 2025)",
     id: "PT_sUSDX_1SEP2025",
-    tokenOut: "PT_sUSDX_1SEP2025",
     tokenOutAddress: "0xfA56005cdf111725A8e5395fc90Cd33135BcCAE8",
     strategyType: ["stable"],
     chainId: 56,
@@ -604,7 +562,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "mTBILL",
     id: "mTBILL",
-    tokenOut: "mTBILL",
     tokenOutAddress: "0xdd629e5241cbc5919847783e6c96b2de4754e438",
     strategyType: ["stable"],
     chainId: 42793,
@@ -614,7 +571,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "mBASIS",
     id: "mBASIS",
-    tokenOut: "mBASIS",
     tokenOutAddress: "0x2247b5a46bb79421a314ab0f0b67ffd11dd37ee4",
     strategyType: ["stable"],
     chainId: 42793,
@@ -624,7 +580,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Beets stS",
     id: "stS",
-    tokenOut: "stS",
     tokenOutAddress: "0xe5da20f15420ad15de0fa650600afc998bbe3955",
     strategyType: ["s"],
     chainId: 146,
@@ -638,7 +593,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Rings scUSD",
     id: "scUSD",
-    tokenOut: "scUSD",
     tokenOutAddress: "0xd3dce716f3ef535c5ff8d041c1a41c3bd89b97ae",
     strategyType: ["stable"],
     chainId: 146,
@@ -652,7 +606,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Lisk lskETH",
     id: "lskETH",
-    tokenOut: "lskETH",
     tokenOutAddress: "0x1b10e2270780858923cdbbc9b5423e29fffd1a44",
     strategyType: ["eth"],
     chainId: 1135,
@@ -664,6 +617,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
     additionalRewardQuotas: {
       "0xa16952191248e6b4b3a24130dfc47f96ab1956a7": [
+        // LSK
         "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24",
       ],
     },
@@ -671,7 +625,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Lido wstETH",
     id: "wstETH",
-    tokenOut: "wstETH",
     tokenOutAddress: "0x76d8de471f54aaa87784119c60df1bbfc852c415",
     strategyType: ["eth"],
     chainId: 1135,
@@ -684,7 +637,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Renzo ETH",
     id: "ezETH",
-    tokenOut: "ezETH",
     tokenOutAddress: "0x2416092f143378750bb29b79ed961ab195cceea5",
     strategyType: ["eth"],
     chainId: 42161,
@@ -698,7 +650,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Lido wstETH",
     id: "wstETH",
-    tokenOut: "wstETH",
     tokenOutAddress: "0x5979d7b546e38e414f7e9822514be443a4800529",
     strategyType: ["eth"],
     chainId: 42161,
@@ -711,7 +662,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Rocketpool ETH",
     id: "rETH",
-    tokenOut: "rETH",
     tokenOutAddress: "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
     strategyType: ["eth"],
     chainId: 42161,
@@ -724,7 +674,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Coinbase cbETH",
     id: "cbETH",
-    tokenOut: "cbETH",
     tokenOutAddress: "0x1debd73e752beaf79865fd6446b0c970eae7732f",
     strategyType: ["eth"],
     chainId: 42161,
@@ -737,7 +686,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Ethena USDe",
     id: "USDe",
-    tokenOut: "USDe",
     tokenOutAddress: "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
     strategyType: ["stable"],
     chainId: 42161,
@@ -750,7 +698,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Kelp rsETH",
     id: "rsETH",
-    tokenOut: "rsETH",
     tokenOutAddress: "0x4186bfc76e2e237523cbc30fd220fe055156b41f",
     strategyType: ["eth"],
     chainId: 42161,
