@@ -715,9 +715,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: [
-      "0xAf5A052BA444Ed90F887D40088548285df33A603",
-    ],
+    creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
     issuesOnClose: true,
   },
   {
@@ -727,9 +725,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: [
-      "0xAf5A052BA444Ed90F887D40088548285df33A603",
-    ],
+    creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
     issuesOnClose: true,
   },
   {
@@ -739,9 +735,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: [
-      "0xAf5A052BA444Ed90F887D40088548285df33A603",
-    ],
+    creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
     issuesOnClose: true,
   },
 ];
