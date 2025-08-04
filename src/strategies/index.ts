@@ -717,6 +717,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Mainnet",
     creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     name: "Resolv Staked USR",
@@ -727,6 +728,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Mainnet",
     creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     name: "PT wstUSR 25SEP2025",
@@ -737,5 +739,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Mainnet",
     creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
     issuesOnClose: true,
+    hideInProd: true,
   },
 ];
