@@ -566,7 +566,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 42793,
     network: "Etherlink",
-    creditManagers: ["0xaaacd19c74d0f966b771b3da67dc6a12e1ed81e8"],
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
   },
   {
     name: "mBASIS",
@@ -575,7 +575,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 42793,
     network: "Etherlink",
-    creditManagers: ["0xaaacd19c74d0f966b771b3da67dc6a12e1ed81e8"],
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
   },
   {
     name: "Beets stS",
