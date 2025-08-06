@@ -45,7 +45,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "cp0xLRT",
+    name: "Mellow cp0xLRT",
     id: "cp0xLRT",
     tokenOutAddress: "0xb908c9fe885369643adb5fba4407d52bd726c72d",
     strategyType: ["eth"],
@@ -111,7 +111,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Convex stkcvxRLUSD/USDC",
+    name: "Convex-staked RLUSD/USDC",
     id: "stkcvxRLUSDUSDC",
     tokenOutAddress: "0x444fa0ffb033265591895b66c81c2e5ff606e097",
     strategyType: ["stable"],
@@ -127,7 +127,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     releaseAt: 1744632000000,
   },
   {
-    name: "Convex scrvUSD/sUSDe",
+    name: "Convex-staked scrvUSD/sUSDe",
     id: "stkcvxllamathena",
     tokenOutAddress: "0x72ed19788bce2971a5ed6401662230ee57e254b7",
     strategyType: ["stable"],
