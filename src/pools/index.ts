@@ -241,4 +241,12 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     curator: "Invariant Group",
     poolType: ["stable"],
   },
+  {
+    name: "Re7 USDC",
+    address: "0x653e62a9ef0e869f91dc3d627b479592aa02ea75",
+    chainId: 42793,
+    network: "Etherlink",
+    curator: "Re7",
+    poolType: ["stable"],
+  },
 ];
