@@ -170,6 +170,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "Re7 USD1",
+    address: "0x404f813c6cc313ad69832d5a2de83cb3477e655c",
+    chainId: 56,
+    network: "BNB",
+    curator: "Re7",
+    poolType: ["stable"],
+  },
+  {
     name: "wS v3 Sonic",
     address: "0xcf4d737c38ef2ac9c7bdb4dbbc954b1932ea4a40",
     chainId: 146,
