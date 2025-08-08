@@ -162,11 +162,11 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["wbnb"],
   },
   {
-    name: "USD1 V3 Pool",
+    name: "Re7 USD1",
     address: "0x1318b920704295e8c53f950cd429c3e40335b81d",
     chainId: 56,
     network: "BNB",
-    curator: "Chaos Labs",
+    curator: "Re7",
     poolType: ["stable"],
   },
   {
