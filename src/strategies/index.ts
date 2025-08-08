@@ -535,8 +535,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 56,
     network: "BNB",
     creditManagers: [
-      "0xe46ce90ecbf09026bbe7e898f213e74060e9e70a",
-      "0x008bf6e954320103e9e021e782ed95b0f70f78eb",
       "0xc38a2957a255f259ff700bee4c1244388fa5f0e4",
       "0x3d5237d3922fd1ce8b74062d31b35aa69353bb17",
     ],
@@ -551,8 +549,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 56,
     network: "BNB",
     creditManagers: [
-      "0xe46ce90ecbf09026bbe7e898f213e74060e9e70a",
-      "0x008bf6e954320103e9e021e782ed95b0f70f78eb",
       "0xc38a2957a255f259ff700bee4c1244388fa5f0e4",
       "0x3d5237d3922fd1ce8b74062d31b35aa69353bb17",
     ],
