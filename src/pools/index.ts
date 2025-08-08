@@ -163,14 +163,6 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
   },
   {
     name: "Re7 USD1",
-    address: "0x1318b920704295e8c53f950cd429c3e40335b81d",
-    chainId: 56,
-    network: "BNB",
-    curator: "Re7",
-    poolType: ["stable"],
-  },
-  {
-    name: "Re7 USD1",
     address: "0x404f813c6cc313ad69832d5a2de83cb3477e655c",
     chainId: 56,
     network: "BNB",
