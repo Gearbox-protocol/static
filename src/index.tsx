@@ -30,6 +30,7 @@ export * from "./icons/slidersSimple";
 export * from "./icons/successCircle";
 export * from "./icons/swap";
 export * from "./icons/tiles";
+export * from "./icons/timer";
 export * from "./icons/voteDown";
 export * from "./icons/voteUp";
 export * from "./social/discord";
