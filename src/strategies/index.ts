@@ -792,4 +792,19 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
     hideInProd: true,
   },
+  {
+    name: "Convex-staked frxUSD/USDf",
+    id: "stkcvxfrxUSDUSDf",
+    tokenOutAddress: "0x40fC1F58Ab6Efc06E008370a040e92b635dD4cE4",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0xbcd2ffac58189e57334bb63253acbf34d776de53",
+      "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+    ],
+    releaseAt: 1737374400000,
+    issuesOnClose: true,
+    hideInProd: true,
+  },
 ];
