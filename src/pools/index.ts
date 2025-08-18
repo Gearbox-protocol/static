@@ -50,6 +50,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "Tulipa USDC",
+    address: "0xf0795c47fa58d00f5f77f4d5c01f31ee891e21b4",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "Tulipa",
+    poolType: ["stable"],
+  },
+  {
     name: "Universal USDT v3",
     address: "0x05a811275fe9b4de503b3311f51edf6a856d936e",
     chainId: 1,
