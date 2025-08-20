@@ -42,19 +42,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Mellow rstETH",
-    id: "rstETH",
-    tokenOutAddress: "0x7a4effd87c2f3c55ca251080b1343b605f327e3a",
-    strategyType: ["eth"],
-    chainId: 1,
-    network: "Mainnet",
-    creditManagers: [
-      "0x4bf7481fdf7b67a8206254badc15480a55bb25ab",
-      "0xd665774088c7936b65be0cbcf83aebe87cb10de7",
-    ],
-    issuesOnClose: true,
-  },
-  {
     name: "Mellow cp0xLRT",
     id: "cp0xLRT",
     tokenOutAddress: "0xb908c9fe885369643adb5fba4407d52bd726c72d",
@@ -170,6 +157,19 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xe35eb22a349baba4f1a28a9cdba641d3b72c6203",
       "0xf73dcfe24f5e4d290c79fea72169deb6873666ae",
     ],
+  },
+  {
+    name: "Mellow rstETH",
+    id: "rstETH",
+    tokenOutAddress: "0x7a4effd87c2f3c55ca251080b1343b605f327e3a",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x4bf7481fdf7b67a8206254badc15480a55bb25ab",
+      "0xd665774088c7936b65be0cbcf83aebe87cb10de7",
+    ],
+    issuesOnClose: true,
   },
   {
     name: "Sky Rewards Rate",
