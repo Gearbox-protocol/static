@@ -753,8 +753,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
     ],
+    releaseAt: 1755770400000,
     issuesOnClose: true,
-    hideInProd: true,
   },
   {
     name: "YieldFi yUSD",
@@ -795,7 +795,21 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
     ],
+    releaseAt: 1755770400000,
     issuesOnClose: true,
-    hideInProd: true,
+  },
+  {
+    name: "Pendle PT pUSDe 16 Oct 2025",
+    id: "PT-pUSDe-16OCT2025",
+    tokenOutAddress: "0xf3f491e5608f8b8a6fd9e9d66a4a4036d7fd282c",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0xbcd2ffac58189e57334bb63253acbf34d776de53",
+      "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+    ],
+    releaseAt: 1755770400000,
+    issuesOnClose: true,
   },
 ];
