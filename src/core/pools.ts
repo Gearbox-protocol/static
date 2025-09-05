@@ -11,6 +11,8 @@ export interface PoolConfigPayload {
   // is used to recognize pool in the list; maybe show this name instead name from sdk?
   curator: string;
   poolType: [TokenTypePool];
+  // is used hide pools with low interest checkbox on the main page
+  isLowInterest?: boolean;
 }
 
 type Address = `0x${string}`;

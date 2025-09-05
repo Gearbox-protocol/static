@@ -184,6 +184,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Sonic",
     curator: "Chaos Labs",
     poolType: ["s"],
+    isLowInterest: true,
   },
   {
     name: "USDC.e v3 Sonic",
@@ -192,6 +193,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Sonic",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "Re7 WETH",
