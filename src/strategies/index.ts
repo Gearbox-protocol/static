@@ -65,6 +65,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     issuesOnClose: true,
   },
@@ -78,6 +80,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     releaseAt: 1755770400000,
     issuesOnClose: true,
@@ -92,6 +96,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     releaseAt: 1755770400000,
     issuesOnClose: true,
@@ -106,6 +112,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     releaseAt: 1755770400000,
     issuesOnClose: true,
@@ -130,6 +138,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     issuesOnClose: true,
   },
@@ -143,6 +153,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     issuesOnClose: true,
   },
@@ -156,6 +168,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xbcd2ffac58189e57334bb63253acbf34d776de53",
       "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
+      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
     issuesOnClose: true,
   },
