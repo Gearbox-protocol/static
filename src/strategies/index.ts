@@ -678,6 +678,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Etherlink",
     creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     name: "Curve mBASIS/USDC",
@@ -688,6 +689,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Etherlink",
     creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     name: "Curve mRe7YIELD/USDC",
