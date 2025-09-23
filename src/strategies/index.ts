@@ -258,7 +258,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Pendle PT sUSDf 14 Aug 2025",
+    name: "Pendle PT uptBTC 14 Aug 2025",
     id: "PT_uptBTC_14AUG2025",
     tokenOutAddress: "0x7c853d6bfb49256af65af672dcc3f66c015e96e0",
     strategyType: ["btc"],
