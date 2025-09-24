@@ -237,6 +237,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x4bf7481fdf7b67a8206254badc15480a55bb25ab",
       "0xd665774088c7936b65be0cbcf83aebe87cb10de7",
+      "0x1128860755c6d452d9326e35d1672ca7c920b7c1",
+      "0x35e154be3c856c37d539aae90178fe5ac6d37644",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
     ],
     issuesOnClose: true,
   },
