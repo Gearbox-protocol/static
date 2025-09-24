@@ -159,6 +159,19 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    name: "Pendle PT sUSDf 29 Jan 2025",
+    id: "PT_sUSDf_29Jan2025",
+    tokenOutAddress: "0x48e502fbb6ff2cc687d049150e2c8addc765a43a",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0xbcd2ffac58189e57334bb63253acbf34d776de53",
+      "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "Pendle PT sUSDf 25 Sep 2025",
     id: "PT_sUSDf_25SEP2025",
     tokenOutAddress: "0xab365c0879024481e4ad3b47bd6fea9c10014fbc",
