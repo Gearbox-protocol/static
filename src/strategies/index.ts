@@ -159,8 +159,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Pendle PT sUSDf 29 Jan 2025",
-    id: "PT_sUSDf_29Jan2025",
+    name: "Pendle PT sUSDf 29 Jan 2026",
+    id: "PT_sUSDf_29Jan2026",
     tokenOutAddress: "0x48e502fbb6ff2cc687d049150e2c8addc765a43a",
     strategyType: ["stable"],
     chainId: 1,
