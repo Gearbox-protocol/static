@@ -58,13 +58,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0x61F7f5875eC741Ed7321E7CDc70C7662C75c5a06"
-    ],
+    creditManagers: ["0x61F7f5875eC741Ed7321E7CDc70C7662C75c5a06"],
     issuesOnClose: true,
   },
   {
-    // icon: https://www.curve.finance/dex/plasma/pools/factory-stable-ng-0/deposit; 
+    // icon: https://www.curve.finance/dex/plasma/pools/factory-stable-ng-0/deposit;
     // API: https://api.merkl.xyz/v4/opportunities?search=0x2d84d79c852f6842abe0304b70bbaa1506add457 -> "apr"
     name: "Curve USDT0/USDe",
     id: "USDT0USDe",
@@ -72,13 +70,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0x8372b1BBF7619159A2b1E343fA7127626900d694"
-    ],
-    issuesOnClose: true, 
-  }, 
+    creditManagers: ["0x8372b1BBF7619159A2b1E343fA7127626900d694"],
+    issuesOnClose: true,
+  },
   {
-    // icon: https://www.curve.finance/dex/plasma/pools/factory-stable-ng-1/deposit; 
+    // icon: https://www.curve.finance/dex/plasma/pools/factory-stable-ng-1/deposit;
     // API: https://api.merkl.xyz/v4/opportunities?search=0x1e8d78e9b3f0152d54d32904b7933f1cfe439df1 -> "apr"
     name: "Curve USDT0/sUSDe",
     id: "USDT0sUSDe",
@@ -86,9 +82,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0x68Eb8ab398eFD79796Ca432E455E3D3CA141c725"
-    ],
+    creditManagers: ["0x68Eb8ab398eFD79796Ca432E455E3D3CA141c725"],
     issuesOnClose: true,
   },
   {
@@ -100,9 +94,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0x4ba181F9e38bdf5c17777DDDDDdbE83B7dE65f80"
-    ],
+    creditManagers: ["0x4ba181F9e38bdf5c17777DDDDDdbE83B7dE65f80"],
     issuesOnClose: true,
   },
   {
@@ -114,9 +106,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0xf95c586E3Ffb41991718f4c8c3ADF660D231650E"
-    ],
+    creditManagers: ["0xf95c586E3Ffb41991718f4c8c3ADF660D231650E"],
     issuesOnClose: true,
   },
   {
@@ -128,9 +118,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0xA8Ece189E460eEaD80f056b29E01F398a0ddD16C"
-    ],
+    creditManagers: ["0xA8Ece189E460eEaD80f056b29E01F398a0ddD16C"],
     issuesOnClose: true,
   },
   {
