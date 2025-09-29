@@ -12,16 +12,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Curve mBASIS/USDC",
-    id: "mBASISUSDC",
-    tokenOutAddress: "0x0714027E44802b2Ff76389daF5371990CC3a4C24",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
     name: "Curve mRe7YIELD/USDC",
     id: "mRe7YIELDUSDC",
     tokenOutAddress: "0x5D37F9B272ca7cdA2A05245b9a503746EefAC88f",
