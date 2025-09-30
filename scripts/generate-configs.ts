@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 
+import { TOKENS_MIGRATION_LIST } from "../src/migration";
 import { POOLS_LIST } from "../src/pools";
 import { STRATEGIES_LIST } from "../src/strategies";
 import { TRADING_PAIRS_LIST } from "../src/trading";
@@ -20,6 +21,11 @@ const CONFIG = [
     outputDir: ["..", "public", "client-v3", "configs", "trading"],
     outputFile: "trading.json",
     source: TRADING_PAIRS_LIST,
+  },
+  {
+    outputDir: ["..", "public", "client-v3", "configs", "tokens-migration"],
+    outputFile: "tokens-migration.json",
+    source: TOKENS_MIGRATION_LIST,
   },
 ];
 
