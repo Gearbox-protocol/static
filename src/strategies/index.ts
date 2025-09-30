@@ -124,7 +124,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x6dcdb1b03469e8fc93f99f91c1386ff0da9b1ef4",
       "0x5c2c9b5ee8535954a3517a8083dc9481464a397c",
     ],
-    releaseAt: 1740398400000,
+    releaseAt: 1740398400_000,
     issuesOnClose: [300, 309],
     maxLeverage: 39_00,
     zeroSlippage: {
@@ -152,7 +152,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x0fafa30cd35bc6a48ff2b40694d4a73d4f4bcc92",
       "0x0af1324369e3fd78325fab0cb62eea19f3e4ebf0",
     ],
-    releaseAt: 1750683600,
+    releaseAt: 1750683600_000,
     issuesOnClose: true,
   },
   {
@@ -193,7 +193,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
       "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
-    releaseAt: 1755770400000,
+    releaseAt: 1755770400_000,
     issuesOnClose: true,
   },
   {
@@ -209,7 +209,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
       "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
-    releaseAt: 1755770400000,
+    releaseAt: 1755770400_000,
     issuesOnClose: true,
   },
   {
@@ -225,7 +225,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
       "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
     ],
-    releaseAt: 1755770400000,
+    releaseAt: 1755770400_000,
     issuesOnClose: true,
   },
   {
@@ -295,7 +295,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xe35eb22a349baba4f1a28a9cdba641d3b72c6203",
       "0xf73dcfe24f5e4d290c79fea72169deb6873666ae",
     ],
-    releaseAt: 1744632000000,
+    releaseAt: 1744632000_000,
   },
   {
     name: "Convex-staked scrvUSD/sUSDe",
@@ -343,7 +343,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xe35eb22a349baba4f1a28a9cdba641d3b72c6203",
       "0xf73dcfe24f5e4d290c79fea72169deb6873666ae",
     ],
-    releaseAt: 1731931200000,
+    releaseAt: 1731931200_000,
   },
   {
     name: "uptBTC",
@@ -356,7 +356,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xfe83807dec8c6a4f4d93b7dbd6340771753e2cd8",
       "0x732f28d627f3f5cfb599a539f58fa7cba6698297",
     ],
-    releaseAt: 1750683600,
+    releaseAt: 1750683600_000,
     issuesOnClose: true,
   },
   {
@@ -371,7 +371,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xc6d1c9d0f50e5a056713bc88891e3e1629ebd6bf",
       "0x2dd94ebdbabffed2bebd3ed039dd943334f55666",
     ],
-    releaseAt: 1733148000000,
+    releaseAt: 1733148000_000,
     issuesOnClose: true,
   },
   {
@@ -482,7 +482,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xe35eb22a349baba4f1a28a9cdba641d3b72c6203",
       "0xf73dcfe24f5e4d290c79fea72169deb6873666ae",
     ],
-    releaseAt: 1738713600000,
+    releaseAt: 1738713600_000,
   },
   {
     name: "Treehouse tETH",
@@ -492,7 +492,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
-    releaseAt: 1739188800000,
+    releaseAt: 1739188800_000,
     issuesOnClose: true,
   },
   {
@@ -511,7 +511,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x767cdccccf758dc2d74b917592223887b68d6757",
       "0xbbed4cbab27e51c0d0d2b12cddcbd1e87113d939",
     ],
-    releaseAt: 1731931200000,
+    releaseAt: 1731931200_000,
   },
   {
     name: "Mellow Re7LRT",
@@ -669,7 +669,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xc38a2957a255f259ff700bee4c1244388fa5f0e4",
       "0x3d5237d3922fd1ce8b74062d31b35aa69353bb17",
     ],
-    releaseAt: 1749747600,
+    releaseAt: 1749747600_000,
     issuesOnClose: true,
   },
   {
@@ -715,7 +715,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xfd8e94a216c80db2e892b59ccca668df5ee589b2",
       "0x29b9131bd16859ddac4d43167aca40720dd75f7b",
     ],
-    releaseAt: 1740398400000,
+    releaseAt: 1740398400_000,
   },
   {
     name: "Rings scUSD",
@@ -728,7 +728,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x160841120eb4885089d8ee7504b4aab5e73ebaf4",
       "0x1719131f99b634879e1094d5d968bdfb6a47144f",
     ],
-    releaseAt: 1740398400000,
+    releaseAt: 1740398400_000,
   },
   {
     name: "Lisk lskETH",

@@ -1,3 +1,4 @@
+export * from "./core/migration";
 export * from "./core/pools";
 export * from "./core/strategy";
 export * from "./core/trading";
