@@ -408,6 +408,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x6dc0eb1980fa6b3fa89f5b29937b9baab5865b3e",
       "0x50ba483272484fc5eebe8676dc87d814a11faef6",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
     ],
     issuesOnClose: true,
   },
@@ -491,7 +493,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
+    creditManagers: [
+      "0x50ba483272484fc5eebe8676dc87d814a11faef6",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
+    ],
     releaseAt: 1739188800_000,
     issuesOnClose: true,
   },
@@ -597,7 +603,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x6dc0eb1980fa6b3fa89f5b29937b9baab5865b3e"],
+    creditManagers: [
+      "0x6dc0eb1980fa6b3fa89f5b29937b9baab5865b3e",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
+    ],
   },
   {
     name: "Stakewise ETH",
@@ -618,6 +628,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x1c1261bbccd09cb618d3fd8cd74bf7562c022ac4",
       "0x6ed2150a2d4136b42adf2043d25f5834baa0f1a9",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
     ],
     issuesOnClose: true,
   },
@@ -631,6 +643,19 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x1c1261bbccd09cb618d3fd8cd74bf7562c022ac4",
       "0x6ed2150a2d4136b42adf2043d25f5834baa0f1a9",
+    ],
+  },
+  {
+    // API: the same as stETH on Mainnet
+    name: "Lido wstETH",
+    id: "wstETH",
+    tokenOutAddress: "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
     ],
   },
   {
@@ -811,6 +836,20 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
   },
   {
+    // icon: the same as cbETH on Arbitrum
+    // API: the same as cbETH on Arbitrum
+    name: "Coinbase cbETH",
+    id: "cbETH",
+    tokenOutAddress: "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
+    ],
+  },
+  {
     name: "Ethena USDe",
     id: "USDe",
     tokenOutAddress: "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
@@ -832,6 +871,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xcedaa4b4a42c0a771f6c24a3745c3ca3ed73f17a",
       "0x3ab1d35500d2da4216f5863229a7b81e2f6ff976",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
     ],
     issuesOnClose: true,
   },
