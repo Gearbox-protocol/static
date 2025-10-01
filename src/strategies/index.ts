@@ -838,7 +838,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     // icon: the same as cbETH on Arbitrum
     // API: the same as cbETH on Arbitrum
-    name: "Coinbase cbETH", 
+    name: "Coinbase cbETH",
     id: "cbETH",
     tokenOutAddress: "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
     strategyType: ["eth"],
