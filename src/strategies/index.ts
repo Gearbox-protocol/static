@@ -42,13 +42,63 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Ethena staked USDe",
-    id: "sUSDe",
-    tokenOutAddress: "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+    // icon: the same as USDe, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xfd3eb62302fa3cbc3c7e59e887b92dbbc814285d/data -> "impliedApy"
+    name: "Pendle PT USDe (15 Jan 2026)",
+    id: "PT-USDe-15JAN2026",
+    tokenOutAddress: "0x93b544c330f60a2aa05ced87aeeffb8d38fd8c9a",
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: ["0x61F7f5875eC741Ed7321E7CDc70C7662C75c5a06"],
+    creditManagers: ["0x0dc438ab3782a9183c03d16585262b10a0f843b6"],
+    issuesOnClose: true,
+  },
+  {
+    // icon: the same as sUSDe, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xe06c3b972ba630ccf3392cecdbe070690b4e6b55/data -> "impliedApy"
+    name: "Pendle PT sUSDe (15 Jan 2026)",
+    id: "PT-sUSDe-15JAN2026",
+    tokenOutAddress: "0x02fcc4989b4c9d435b7ced3fe1ba4cf77bbb5dd8",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: ["0xd6270d10f69389fe2e99276975356c63fe1db17e"],
+    issuesOnClose: true,
+  },
+  {
+    // icon: the same as syrupUSDT, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/data -> "impliedApy"
+    name: "Pendle PT syrupUSDT (29 Jan 2026)",
+    id: "PT-syrupUSDT-29JAN2026",
+    tokenOutAddress: "0x8dfb9a39dfab16bffe77f15544b5bf03e377e419",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: ["0xfb6203d73c957cada813c1b4a760801a8ab999b9"],
+    issuesOnClose: true,
+  },
+  {
+    // icon: the same as USDai, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x15735f2f53c5cd25a57dff83b11c93eceaf72073/data -> "impliedApy"
+    name: "Pendle PT USDai (19 Mar 2026)",
+    id: "PT-USDai-19MAR2026",
+    tokenOutAddress: "0xd516188daf64efa04a8d60872f891f2cc811a561",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: ["0x335cfb612ee4a2405198a7eca396b2150a4d0a96"],
+    issuesOnClose: true,
+  },
+  {
+    // icon: the same as sUSDai, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x0d7d9abee602c7f0a242ea7e200e47c372acba84/data -> "impliedApy"
+    name: "Pendle PT sUSDai (19 Mar 2026)",
+    id: "PT-sUSDai-19MAR2026",
+    tokenOutAddress: "0xedac81b27790e0728f54dea3b7718e5437e85353",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: ["0x70fd541ef094d26933a155c7e8b9d349588dc6df"],
     issuesOnClose: true,
   },
   {
@@ -889,5 +939,15 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
     issuesOnClose: true,
     hideInProd: true,
+  },
+  {
+    name: "Ethena staked USDe",
+    id: "sUSDe",
+    tokenOutAddress: "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: ["0x61F7f5875eC741Ed7321E7CDc70C7662C75c5a06"],
+    issuesOnClose: true,
   },
 ];
