@@ -445,7 +445,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
+    creditManagers: [
+      "0x50ba483272484fc5eebe8676dc87d814a11faef6",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe"
+      ],
     issuesOnClose: true,
   },
   {
@@ -586,7 +590,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x50ba483272484fc5eebe8676dc87d814a11faef6"],
+    creditManagers: [
+      "0x50ba483272484fc5eebe8676dc87d814a11faef6",
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe"
+    ],
     issuesOnClose: true,
   },
   {
