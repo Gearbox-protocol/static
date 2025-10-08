@@ -18,6 +18,22 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "wstETH v3",
+    address: "0xa9d17f6d3285208280a1fd9b94479c62e0aaba64",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "kpk",
+    poolType: ["eth"],
+  },
+  {
+    name: "WETH v3",
+    address: "0x9396dcbf78fc526bb003665337c5e73b699571ef",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "kpk",
+    poolType: ["eth"],
+  },
+  {
     name: "USDC",
     address: "0xc155444481854c60e7a29f4150373f479988f32d",
     chainId: 1,
