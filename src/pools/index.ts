@@ -2,22 +2,6 @@ import type { PoolConfigPayload } from "../core/pools";
 
 export const POOLS_LIST: Array<PoolConfigPayload> = [
   {
-    name: "Invariant USDT0",
-    address: "0x76309a9a56309104518847bba321c261b7b4a43f",
-    chainId: 9745,
-    network: "Plasma",
-    curator: "Invariant Group",
-    poolType: ["stable"],
-  },
-  {
-    name: "Re7 USDC",
-    address: "0x653e62a9ef0e869f91dc3d627b479592aa02ea75",
-    chainId: 42793,
-    network: "Etherlink",
-    curator: "Re7",
-    poolType: ["stable"],
-  },
-  {
     name: "wstETH v3",
     address: "0xa9d17f6d3285208280a1fd9b94479c62e0aaba64",
     chainId: 1,
@@ -32,6 +16,22 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "kpk",
     poolType: ["eth"],
+  },
+  {
+    name: "Invariant USDT0",
+    address: "0x76309a9a56309104518847bba321c261b7b4a43f",
+    chainId: 9745,
+    network: "Plasma",
+    curator: "Invariant Group",
+    poolType: ["stable"],
+  },
+  {
+    name: "Re7 USDC",
+    address: "0x653e62a9ef0e869f91dc3d627b479592aa02ea75",
+    chainId: 42793,
+    network: "Etherlink",
+    curator: "Re7",
+    poolType: ["stable"],
   },
   {
     name: "USDC",
