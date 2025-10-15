@@ -2,6 +2,19 @@ import type { StrategyConfigPayload } from "../core/strategy";
 
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
+    name: "ETH+",
+    id: "ETH+",
+    tokenOutAddress: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
+      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "Curve mBASIS/USDC",
     id: "mBASISUSDC",
     tokenOutAddress: "0x0714027E44802b2Ff76389daF5371990CC3a4C24",
