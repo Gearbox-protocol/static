@@ -144,6 +144,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "Trade DOLA v3",
@@ -152,6 +153,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "WETH v3",
@@ -160,6 +162,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Optimism",
     curator: "Chaos Labs",
     poolType: ["eth"],
+    isLowInterest: true,
   },
   {
     name: "Main USDC v3",
@@ -168,6 +171,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Optimism",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "Main USDC.e v3",
@@ -176,6 +180,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Optimism",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "Chaos Labs USDT",
@@ -184,6 +189,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "BNB",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "WBNB v3",
@@ -192,6 +198,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "BNB",
     curator: "Chaos Labs",
     poolType: ["wbnb"],
+    isLowInterest: true,
   },
   {
     name: "Re7 USD1",
@@ -200,6 +207,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "BNB",
     curator: "Re7",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "wS v3 Sonic",
@@ -234,6 +242,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Arbitrum",
     curator: "Chaos Labs",
     poolType: ["eth"],
+    isLowInterest: true,
   },
   {
     name: "Main USDC v3",
@@ -242,6 +251,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Arbitrum",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "Main USDC.e v3",
@@ -250,6 +260,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Arbitrum",
     curator: "Chaos Labs",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "USDC Test",
@@ -258,6 +269,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Etherlink",
     curator: "Re7",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "hemiBTC pool - bfBTC looping collateral",
