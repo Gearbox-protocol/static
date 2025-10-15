@@ -145,7 +145,6 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     curator: "Re7",
     poolType: ["eth"],
   },
-  
   {
     name: "hemiBTC pool - bfBTC looping collateral",
     address: "0xd172b64aa13d892bb5eb35f3482058eae0bc5b2a",
