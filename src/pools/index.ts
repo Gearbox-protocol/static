@@ -294,6 +294,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "K3",
     poolType: ["stable"],
+    isLowInterest: true,
   },
   {
     name: "Invariant USDe",
@@ -302,5 +303,6 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Plasma",
     curator: "Invariant Group",
     poolType: ["stable"],
+    isLowInterest: true,
   },
 ];
