@@ -9,8 +9,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
-      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
-      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
+      "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
+      "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
     ],
     issuesOnClose: true,
   },
