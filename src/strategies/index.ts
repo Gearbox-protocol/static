@@ -395,6 +395,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xf5edc34204e67e592bdcb84114571c9e4bd0bdf7",
       "0xb79d6544839d169869476589d2e54014a074317b",
+      "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
+      "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
     ],
     issuesOnClose: true,
   },
@@ -480,19 +482,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    name: "Lido stETH",
-    id: "STETH",
-    tokenOutAddress: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
-    strategyType: ["eth"],
-    chainId: 1,
-    network: "Mainnet",
-    creditManagers: [
-      "0xa30099925b14b00b76ae2efe2639cd01598fe68a",
-      "0x6dc0eb1980fa6b3fa89f5b29937b9baab5865b3e",
     ],
     issuesOnClose: true,
   },
@@ -685,8 +674,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
-      "0x06c0df5ac1f24bc2097b59ed8ee1db86bf0b09df",
-      "0x9a0fdf7cdab4604fc27ebeab4b3d57bd825e8ebe",
+      "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
+      "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
     ],
   },
   {
