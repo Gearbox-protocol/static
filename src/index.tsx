@@ -17,6 +17,7 @@ export * from "./icons/external";
 export * from "./icons/farm";
 export * from "./icons/fire";
 export * from "./icons/gamepad";
+export * from "./icons/gift";
 export * from "./icons/history";
 export * from "./icons/info";
 export * from "./icons/key";
