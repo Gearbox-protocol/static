@@ -26,6 +26,22 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "Edge UltraYield USDT0",
+    address: "0x53e4e9b8766969c43895839cc9c673bb6bc8ac97",
+    chainId: 9745,
+    network: "Plasma",
+    curator: "Edge UltraYield",
+    poolType: ["stable"],
+  },
+  {
+    name: "Hyperithm USDT0",
+    address: "0xb74760fd26400030620027dd29d19d74d514700e",
+    chainId: 9745,
+    network: "Plasma",
+    curator: "Hyperithm",
+    poolType: ["stable"],
+  },
+  {
     name: "Re7 USDC",
     address: "0x653e62a9ef0e869f91dc3d627b479592aa02ea75",
     chainId: 42793,
