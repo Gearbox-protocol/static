@@ -30,7 +30,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     address: "0x53e4e9b8766969c43895839cc9c673bb6bc8ac97",
     chainId: 9745,
     network: "Plasma",
-    curator: "Invariant Group",
+    curator: "Edge UltraYield",
     poolType: ["stable"],
   },
   {
