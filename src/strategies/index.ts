@@ -106,6 +106,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xfb6203d73c957cada813c1b4a760801a8ab999b9",
       "0x6377989b9ef6fd485e28a6fd66966f0cc8109f9d",
+      "0xf9b9ad7fe06fd74c39c79cafedeb21aa0980391a",
     ],
     issuesOnClose: true,
   },
@@ -118,7 +119,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: ["0x335cfb612ee4a2405198a7eca396b2150a4d0a96"],
+    creditManagers: [
+      "0x335cfb612ee4a2405198a7eca396b2150a4d0a96",
+      "0xa123cd073446e4c5036acdc23581221396a30578",
+    ],
     issuesOnClose: true,
   },
   {
@@ -130,7 +134,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: ["0x70fd541ef094d26933a155c7e8b9d349588dc6df"],
+    creditManagers: [
+      "0x70fd541ef094d26933a155c7e8b9d349588dc6df",
+      "0x5371c7d19568de9104d224f2bce4b9828fba4ad2",
+    ],
     issuesOnClose: true,
   },
   {
