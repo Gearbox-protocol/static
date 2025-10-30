@@ -45,6 +45,17 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    // API: https://app.avantprotocol.com/api/savusdApy
+    name: "Avant savUSD",
+    id: "savUSD",
+    tokenOutAddress: "0xa29420057f3e3b9512d4786df135da1674bd74d4",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: ["0xb671599733863a03fc5f6d106194ebc9196c26a1"],
+    issuesOnClose: true,
+  },
+  {
     name: "Curve mTBILL/USDC",
     id: "mTBILLUSDC",
     tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
