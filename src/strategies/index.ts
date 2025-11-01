@@ -35,6 +35,18 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    // icon: the same as syrupUSDT, but pendle LP
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/data -> "aggregatedApy"
+    name: "Pendle LP syrupUSDT (29 Jan 2026)",
+    id: "LP-syrupUSDT-29JAN2026",
+    tokenOutAddress: "0x18d89b23d2875590c502cd3eac8f448f3ccf9999",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: [],
+    issuesOnClose: true,
+  },
+  {
     // API: https://app.avantprotocol.com/api/savusdApy
     name: "Avant savUSD",
     id: "savUSD",
@@ -46,15 +58,14 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    // icon: the same as syrupUSDT, but pendle LP
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/data -> "aggregatedApy"
-    name: "Pendle LP syrupUSDT (29 Jan 2026)",
-    id: "LP-syrupUSDT-29JAN2026",
-    tokenOutAddress: "0x18d89b23d2875590c502cd3eac8f448f3ccf9999",
+    // API:
+    name: "Yuzu syzUSD",
+    id: "syzUSD",
+    tokenOutAddress: "0xc8a8df9b210243c55d31c73090f06787ad0a1bf6",
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [],
+    creditManagers: ["0x7940ac90eFF1D4fbB6214E7458eb8Aa29675a3ce"],
     issuesOnClose: true,
   },
   {
