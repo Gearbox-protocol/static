@@ -25,16 +25,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Curve mBASIS/USDC",
-    id: "mBASISUSDC",
-    tokenOutAddress: "0x0714027E44802b2Ff76389daF5371990CC3a4C24",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
     name: "Curve mRe7YIELD/USDC",
     id: "mRe7YIELDUSDC",
     tokenOutAddress: "0x5D37F9B272ca7cdA2A05245b9a503746EefAC88f",
@@ -56,53 +46,15 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Curve mTBILL/USDC",
-    id: "mTBILLUSDC",
-    tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    name: "mBASIS",
-    id: "mBASIS",
-    tokenOutAddress: "0x2247b5a46bb79421a314ab0f0b67ffd11dd37ee4",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    // icon: the same as USDe, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xfd3eb62302fa3cbc3c7e59e887b92dbbc814285d/data -> "impliedApy"
-    name: "Pendle PT USDe (15 Jan 2026)",
-    id: "PT-USDe-15JAN2026",
-    tokenOutAddress: "0x93b544c330f60a2aa05ced87aeeffb8d38fd8c9a",
+    // icon: the same as syrupUSDT, but pendle LP
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/data -> "aggregatedApy"
+    name: "Pendle LP syrupUSDT (29 Jan 2026)",
+    id: "LP-syrupUSDT-29JAN2026",
+    tokenOutAddress: "0x18d89b23d2875590c502cd3eac8f448f3ccf9999",
     strategyType: ["stable"],
     chainId: 9745,
     network: "Plasma",
-    creditManagers: [
-      "0x0dc438ab3782a9183c03d16585262b10a0f843b6",
-      "0x9c64da71eac61c15bc76f5c92b3451abe337022f",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    // icon: the same as sUSDe, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xe06c3b972ba630ccf3392cecdbe070690b4e6b55/data -> "impliedApy"
-    name: "Pendle PT sUSDe (15 Jan 2026)",
-    id: "PT-sUSDe-15JAN2026",
-    tokenOutAddress: "0x02fcc4989b4c9d435b7ced3fe1ba4cf77bbb5dd8",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0xd6270d10f69389fe2e99276975356c63fe1db17e",
-      "0x19eb08b867c752dc4686ea0fd26af1c072ed62f9",
-    ],
+    creditManagers: [],
     issuesOnClose: true,
   },
   {
@@ -148,6 +100,66 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x70fd541ef094d26933a155c7e8b9d349588dc6df",
       "0x5371c7d19568de9104d224f2bce4b9828fba4ad2",
+    ],
+    issuesOnClose: true,
+  },
+  {
+    name: "Curve mTBILL/USDC",
+    id: "mTBILLUSDC",
+    tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
+    strategyType: ["stable"],
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
+    issuesOnClose: true,
+  },
+  {
+    name: "Curve mBASIS/USDC",
+    id: "mBASISUSDC",
+    tokenOutAddress: "0x0714027E44802b2Ff76389daF5371990CC3a4C24",
+    strategyType: ["stable"],
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
+    issuesOnClose: true,
+  },
+  {
+    name: "mBASIS",
+    id: "mBASIS",
+    tokenOutAddress: "0x2247b5a46bb79421a314ab0f0b67ffd11dd37ee4",
+    strategyType: ["stable"],
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
+    issuesOnClose: true,
+  },
+  {
+    // icon: the same as USDe, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xfd3eb62302fa3cbc3c7e59e887b92dbbc814285d/data -> "impliedApy"
+    name: "Pendle PT USDe (15 Jan 2026)",
+    id: "PT-USDe-15JAN2026",
+    tokenOutAddress: "0x93b544c330f60a2aa05ced87aeeffb8d38fd8c9a",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: [
+      "0x0dc438ab3782a9183c03d16585262b10a0f843b6",
+      "0x9c64da71eac61c15bc76f5c92b3451abe337022f",
+    ],
+    issuesOnClose: true,
+  },
+  {
+    // icon: the same as sUSDe, but Pendle
+    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xe06c3b972ba630ccf3392cecdbe070690b4e6b55/data -> "impliedApy"
+    name: "Pendle PT sUSDe (15 Jan 2026)",
+    id: "PT-sUSDe-15JAN2026",
+    tokenOutAddress: "0x02fcc4989b4c9d435b7ced3fe1ba4cf77bbb5dd8",
+    strategyType: ["stable"],
+    chainId: 9745,
+    network: "Plasma",
+    creditManagers: [
+      "0xd6270d10f69389fe2e99276975356c63fe1db17e",
+      "0x19eb08b867c752dc4686ea0fd26af1c072ed62f9",
     ],
     issuesOnClose: true,
   },
