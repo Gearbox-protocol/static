@@ -45,6 +45,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Plasma",
     creditManagers: [],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     // API: https://app.avantprotocol.com/api/savusdApy
@@ -67,6 +68,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Plasma",
     creditManagers: ["0x7940ac90eFF1D4fbB6214E7458eb8Aa29675a3ce"],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     // icon: the same as syrupUSDT, but Pendle
