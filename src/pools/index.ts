@@ -50,6 +50,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "TelosC USDT0",
+    address: "0xba21b2807fcf136f1d61f40341d6fb8f2535615f",
+    chainId: 9745,
+    network: "Plasma",
+    curator: "TelosC",
+    poolType: ["stable"],
+  },
+  {
     name: "USDC",
     address: "0xc155444481854c60e7a29f4150373f479988f32d",
     chainId: 1,
