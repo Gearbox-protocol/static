@@ -58,7 +58,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    // API:
+    // API: https://defi-api.yuzu.money/proxy/apy -> syzusd_apy (14 = 14%)
     name: "Yuzu syzUSD",
     id: "syzUSD",
     tokenOutAddress: "0xc8a8df9b210243c55d31c73090f06787ad0a1bf6",
