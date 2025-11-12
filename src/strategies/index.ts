@@ -219,7 +219,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Convex-staked RLUSD/USDC",
     id: "stkcvxRLUSDUSDC",
-    tokenOutAddress: "0x444fa0ffb033265591895b66c81c2e5ff606e097",
+    tokenOutAddress: "0x87fa6c0296c986d1c901d72571282d57916b964a",
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
@@ -229,7 +229,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Convex-staked scrvUSD/sUSDe",
     id: "stkcvxllamathena",
-    tokenOutAddress: "0x72ed19788bce2971a5ed6401662230ee57e254b7",
+    tokenOutAddress: "0xb5528130b1d5d24ad172bf54ceed062232afbfbe",
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
