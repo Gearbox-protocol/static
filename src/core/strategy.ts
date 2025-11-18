@@ -5,6 +5,7 @@ export type TokenTypeStrategy =
   | "stable"
   | "wbnb"
   | "wxtz"
+  | "pt"
   | "bfBTC";
 
 export interface StrategyConfigPayload {
@@ -20,7 +21,7 @@ export interface StrategyConfigPayload {
   // if the chain doesn't have credit managers - strategy won't be shown on that chain
   creditManagers: Array<Address>;
   // strategy type; used for filtering
-  strategyType: [TokenTypeStrategy];
+  strategyType: TokenTypeStrategy[];
 
   /*  
     undefined - released
