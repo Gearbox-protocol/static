@@ -50,6 +50,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "Edge UltraYield USDC",
+    address: "0x53d83543a1462a3ec686bbcf36569ce24bdb87cc",
+    chainId: 10,
+    network: "Optimism",
+    curator: "Edge UltraYield",
+    poolType: ["stable"],
+  },
+  {
     name: "USDC",
     address: "0xc155444481854c60e7a29f4150373f479988f32d",
     chainId: 1,
