@@ -2,6 +2,30 @@ import type { PoolConfigPayload } from "../core/pools";
 
 export const POOLS_LIST: Array<PoolConfigPayload> = [
   {
+    name: "Edge UltraYield USDC",
+    address: "0x6b343f7b797f1488aa48c49d540690f2b2c89751",
+    chainId: 143,
+    network: "Monad",
+    curator: "Edge UltraYield",
+    poolType: ["stable"],
+  },
+  {
+    name: "Tulipa MON",
+    address: "0x34752948b0dc28969485df2066ffe86d5dc36689",
+    chainId: 143,
+    network: "Monad",
+    curator: "Tulipa",
+    poolType: ["mon"],
+  },
+  {
+    name: "Edge UltraYield USDT0",
+    address: "0x164a35f31e4e0f6c45d500962a6978d2cbd5a16b",
+    chainId: 143,
+    network: "Monad",
+    curator: "Edge UltraYield",
+    poolType: ["stable"],
+  },
+  {
     name: "wstETH v3",
     address: "0xa9d17f6d3285208280a1fd9b94479c62e0aaba64",
     chainId: 1,
@@ -32,22 +56,6 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "Tulipa",
     poolType: ["stable"],
-  },
-  {
-    name: "Edge UltraYield USDC",
-    address: "0x6b343f7b797f1488aa48c49d540690f2b2c89751",
-    chainId: 143,
-    network: "Monad",
-    curator: "Edge UltraYield",
-    poolType: ["stable"],
-  },
-  {
-    name: "Tulipa MON",
-    address: "0x34752948b0dc28969485df2066ffe86d5dc36689",
-    chainId: 143,
-    network: "Monad",
-    curator: "Tulipa",
-    poolType: ["mon"],
   },
   {
     name: "Edge UltraYield USDC",
@@ -328,13 +336,5 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     curator: "K3",
     poolType: ["stable"],
     isLowInterest: true,
-  },
-  {
-    name: "Edge UltraYield USDT0",
-    address: "0x164a35f31e4e0f6c45d500962a6978d2cbd5a16b",
-    chainId: 143,
-    network: "Monad",
-    curator: "Edge UltraYield",
-    poolType: ["stable"],
   },
 ];
