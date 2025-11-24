@@ -81,7 +81,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     name: "Pendle PT USDe (15 Jan 2026)",
     id: "PT-USDe-15JAN2026",
     tokenOutAddress: "0x93b544c330f60a2aa05ced87aeeffb8d38fd8c9a",
-    strategyType: ["stable"],
+    strategyType: ["pt"],
     chainId: 9745,
     network: "Plasma",
     creditManagers: [
@@ -96,7 +96,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     name: "Pendle PT sUSDe (15 Jan 2026)",
     id: "PT-sUSDe-15JAN2026",
     tokenOutAddress: "0x02fcc4989b4c9d435b7ced3fe1ba4cf77bbb5dd8",
-    strategyType: ["stable"],
+    strategyType: ["pt"],
     chainId: 9745,
     network: "Plasma",
     creditManagers: [
@@ -111,7 +111,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     name: "Pendle PT syrupUSDT (29 Jan 2026)",
     id: "PT-syrupUSDT-29JAN2026",
     tokenOutAddress: "0x8dfb9a39dfab16bffe77f15544b5bf03e377e419",
-    strategyType: ["stable"],
+    strategyType: ["pt"],
     chainId: 9745,
     network: "Plasma",
     creditManagers: [
@@ -194,7 +194,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     name: "Pendle PT pUSDe 16 Oct 2025",
     id: "PT-pUSDe-16OCT2025",
     tokenOutAddress: "0xf3f491e5608f8b8a6fd9e9d66a4a4036d7fd282c",
-    strategyType: ["stable"],
+    strategyType: ["pt"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
@@ -393,7 +393,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     name: "Pendle PT USDai (19 Mar 2026)",
     id: "PT-USDai-19MAR2026",
     tokenOutAddress: "0xd516188daf64efa04a8d60872f891f2cc811a561",
-    strategyType: ["stable"],
+    strategyType: ["pt"],
     chainId: 9745,
     network: "Plasma",
     creditManagers: [
@@ -408,7 +408,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     name: "Pendle PT sUSDai (19 Mar 2026)",
     id: "PT-sUSDai-19MAR2026",
     tokenOutAddress: "0xedac81b27790e0728f54dea3b7718e5437e85353",
-    strategyType: ["stable"],
+    strategyType: ["pt"],
     chainId: 9745,
     network: "Plasma",
     creditManagers: [
