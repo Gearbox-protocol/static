@@ -1,4 +1,11 @@
-export type TokenTypePool = "eth" | "stable" | "btc" | "wbnb" | "s" | "hemiBTC" | "mon";
+export type TokenTypePool =
+  | "eth"
+  | "stable"
+  | "btc"
+  | "wbnb"
+  | "s"
+  | "hemiBTC"
+  | "mon";
 
 export interface PoolConfigPayload {
   // is used to recognize pool in the list; maybe show this name instead of version + underlying symbol?
