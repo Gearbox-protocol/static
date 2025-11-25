@@ -74,6 +74,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "Invariant USDT0",
+    address: "0x76309a9a56309104518847bba321c261b7b4a43f",
+    chainId: 9745,
+    network: "Plasma",
+    curator: "Invariant Group",
+    poolType: ["stable"],
+  },
+  {
     name: "Hyperithm USDT0",
     address: "0xb74760fd26400030620027dd29d19d74d514700e",
     chainId: 9745,
