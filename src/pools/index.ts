@@ -18,6 +18,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["mon"],
   },
   {
+    name: "Edge UltraYield AUSD",
+    address: "0xc4173359087CE643235420b7bC610d9B0CF2B82D",
+    chainId: 143,
+    network: "Monad",
+    curator: "Edge UltraYield",
+    poolType: ["stable"],
+  },
+  {
     name: "Edge UltraYield USDT0",
     address: "0x164a35f31e4e0f6c45d500962a6978d2cbd5a16b",
     chainId: 143,
