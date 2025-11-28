@@ -15,6 +15,16 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    name: "Savings AUSD",
+    id: "sAUSD",
+    tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0xE01FEeBC233ee715592D056B0a53A4F316a62d1A"],
+    issuesOnClose: true,
+  },
+  {
     name: "mRe7YIELD",
     id: "mRe7YIELD",
     tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
