@@ -5,7 +5,8 @@ export type TokenTypePool =
   | "wbnb"
   | "s"
   | "hemiBTC"
-  | "mon";
+  | "mon"
+  | "somi";
 
 export interface PoolConfigPayload {
   // is used to recognize pool in the list; maybe show this name instead of version + underlying symbol?
