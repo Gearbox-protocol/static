@@ -15,6 +15,34 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    // apy: https://api.merkl.xyz/v4/opportunities?search=0x942644106B073E30D72c2C5D7529D5C296ea91ab
+    name: "Curve AUSD/USDC/USDT0",
+    id: "AUSDCT0",
+    tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [
+      "0x7C6eE1BF9c1EB3eE55bdbDc1e8d0317Aab718E0a",
+      "0xeCa8b626B91fbf1191230C5d11D5f5ebC1ADbB04",
+    ],
+    issuesOnClose: false,
+  },
+  {
+    // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
+    name: "Savings AUSD",
+    id: "sAUSD",
+    tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [
+      "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
+      "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "mRe7YIELD",
     id: "mRe7YIELD",
     tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
