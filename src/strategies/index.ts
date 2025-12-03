@@ -15,13 +15,29 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    name: "Curve AUSD/USDC/USDT0",
+    id: "AUSDCT0",
+    tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [
+      "0x7C6eE1BF9c1EB3eE55bdbDc1e8d0317Aab718E0a",
+      "0xeCa8b626B91fbf1191230C5d11D5f5ebC1ADbB04"
+    ],
+    issuesOnClose: false,
+  },
+  {
     name: "Savings AUSD",
     id: "sAUSD",
     tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
-    creditManagers: ["0xE01FEeBC233ee715592D056B0a53A4F316a62d1A"],
+    creditManagers: [
+      "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
+      "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C"
+    ],
     issuesOnClose: true,
   },
   {
