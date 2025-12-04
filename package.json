@@ -21,18 +21,17 @@
     "lint:ci": "eslint . --ext .tsx,.ts",
     "typecheck:ci": "tsc --noEmit"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@gearbox-protocol/eslint-config": "^2.0.0-next.2",
     "@gearbox-protocol/prettier-config": "^2.0.0",
-    "@types/react": "18.2.0",
+    "@types/react": "^19.2.7",
     "eslint": "^8.57.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "react": "18.2.0",
+    "react": "^19.2.1",
     "ts-node": "^10.9.2",
     "typescript": "5.0.4"
   },
@@ -43,5 +42,6 @@
       "prettier --write"
     ],
     "*.{json,md}": "prettier --write"
-  }
+  },
+  "packageManager": "yarn@4.9.2"
 }
