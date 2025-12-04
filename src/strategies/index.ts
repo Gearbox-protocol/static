@@ -23,7 +23,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 143,
     network: "Monad",
     creditManagers: [
-      "0x7C6eE1BF9c1EB3eE55bdbDc1e8d0317Aab718E0a",
+      "0xf6f044485ac54eecbddfd71586daf351c3ebda88",
       "0xeCa8b626B91fbf1191230C5d11D5f5ebC1ADbB04",
     ],
     issuesOnClose: false,
