@@ -5,7 +5,8 @@ export type TokenTypeStrategy =
   | "stable"
   | "wbnb"
   | "wxtz"
-  | "bfBTC";
+  | "bfBTC"
+  | "mon";
 
 export interface StrategyConfigPayload {
   name: string;

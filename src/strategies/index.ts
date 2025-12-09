@@ -25,8 +25,21 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xf6f044485ac54eecbddfd71586daf351c3ebda88",
       "0xeCa8b626B91fbf1191230C5d11D5f5ebC1ADbB04",
+      "0x3626c30d386f5900a444b77464ae1b78f8281481",
+      "0xe756919cc2e2b6e844a45dbbacf566b85cb928ab",
     ],
     issuesOnClose: false,
+  },
+  {
+    // apy: https://docs.hydrogenlabs.xyz/magma/developers/integrate-with-magma/historical-apy-indexing
+    name: "Magma staked MON",
+    id: "gMON",
+    tokenOutAddress: "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
+    strategyType: ["mon"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0x2f7019f8c5f258952287fcc00c6582a29f759949"],
+    issuesOnClose: true,
   },
   {
     // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
@@ -40,16 +53,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
       "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C",
     ],
-    issuesOnClose: true,
-  },
-  {
-    name: "mRe7YIELD",
-    id: "mRe7YIELD",
-    tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
     issuesOnClose: true,
   },
   {
@@ -479,6 +482,16 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 9745,
     network: "Plasma",
     creditManagers: ["0xf95c586E3Ffb41991718f4c8c3ADF660D231650E"],
+    issuesOnClose: true,
+  },
+  {
+    name: "mRe7YIELD",
+    id: "mRe7YIELD",
+    tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
+    strategyType: ["stable"],
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
     issuesOnClose: true,
   },
 ];
