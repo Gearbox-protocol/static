@@ -11,8 +11,48 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
+      "0x9fb5493deb601a0329ad8bff43cd182a61321ca7",
     ],
     issuesOnClose: true,
+  },
+  {
+    name: "Convex ETH+/WETH (Optimized by Beefy)",
+    id: "wmooCurveETH+-WETH",
+    tokenOutAddress: "0x02a4cceed3c400b5ba9fd22ad6ec18d8f7a3d48e",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
+      "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
+      "0x9fb5493deb601a0329ad8bff43cd182a61321ca7",
+    ],
+    issuesOnClose: true,
+  },
+  {
+    // apy: https://api.merkl.xyz/v4/opportunities?search=0x2D84D79C852f6842AbE0304b70bBaA1506AdD457
+    name: "Curve AZND/AUSD",
+    id: "0x2d84d79c852f6842abe0304b70bbaa1506add457",
+    tokenOutAddress: "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [
+      "0xAB917E5397D67345d8d23ece26785582D8B4AE03",
+      "0x06F5b5062477DCf6723c30a76232A5C0B6FCb01A",
+    ],
+    issuesOnClose: false,
+  },
+  {
+    // apy: https://api.merkl.xyz/v4/opportunities?search=0x74d80eE400D3026FDd2520265cC98300710b25D4
+    name: "Curve WMON/shMON/sMON/gMON",
+    id: "0x74d80eE400D3026FDd2520265cC98300710b25D4",
+    tokenOutAddress: "0x74d80eE400D3026FDd2520265cC98300710b25D4",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [],
+    issuesOnClose: false,
   },
   {
     // apy: https://api.merkl.xyz/v4/opportunities?search=0x942644106B073E30D72c2C5D7529D5C296ea91ab
@@ -42,16 +82,28 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
-    name: "Savings AUSD",
-    id: "sAUSD",
-    tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
-    strategyType: ["stable"],
-    chainId: 143,
-    network: "Monad",
+    name: "Pendle PT DETH (29 Jan 2026)",
+    id: "PT-DETH-29JAN2026",
+    tokenOutAddress: "0x8209b01357946a64a0793e9773f6f3fe5a5f2526",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
     creditManagers: [
-      "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
-      "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C",
+      "0x1840056a2bdbe949e017a3716e3fdd4a0d327bf0",
+      "0x29350a3c2627fb78c7e915cd59af754edf8998c5",
+    ],
+    issuesOnClose: true,
+  },
+  {
+    name: "Makina DETH",
+    id: "DETH",
+    tokenOutAddress: "0x871ab8e36cae9af35c6a3488b049965233deb7ed",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x1840056a2bdbe949e017a3716e3fdd4a0d327bf0",
+      "0x29350a3c2627fb78c7e915cd59af754edf8998c5",
     ],
     issuesOnClose: true,
   },
@@ -66,6 +118,20 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
+    name: "Savings AUSD",
+    id: "sAUSD",
+    tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [
+      "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
+      "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "Curve mBASIS/USDC",
     id: "mBASISUSDC",
     tokenOutAddress: "0x0714027E44802b2Ff76389daF5371990CC3a4C24",
@@ -73,17 +139,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 42793,
     network: "Etherlink",
     creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    // API: https://app.avantprotocol.com/api/savusdApy
-    name: "Avant savUSD",
-    id: "savUSD",
-    tokenOutAddress: "0xa29420057f3e3b9512d4786df135da1674bd74d4",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: ["0xb671599733863a03fc5f6d106194ebc9196c26a1"],
     issuesOnClose: true,
   },
   {
@@ -107,36 +162,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    // icon: the same as USDe, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xfd3eb62302fa3cbc3c7e59e887b92dbbc814285d/data -> "impliedApy"
-    name: "Pendle PT USDe (15 Jan 2026)",
-    id: "PT-USDe-15JAN2026",
-    tokenOutAddress: "0x93b544c330f60a2aa05ced87aeeffb8d38fd8c9a",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0x0dc438ab3782a9183c03d16585262b10a0f843b6",
-      "0x9c64da71eac61c15bc76f5c92b3451abe337022f",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    // icon: the same as sUSDe, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0xe06c3b972ba630ccf3392cecdbe070690b4e6b55/data -> "impliedApy"
-    name: "Pendle PT sUSDe (15 Jan 2026)",
-    id: "PT-sUSDe-15JAN2026",
-    tokenOutAddress: "0x02fcc4989b4c9d435b7ced3fe1ba4cf77bbb5dd8",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0xd6270d10f69389fe2e99276975356c63fe1db17e",
-      "0x19eb08b867c752dc4686ea0fd26af1c072ed62f9",
-    ],
-    issuesOnClose: true,
-  },
-  {
     // icon: the same as syrupUSDT, but Pendle
     // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/data -> "impliedApy"
     name: "Pendle PT syrupUSDT (29 Jan 2026)",
@@ -149,21 +174,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xfb6203d73c957cada813c1b4a760801a8ab999b9",
       "0x6377989b9ef6fd485e28a6fd66966f0cc8109f9d",
       "0xf9b9ad7fe06fd74c39c79cafedeb21aa0980391a",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    // icon: https://www.coingecko.com/en/coins/syrupusdt
-    // API: https://defillama.com/yields/pool/8edfdf02-cdbb-43f7-bca6-954e5fe56813
-    name: "Syrup USDT",
-    id: "syrupUSDT",
-    tokenOutAddress: "0xc4374775489cb9c56003bf2c9b12495fc64f0771",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0xA8Ece189E460eEaD80f056b29E01F398a0ddD16C",
-      "0xc6d4845f178a0f1b8d3d2298e35489fccbdf7000",
     ],
     issuesOnClose: true,
   },
@@ -219,22 +229,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
-    issuesOnClose: true,
-  },
-  {
-    name: "Pendle PT pUSDe 16 Oct 2025",
-    id: "PT-pUSDe-16OCT2025",
-    tokenOutAddress: "0xf3f491e5608f8b8a6fd9e9d66a4a4036d7fd282c",
-    strategyType: ["stable"],
-    chainId: 1,
-    network: "Mainnet",
-    creditManagers: [
-      "0xbcd2ffac58189e57334bb63253acbf34d776de53",
-      "0x8c118e8c20cebbaa2467b735bbb8b13d614e6608",
-      "0x92660c7B0925b8b17C6E5696e58FE9F8cC038E21",
-      "0x38811f98eDe771137DC71f046E0e300b7014C5C7",
-    ],
-    releaseAt: 1755770400_000,
     issuesOnClose: true,
   },
   {
@@ -404,73 +398,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
     ],
-  },
-  {
-    name: "Ethena staked USDe",
-    id: "sUSDe",
-    tokenOutAddress: "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0x61F7f5875eC741Ed7321E7CDc70C7662C75c5a06",
-      "0x052d92a9766e968342c5315deeac055c6f308ac2",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    // icon: the same as USDai, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x15735f2f53c5cd25a57dff83b11c93eceaf72073/data -> "impliedApy"
-    name: "Pendle PT USDai (19 Mar 2026)",
-    id: "PT-USDai-19MAR2026",
-    tokenOutAddress: "0xd516188daf64efa04a8d60872f891f2cc811a561",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0x335cfb612ee4a2405198a7eca396b2150a4d0a96",
-      "0xa123cd073446e4c5036acdc23581221396a30578",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    // icon: the same as sUSDai, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x0d7d9abee602c7f0a242ea7e200e47c372acba84/data -> "impliedApy"
-    name: "Pendle PT sUSDai (19 Mar 2026)",
-    id: "PT-sUSDai-19MAR2026",
-    tokenOutAddress: "0xedac81b27790e0728f54dea3b7718e5437e85353",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0x70fd541ef094d26933a155c7e8b9d349588dc6df",
-      "0x5371c7d19568de9104d224f2bce4b9828fba4ad2",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    // icon: https://www.curve.finance/dex/plasma/pools/factory-stable-ng-0/deposit;
-    // API: https://api.merkl.xyz/v4/opportunities?search=0x2d84d79c852f6842abe0304b70bbaa1506add457 -> "apr"
-    name: "Curve USDT0/USDe",
-    id: "USDT0USDe",
-    tokenOutAddress: "0x2d84d79c852f6842abe0304b70bbaa1506add457",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: ["0x8372b1BBF7619159A2b1E343fA7127626900d694"],
-    issuesOnClose: true,
-  },
-  {
-    // icon: https://www.curve.finance/dex/plasma/pools/factory-stable-ng-1/deposit;
-    // API: https://api.merkl.xyz/v4/opportunities?search=0x1e8d78e9b3f0152d54d32904b7933f1cfe439df1 -> "apr"
-    name: "Curve USDT0/sUSDe",
-    id: "USDT0sUSDe",
-    tokenOutAddress: "0x1e8d78e9b3f0152d54d32904b7933f1cfe439df1",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: ["0x68Eb8ab398eFD79796Ca432E455E3D3CA141c725"],
-    issuesOnClose: true,
   },
   {
     // icon: https://www.coingecko.com/en/coins/staked-usdai
