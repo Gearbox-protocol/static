@@ -27,7 +27,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
       "0x9fb5493deb601a0329ad8bff43cd182a61321ca7",
     ],
-    hideInProd: true,
     issuesOnClose: true,
   },
   {
@@ -95,7 +94,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x1840056a2bdbe949e017a3716e3fdd4a0d327bf0",
       "0x29350a3c2627fb78c7e915cd59af754edf8998c5",
     ],
-    hideInProd: true,
     issuesOnClose: true,
   },
   {
@@ -109,7 +107,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x1840056a2bdbe949e017a3716e3fdd4a0d327bf0",
       "0x29350a3c2627fb78c7e915cd59af754edf8998c5",
     ],
-    hideInProd: true,
     issuesOnClose: true,
   },
   {
