@@ -27,6 +27,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
       "0x9fb5493deb601a0329ad8bff43cd182a61321ca7",
     ],
+    showInProd: false,
     issuesOnClose: true,
   },
   {
@@ -41,6 +42,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xAB917E5397D67345d8d23ece26785582D8B4AE03",
       "0x06F5b5062477DCf6723c30a76232A5C0B6FCb01A",
     ],
+    showInProd: false,
     issuesOnClose: false,
   },
   {
@@ -52,6 +54,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 143,
     network: "Monad",
     creditManagers: [],
+    showInProd: false,
     issuesOnClose: false,
   },
   {
@@ -92,6 +95,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x1840056a2bdbe949e017a3716e3fdd4a0d327bf0",
       "0x29350a3c2627fb78c7e915cd59af754edf8998c5",
     ],
+    showInProd: false,
     issuesOnClose: true,
   },
   {
@@ -105,6 +109,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x1840056a2bdbe949e017a3716e3fdd4a0d327bf0",
       "0x29350a3c2627fb78c7e915cd59af754edf8998c5",
     ],
+    showInProd: false,
     issuesOnClose: true,
   },
   {
