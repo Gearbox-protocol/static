@@ -36,6 +36,15 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     isLowInterest: true,
   },
   {
+    name: "Edge UltraYield ETH",
+    address: "0xb46edf298989f0f106edd80e4ae8f59a13531db4",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "Edge UltraYield",
+    poolType: ["eth"],
+    isLowInterest: true,
+  },
+  {
     name: "Tulipa MON",
     address: "0x09ca6b76276ec0682adb896418b99cb7e44a58a0",
     chainId: 143,
