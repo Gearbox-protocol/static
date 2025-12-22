@@ -2,6 +2,20 @@ import type { StrategyConfigPayload } from "../core/strategy";
 
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
+    name: "Midas mEDGE",
+    id: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa"],
+    issuesOnClose: true,
+    zeroSlippage: {
+      // Edge
+      "0x6b343f7b797f1488aa48c49d540690f2b2c89751": true,
+    },
+  },
+  {
     name: "ETH+",
     id: "ETH+",
     tokenOutAddress: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
@@ -109,13 +123,25 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Curve mRe7YIELD/USDC",
-    id: "mRe7YIELDUSDC",
-    tokenOutAddress: "0x5D37F9B272ca7cdA2A05245b9a503746EefAC88f",
+    name: "Kelp hgETH",
+    id: "hgETH",
+    tokenOutAddress: "0xc824a08db624942c5e5f330d56530cd1598859fd",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0xbeea1a9aefea66fa93cbc0d8b6dbe1223c9957d0"],
+    hideInProd: true,
+    issuesOnClose: true,
+  },
+  {
+    name: "syrupUSDC",
+    id: "syrupUSDC",
+    tokenOutAddress: "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
     strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0xf828f83d8e9aabb745e61ce88d8532d771d9786c"],
+    hideInProd: true,
     issuesOnClose: true,
   },
   {
@@ -129,52 +155,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: [
       "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
       "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C",
-    ],
-    issuesOnClose: true,
-  },
-  {
-    name: "Curve mBASIS/USDC",
-    id: "mBASISUSDC",
-    tokenOutAddress: "0x0714027E44802b2Ff76389daF5371990CC3a4C24",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    name: "Curve mTBILL/USDC",
-    id: "mTBILLUSDC",
-    tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    name: "mBASIS",
-    id: "mBASIS",
-    tokenOutAddress: "0x2247b5a46bb79421a314ab0f0b67ffd11dd37ee4",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    // icon: the same as syrupUSDT, but Pendle
-    // API: https://api-v2.pendle.finance/core/v2/9745/markets/0x18d89b23d2875590c502cd3eac8f448f3ccf9999/data -> "impliedApy"
-    name: "Pendle PT syrupUSDT (29 Jan 2026)",
-    id: "PT-syrupUSDT-29JAN2026",
-    tokenOutAddress: "0x8dfb9a39dfab16bffe77f15544b5bf03e377e419",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: [
-      "0xfb6203d73c957cada813c1b4a760801a8ab999b9",
-      "0x6377989b9ef6fd485e28a6fd66966f0cc8109f9d",
-      "0xf9b9ad7fe06fd74c39c79cafedeb21aa0980391a",
     ],
     issuesOnClose: true,
   },
@@ -365,28 +345,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
   },
   {
-    name: "mTBILL",
-    id: "mTBILL",
-    tokenOutAddress: "0xdd629e5241cbc5919847783e6c96b2de4754e438",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
-  },
-  {
-    name: "Lido wstETH",
-    id: "wstETH",
-    tokenOutAddress: "0x76d8de471f54aaa87784119c60df1bbfc852c415",
-    strategyType: ["eth"],
-    chainId: 1135,
-    network: "Lisk",
-    creditManagers: [
-      "0xfd69c9ef4d88e568d3514861f15770cc77f81526",
-      "0x57b54c825d918796b1bef8f4c98d632b5e9fa6a3",
-    ],
-  },
-  {
     // icon: the same as cbETH on Arbitrum
     // API: the same as cbETH on Arbitrum
     name: "Coinbase cbETH",
@@ -399,27 +357,5 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
     ],
-  },
-  {
-    // icon: https://www.coingecko.com/en/coins/staked-usdai
-    // API: https://api-v2.pendle.finance/core/v2/42161/markets/0x43023675c804a759cbf900da83dbcc97ee2afbe7/data -> "underlyingApy"
-    name: "Staked USDai",
-    id: "sUSDai",
-    tokenOutAddress: "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
-    strategyType: ["stable"],
-    chainId: 9745,
-    network: "Plasma",
-    creditManagers: ["0xf95c586E3Ffb41991718f4c8c3ADF660D231650E"],
-    issuesOnClose: true,
-  },
-  {
-    name: "mRe7YIELD",
-    id: "mRe7YIELD",
-    tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
-    strategyType: ["stable"],
-    chainId: 42793,
-    network: "Etherlink",
-    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
-    issuesOnClose: true,
   },
 ];
