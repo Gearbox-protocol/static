@@ -3,7 +3,7 @@ import type { StrategyConfigPayload } from "../core/strategy";
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Midas mEDGE",
-    id: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    id: "mEDGE",
     tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
     strategyType: ["stable"],
     chainId: 143,
@@ -44,9 +44,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    // apy: https://api.merkl.xyz/v4/opportunities?search=0x2D84D79C852f6842AbE0304b70bBaA1506AdD457
     name: "Curve AZND/AUSD",
-    id: "0x2d84d79c852f6842abe0304b70bbaa1506add457",
+    id: "AZNDAUSD",
     tokenOutAddress: "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
     strategyType: ["stable"],
     chainId: 143,
@@ -59,7 +58,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Curve WMON/shMON/sMON/gMON",
-    id: "0x74d80eE400D3026FDd2520265cC98300710b25D4",
+    id: "stMONMON",
     tokenOutAddress: "0x74d80eE400D3026FDd2520265cC98300710b25D4",
     strategyType: ["stable"],
     chainId: 143,
