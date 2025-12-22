@@ -14,6 +14,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       // Edge
       "0x6b343f7b797f1488aa48c49d540690f2b2c89751": true,
     },
+    hideInProd: true,
   },
   {
     name: "ETH+",
