@@ -8,10 +8,12 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
-    creditManagers: [
-      "0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa",
-    ],
+    creditManagers: ["0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa"],
     issuesOnClose: true,
+    zeroSlippage: {
+      // Edge
+      "0x6b343f7b797f1488aa48c49d540690f2b2c89751": true,
+    },
   },
   {
     name: "ETH+",
