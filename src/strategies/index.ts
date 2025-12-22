@@ -2,6 +2,18 @@ import type { StrategyConfigPayload } from "../core/strategy";
 
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
+    name: "Midas mEDGE",
+    id: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: [
+      "0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "ETH+",
     id: "ETH+",
     tokenOutAddress: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
