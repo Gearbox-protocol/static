@@ -3,7 +3,7 @@ import type { StrategyConfigPayload } from "../core/strategy";
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Midas mEDGE",
-    id: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    id: "mEDGE",
     tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
     strategyType: ["stable"],
     chainId: 143,
@@ -44,9 +44,8 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    // apy: https://api.merkl.xyz/v4/opportunities?search=0x2D84D79C852f6842AbE0304b70bBaA1506AdD457
     name: "Curve AZND/AUSD",
-    id: "0x2d84d79c852f6842abe0304b70bbaa1506add457",
+    id: "AZNDAUSD",
     tokenOutAddress: "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
     strategyType: ["stable"],
     chainId: 143,
@@ -58,16 +57,34 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: false,
   },
   {
-    // apy: https://api.merkl.xyz/v4/opportunities?search=0x74d80eE400D3026FDd2520265cC98300710b25D4
     name: "Curve WMON/shMON/sMON/gMON",
-    id: "0x74d80eE400D3026FDd2520265cC98300710b25D4",
+    id: "stMONMON",
     tokenOutAddress: "0x74d80eE400D3026FDd2520265cC98300710b25D4",
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
-    creditManagers: [],
-    hideInProd: true,
-    issuesOnClose: false,
+    creditManagers: ["0x81a4614bf32fa68c26f8bb4631b0b567fc8b4ded"],
+    issuesOnClose: true,
+  },
+  {
+    name: "FastLane shMON",
+    id: "shMON",
+    tokenOutAddress: "0x1b68626dca36c7fe922fd2d55e4f631d962de19c",
+    strategyType: ["mon"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0x81a4614bf32fa68c26f8bb4631b0b567fc8b4ded"],
+    issuesOnClose: true,
+  },
+  {
+    name: "Kintsu sMON",
+    id: "sMON",
+    tokenOutAddress: "0xa3227c5969757783154c60bf0bc1944180ed81b9",
+    strategyType: ["mon"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0x81a4614bf32fa68c26f8bb4631b0b567fc8b4ded"],
+    issuesOnClose: true,
   },
   {
     // apy: https://api.merkl.xyz/v4/opportunities?search=0x942644106B073E30D72c2C5D7529D5C296ea91ab
@@ -87,7 +104,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     // apy: https://docs.hydrogenlabs.xyz/magma/developers/integrate-with-magma/historical-apy-indexing
-    name: "Magma staked MON",
+    name: "Magma gMON",
     id: "gMON",
     tokenOutAddress: "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
     strategyType: ["mon"],
