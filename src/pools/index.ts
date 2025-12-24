@@ -140,6 +140,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "Chaos Labs",
     poolType: ["eth"],
+    isLowInterest: true,
   },
   {
     name: "Trade USDC v3",
