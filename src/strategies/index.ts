@@ -259,21 +259,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: ["0x52b27889f67887fc9b98a59304037570e7d7e556"],
   },
   {
-    name: "Mellow rstETH",
-    id: "rstETH",
-    tokenOutAddress: "0x7a4effd87c2f3c55ca251080b1343b605f327e3a",
-    strategyType: ["eth"],
-    chainId: 1,
-    network: "Mainnet",
-    creditManagers: [
-      "0xf5edc34204e67e592bdcb84114571c9e4bd0bdf7",
-      "0xb79d6544839d169869476589d2e54014a074317b",
-      "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
-      "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
-    ],
-    issuesOnClose: true,
-  },
-  {
     name: "Renzo ETH",
     id: "ezETH",
     tokenOutAddress: "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
