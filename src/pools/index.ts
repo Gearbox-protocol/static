@@ -336,25 +336,4 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
     isLowInterest: true,
   },
-
-  {
-    name: "Invariant USDC",
-    address: "0xa561d6d554fb3637f590c4d73527fe19525d596b",
-    chainId: 5031,
-    network: "Somnia",
-    curator: "Invariant Group",
-    poolType: ["stable"],
-    isLowInterest: true,
-    curatorDomainOnly: true,
-  },
-  {
-    name: "Invariant SOMI",
-    address: "0x6f652fbcfc2107ef9c99456311b5650cd52d6419",
-    chainId: 5031,
-    network: "Somnia",
-    curator: "Invariant Group",
-    poolType: ["somi"],
-    isLowInterest: true,
-    curatorDomainOnly: true,
-  },
 ];
