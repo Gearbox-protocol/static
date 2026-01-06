@@ -345,6 +345,7 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     curator: "Invariant Group",
     poolType: ["stable"],
     isLowInterest: true,
+    curatorDomainOnly: true,
   },
   {
     name: "Invariant SOMI",
@@ -354,5 +355,6 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     curator: "Invariant Group",
     poolType: ["somi"],
     isLowInterest: true,
+    curatorDomainOnly: true,
   },
 ];
