@@ -21,8 +21,6 @@ export interface PoolConfigPayload {
   poolType: [TokenTypePool];
   // is used hide pools with low interest checkbox on the main page
   isLowInterest?: boolean;
-  // is used to show pools only on curator domain
-  curatorDomainOnly?: boolean;
 }
 
 type Address = `0x${string}`;
