@@ -53,6 +53,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x1293a69e4ad4a93293a06b6303104be35bdd83af",
       "0x68df4deeff1d9007063395cc190a486dceb05920",
     ],
+    hideInProd: true,
     issuesOnClose: true,
   },
   {
