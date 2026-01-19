@@ -56,6 +56,19 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    name: "Aura osETH/WETH (Optimized by Beefy)",
+    id: "wmooBalancerEthereumosETH-WETH",
+    tokenOutAddress: "0x1a711a5bc48b5c1352c1882fa65dc14b5b9e829d",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x1293a69e4ad4a93293a06b6303104be35bdd83af",
+      "0x68df4deeff1d9007063395cc190a486dceb05920",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "Curve AZND/AUSD",
     id: "AZNDAUSD",
     tokenOutAddress: "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
