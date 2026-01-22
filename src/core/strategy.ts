@@ -56,6 +56,10 @@ export interface StrategyConfigPayload {
   // pools in which additional quota should be bought for current token
   // pool - boolean
   additionalRewardQuotas?: PartialRecord<Address, Address[]>;
+  /**
+   * list of additional collaterals
+   */
+  additionalCollaterals: Array<Address>;
 }
 
 type VersionRange = [number, number];
