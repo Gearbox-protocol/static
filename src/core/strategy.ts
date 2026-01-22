@@ -57,9 +57,9 @@ export interface StrategyConfigPayload {
   // pool - boolean
   additionalRewardQuotas?: PartialRecord<Address, Address[]>;
   /**
-   * list of additional collaterals
+   * list of additional collaterals or collaterals + cms they are enabled on
    */
-  additionalCollaterals: Array<Address>;
+  additionalCollaterals: Array<Address | { token: Address; cm: Address }>;
 }
 
 type VersionRange = [number, number];
