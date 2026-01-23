@@ -57,7 +57,8 @@ export interface StrategyConfigPayload {
   // pool - boolean
   additionalRewardQuotas?: PartialRecord<Address, Address[]>;
   /**
-   * list of additional collaterals or collaterals + cms they are enabled on
+   * If address provided - it is considered that this collateral can be used across all listed cms
+   * If object provided - it is considered that this collateral can be used only on the specified cm
    */
   additionalCollaterals?: Array<Address | { token: Address; cm: Address }>;
 }
