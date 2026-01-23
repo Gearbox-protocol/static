@@ -59,7 +59,7 @@ export interface StrategyConfigPayload {
   /**
    * list of additional collaterals or collaterals + cms they are enabled on
    */
-  additionalCollaterals: Array<Address | { token: Address; cm: Address }>;
+  additionalCollaterals?: Array<Address | { token: Address; cm: Address }>;
 }
 
 type VersionRange = [number, number];
