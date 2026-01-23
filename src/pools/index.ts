@@ -24,7 +24,6 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     network: "Mainnet",
     curator: "Edge UltraYield",
     poolType: ["stable"],
-    isLowInterest: true,
   },
   {
     name: "Edge UltraYield ETH Prime",
