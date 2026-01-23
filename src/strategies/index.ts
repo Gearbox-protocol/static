@@ -54,6 +54,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x68df4deeff1d9007063395cc190a486dceb05920",
     ],
     issuesOnClose: true,
+    additionalCollaterals: [
+      0xf1c9acdc66974dfb6decb12aa385b9cd01190e38,
+      0xae78736cd615f374d3085123a210448e74fc6393,
+      0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+    ]
   },
   {
     name: "Aura osETH/WETH (Optimized by Beefy)",
@@ -67,6 +72,11 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0x68df4deeff1d9007063395cc190a486dceb05920",
     ],
     issuesOnClose: true,
+    additionalCollaterals: [
+      0xf1c9acdc66974dfb6decb12aa385b9cd01190e38,
+      0xae78736cd615f374d3085123a210448e74fc6393,
+      0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+    ]
   },
   {
     name: "Curve AZND/AUSD",
