@@ -56,6 +56,11 @@ export interface StrategyConfigPayload {
   // pools in which additional quota should be bought for current token
   // pool - boolean
   additionalRewardQuotas?: PartialRecord<Address, Address[]>;
+  /**
+   * If address provided - it is considered that this collateral can be used across all listed cms
+   * If object provided - it is considered that this collateral can be used only on the specified cm
+   */
+  additionalCollaterals?: Array<Address | { token: Address; cm: Address }>;
 }
 
 type VersionRange = [number, number];
