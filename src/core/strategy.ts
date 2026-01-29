@@ -29,9 +29,12 @@ export interface StrategyConfigPayload {
     In ms, for example: 1740398400_000
   */
   releaseAt?: number;
-  // an options to show strategies in dev environment only
+  // an option to show strategies in dev environment only
   // undefined, false = no
   hideInProd?: boolean;
+  // an option to show strategies in main app only
+  // undefined, true = yes; false = no
+  showInMainApp?: boolean;
   /*
    undefined - no restrictions
    number - one value for the current chain
