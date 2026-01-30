@@ -24,6 +24,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     network: "Mainnet",
     creditManagers: ["0xba531a7bf2616bffcccb68b94cc8177155e60404"],
     issuesOnClose: true,
+    hideInProd: true,
   },
   {
     name: "Convex savUSD/USDC",
@@ -35,6 +36,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     creditManagers: ["0xba531a7bf2616bffcccb68b94cc8177155e60404"],
     issuesOnClose: true,
     additionalCollaterals: ["0x2e1776968ec75bfd13dbc5b94ae57034d7e85fb9"],
+    hideInProd: true,
   },
   {
     name: "ETH+",
