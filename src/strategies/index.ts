@@ -113,10 +113,12 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x748a02cc6dd9090bd6bbcd1fd45790b50524ae87"],
+    creditManagers: [
+      "0x748a02cc6dd9090bd6bbcd1fd45790b50524ae87",
+      "0xa64d5e7567c5e8f494549dbff60c77846e059706",
+    ],
     issuesOnClose: true,
     additionalCollaterals: ["0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb"],
-    hideInProd: true,
   },
   // {
   //   name: "Convex pmUSD/frxUSD",
