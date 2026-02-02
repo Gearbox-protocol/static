@@ -41,7 +41,6 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
     issuesOnClose: true,
     additionalCollaterals: ["0x2e1776968ec75bfd13dbc5b94ae57034d7e85fb9"],
-    hideInProd: true,
   },
   {
     name: "ETH+",
