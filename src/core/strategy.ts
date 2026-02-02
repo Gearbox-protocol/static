@@ -10,55 +10,72 @@ export type TokenTypeStrategy =
 
 export interface StrategyConfigPayload {
   name: string;
-  // token symbol of the strategy, is used as key in the strategies list
-  // ideally should be equal to sdk-gov-legacy SupportedSymbol or, if token is not present in that list, should be equal to symbol which provides sdk
+  /**
+   * Token symbol of the strategy, is used as key in the strategies list.
+   */
   id: string;
-  // token address of the strategy
+  /**
+   * Token address of the strategy
+   */
   tokenOutAddress: Address;
-  // chain id and network type as they are written in sdk. wrong entries are being omitted
+  /**
+   * Chain id and network type as they are written in sdk. Wrong entries are being omitted
+   */
   chainId: number;
   network: string;
-  // if the chain doesn't have credit managers - strategy won't be shown on that chain
+  /**
+   * Credit managers strategy can be opened on. If it doesn't present - strategy won't be shown
+   */
   creditManagers: Array<Address>;
-  // strategy type; used for filtering
+  /**
+   * Strategy type. Used for filtering
+   */
   strategyType: [TokenTypeStrategy];
 
-  /*  
-    undefined - released
-    number - one value for the current chain
-    In ms, for example: 1740398400_000
-  */
+  /**
+   * undefined - released;
+   * number - one value for the current chain.
+   * In ms, for example: 1740398400_000;
+   */
   releaseAt?: number;
-  // an options to show strategies in dev environment only
-  // undefined, false = no
+  /**
+   * An option to show strategies in dev environment only.
+   * undefined, false = no.
+   */
   hideInProd?: boolean;
-  /*
-   undefined - no restrictions
-   number - one value for the current chain
-  */
+  /** An option to show strategies in main app only.
+   * undefined, true = yes; false = no.
+   */
+  showInMainApp?: boolean;
+  /**
+   * undefined - no restrictions.
+   * number - one value for the current chain.
+   */
   maxLeverage?: number;
-  /*
-    undefined, false = no
-    PartialRecord<number, boolean> - delayed withdrawal for each chain separately
-  */
+  /**
+   * undefined, false = no.
+   * PartialRecord<number, boolean> - delayed withdrawal for each chain separately.
+   */
   delayedWithdrawal?: boolean;
-  /* 
-    previously known as "bad asset", an asset closing account with may need extra capital.
-    undefined, false = no
-    VersionRange - problems only in this range
-  */
+  /**
+   * previously known as "bad asset", an asset closing account with may need extra capital.
+   * undefined, false = no.
+   * VersionRange - problems only in this range.
+   */
   issuesOnClose?: boolean | VersionRange;
-  /*
-    pools in which current token has zero slippage
-    pool - boolean
-  */
+  /**
+   * pools in which current token has zero slippage.
+   * pool - boolean.
+   */
   zeroSlippage?: PartialRecord<Address, boolean>;
-  // pools in which additional quota should be bought for current token
-  // pool - boolean
+  /**
+   * pools in which additional quota should be bought for current token.
+   * pool - boolean
+   */
   additionalRewardQuotas?: PartialRecord<Address, Address[]>;
   /**
-   * If address provided - it is considered that this collateral can be used across all listed cms
-   * If object provided - it is considered that this collateral can be used only on the specified cm
+   * If address provided - it is considered that this collateral can be used across all listed cms.
+   * If object provided - it is considered that this collateral can be used only on the specified cm.
    */
   additionalCollaterals?: Array<Address | { token: Address; cm: Address }>;
 }
