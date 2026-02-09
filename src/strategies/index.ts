@@ -2,6 +2,20 @@ import type { StrategyConfigPayload } from "../core/strategy";
 
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
+    name: "Infinifi liUSD (1 week lock)",
+    id: "liUSD-1w",
+    tokenOutAddress: "0x12b004719fb632f1e7c010c6f5d6009fb4258442",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0x9c4f296908d8b89c0f3058699fcbafb21bd6294c"],
+    zeroSlippage: {
+      // Tulipa
+      "0xf0795c47fa58d00f5f77f4d5c01f31ee891e21b4": true,
+    },
+    additionalCollaterals: ["0x48f9e38f3070ad8945dfeae3fa70987722e3d89c"],
+  },
+  {
     name: "Midas mEDGE",
     id: "mEDGE",
     tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
@@ -41,6 +55,20 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
     issuesOnClose: true,
     additionalCollaterals: ["0x2e1776968ec75bfd13dbc5b94ae57034d7e85fb9"],
+  },
+  {
+    name: "Infinifi siUSD",
+    id: "siUSD",
+    tokenOutAddress: "0xdbdc1ef57537e34680b898e1febd3d68c7389bcb",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0x9c4f296908d8b89c0f3058699fcbafb21bd6294c"],
+    zeroSlippage: {
+      // Tulipa
+      "0xf0795c47fa58d00f5f77f4d5c01f31ee891e21b4": true,
+    },
+    additionalCollaterals: ["0x48f9e38f3070ad8945dfeae3fa70987722e3d89c"],
   },
   {
     name: "ETH+",
@@ -118,6 +146,16 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
     issuesOnClose: true,
     additionalCollaterals: ["0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb"],
+  },
+  {
+    name: "mRe7YIELD",
+    id: "mRe7YIELD",
+    tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
+    strategyType: ["stable"],
+    chainId: 42793,
+    network: "Etherlink",
+    creditManagers: ["0xF6f9bB0BE5128BF6d02De00bBa9c34b132c2c8Ee"],
+    issuesOnClose: true,
   },
   // {
   //   name: "Convex pmUSD/frxUSD",
