@@ -242,9 +242,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Pendle PT DETH (29 Jan 2026)",
-    id: "PT-DETH-29JAN2026",
-    tokenOutAddress: "0x8209b01357946a64a0793e9773f6f3fe5a5f2526",
+    name: "Pendle PT DETH (23 Apr 2026)",
+    id: "PT-DETH-23APR2026",
+    tokenOutAddress: "0xe1d9b789da5b5375eacf66f036022b019a2af307",
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
