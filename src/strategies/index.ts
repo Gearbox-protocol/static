@@ -30,6 +30,21 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     },
   },
   {
+    name: "Beefy WBTC/cbBTC/hemiBTC",
+    id: "wmooStakeDaoWBTC-cbBTC-hemiBTC",
+    tokenOutAddress: "0x924d24c238db7ecae2aa3a19430239ed684bde4a",
+    strategyType: ["btc"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0xfC896a605Da98F3DF6da47BeB29cb59Ae382351d"],
+    additionalCollaterals: [
+      "0x06ea695b91700071b161a434fed42d1dcbad9f00",
+      "0x66039342c66760874047c36943b1e2d8300363bb",
+      "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    ],
+  },
+  {
     name: "Avant savUSD",
     id: "savUSD",
     tokenOutAddress: "0xb8d89678e75a973e74698c976716308abb8a46a4",
