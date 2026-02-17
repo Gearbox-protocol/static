@@ -18,6 +18,14 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
   },
   {
+    name: "Gami Labs WBTC",
+    address: "0x683FAf5BAFd88d4c383cCaf3d61C26AF2E164409",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "Gami Labs",
+    poolType: ["btc"],
+  },
+  {
     name: "Tulipa MON",
     address: "0x09ca6b76276ec0682adb896418b99cb7e44a58a0",
     chainId: 143,
