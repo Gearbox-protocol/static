@@ -71,6 +71,24 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     additionalCollaterals: ["0x48f9e38f3070ad8945dfeae3fa70987722e3d89c"],
   },
   {
+    name: "Aura wstETH/tETH (Optimized by Beefy)",
+    id: "wmooBalancerEthereumwstETH-tETH",
+    tokenOutAddress: "0x403Cc0d2694eC2639101F32B146b90D766461CE9",
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: [
+      "0x1293a69e4ad4a93293a06b6303104be35bdd83af",
+      "0x68df4deeff1d9007063395cc190a486dceb05920",
+    ],
+    issuesOnClose: true,
+    additionalCollaterals: [
+      "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
+      "0x9ed5175aecb6653c1bdaa19793c16fd74fbeeb37",
+    ],
+  },
+  {
     name: "ETH+",
     id: "ETH+",
     tokenOutAddress: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
