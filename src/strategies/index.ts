@@ -400,6 +400,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     chainId: 1,
     network: "Mainnet",
     creditManagers: ["0x52b27889f67887fc9b98a59304037570e7d7e556"],
+    additionalCollaterals: ["0x48f9e38f3070ad8945dfeae3fa70987722e3d89c"],
   },
   {
     name: "Renzo ETH",
