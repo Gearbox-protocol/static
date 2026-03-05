@@ -128,6 +128,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
       "0x9fb5493deb601a0329ad8bff43cd182a61321ca7",
     ],
+    additionalCollaterals: [
+      "0x2c683fad51da2cd17793219cc86439c1875c353e",
+      "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
+    ],
     issuesOnClose: true,
   },
   {
@@ -146,6 +150,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
       "0xae78736cd615f374d3085123a210448e74fc6393",
       "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "0x1ea5870f7C037930CE1d5d8d9317c670e89e13E3",
     ],
   },
   {
@@ -164,6 +169,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
       "0xae78736cd615f374d3085123a210448e74fc6393",
       "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "0x57c23c58B1D8C3292c15BEcF07c62C5c52457A42",
     ],
   },
   {
