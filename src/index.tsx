@@ -40,7 +40,4 @@ export * from "./social/discord";
 export * from "./social/github";
 export * from "./social/telegram";
 export * from "./social/twitter";
-
-export const STATIC_SERVER = "https://static.gearbox.finance";
-
-export const getStatic = (url: string) => `${STATIC_SERVER}${url}`;
+export * from "./static";

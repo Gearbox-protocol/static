@@ -4,6 +4,16 @@
   "description": "Static files for gearbox services",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./static": {
+      "types": "./lib/static/index.d.ts",
+      "default": "./lib/static/index.js"
+    }
+  },
   "files": [
     "lib"
   ],
