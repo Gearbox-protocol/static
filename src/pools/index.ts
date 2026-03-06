@@ -259,4 +259,13 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     curator: "Re7",
     poolType: ["stable"],
   },
+  {
+    name: "Hermes Verification USDC",
+    address: "0x1000000000000000000000000000000000000001",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "Chaos Labs",
+    poolType: ["stable"],
+    isLowInterest: false,
+  },
 ];

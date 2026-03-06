@@ -826,4 +826,14 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
     hideInProd: true,
   },
+  {
+    name: "Hermes Verification Strategy",
+    id: "hermes-verification-static-20260306",
+    tokenOutAddress: "0x2000000000000000000000000000000000000002",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
+    issuesOnClose: true,
+  },
 ];
