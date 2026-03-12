@@ -8,7 +8,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x9c4f296908d8b89c0f3058699fcbafb21bd6294c"],
+    creditManagers: [
+      "0x9c4f296908d8b89c0f3058699fcbafb21bd6294c",
+      "0xd2d61af80ecd6c4a06488aec5cc332cec862dd5a",
+    ],
     zeroSlippage: {
       // Tulipa
       "0xf0795c47fa58d00f5f77f4d5c01f31ee891e21b4": true,
@@ -78,7 +81,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: ["0x9c4f296908d8b89c0f3058699fcbafb21bd6294c"],
+    creditManagers: [
+      "0x9c4f296908d8b89c0f3058699fcbafb21bd6294c",
+      "0xd2d61af80ecd6c4a06488aec5cc332cec862dd5a",
+    ],
     zeroSlippage: {
       // Tulipa
       "0xf0795c47fa58d00f5f77f4d5c01f31ee891e21b4": true,
