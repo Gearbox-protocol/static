@@ -534,4 +534,14 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
     ],
   },
+  {
+    name: "Hermes Fork Test Strategy",
+    id: "hermes-fork-test-20260313",
+    tokenOutAddress: "0x5000000000000000000000000000000000000051",
+    strategyType: ["stable"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0xAf5A052BA444Ed90F887D40088548285df33A603"],
+    issuesOnClose: true,
+  },
 ];
