@@ -359,4 +359,13 @@ export const POOLS_LIST: Array<PoolConfigPayload> = [
     poolType: ["stable"],
     isLowInterest: true,
   },
+  {
+    name: "Hermes Fork Test USDC",
+    address: "0x4000000000000000000000000000000000000041",
+    chainId: 1,
+    network: "Mainnet",
+    curator: "Hermes Test Curator",
+    poolType: ["stable"],
+    isLowInterest: false,
+  },
 ];
