@@ -25,7 +25,10 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
-    creditManagers: ["0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa"],
+    creditManagers: [
+      "0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa",
+      "0x01b3b3c03269e2fdf654676f2e57a9e325a55e51",
+    ],
     issuesOnClose: true,
     zeroSlippage: {
       // Edge
