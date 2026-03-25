@@ -12,6 +12,18 @@
     "./static": {
       "types": "./lib/static/index.d.ts",
       "default": "./lib/static/index.js"
+    },
+    "./migration": {
+      "types": "./lib/migration/index.d.ts",
+      "default": "./lib/migration/index.js"
+    },
+    "./strategies": {
+      "types": "./lib/strategies/index.d.ts",
+      "default": "./lib/strategies/index.js"
+    },
+    "./pools": {
+      "types": "./lib/pools/index.d.ts",
+      "default": "./lib/pools/index.js"
     }
   },
   "files": [
