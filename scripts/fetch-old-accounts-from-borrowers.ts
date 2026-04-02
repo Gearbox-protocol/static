@@ -6,7 +6,7 @@
  * `scripts/fetch-old-accounts.ts`. Trims to { borrower, account, underlyingToken, version, chainId }
  * (version from pool on mainnet V2 vs V3 split; chain 42161/10 → 3).
  *
- * Writes `public/old_accounts/<prefix>.json` like fetch-old-accounts (full directory replace each run).
+ * Writes `public/client-v3/accounts/legacy_accounts/<prefix>.json` like fetch-old-accounts (full directory replace each run).
  * Duplicate keys (chainId + account + borrower) are reported but not removed from output.
  *
  * Run: `ts-node scripts/fetch-old-accounts-from-borrowers.ts`
@@ -32,7 +32,13 @@ const BORROWERS_JSON = path.join(
   "accounts",
   "legacy_borrowers.json",
 );
-const OUT_DIR = path.join(REPO_ROOT, "public", "old_accounts");
+const OUT_DIR = path.join(
+  REPO_ROOT,
+  "public",
+  "client-v3",
+  "accounts",
+  "legacy_accounts",
+);
 const BROKEN_BORROWERS_JSON = path.join(OUT_DIR, "broken_borrowers.json");
 const BORROWER_BATCH_SIZE = 30;
 
