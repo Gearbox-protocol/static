@@ -36,6 +36,8 @@
     "clean": "rm -rf ./lib",
     "build": "yarn compile && yarn generate-configs:ts",
     "generate-configs:ts": "npx ts-node scripts/generate-configs.ts",
+    "fetch-old-borrowers:ts": "npx ts-node scripts/fetch-merge-old-borrowers.ts",
+    "fetch-old-accounts:ts": "npx ts-node scripts/fetch-old-accounts-from-borrowers.ts",
     "prepare": "husky install",
     "prettier": "prettier --write .",
     "prettier:ci": "npx prettier --check .",

@@ -1,0 +1,121 @@
+[
+  {
+    "borrower": "0xBF27b1058832FD45d96C5aE1dFcc41030f113c5e",
+    "account": "0x5A62Fde1f9a266f11E0BC9a150A71B364F370F55",
+    "underlyingToken": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xBFaA278d37420DA2cDA6650D867a575Cf667eF4d",
+    "account": "0x5ed056Fffc207C9385D1E8578cCEE36727721E91",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xbfb496ACb99299e9eCE84B3FD1B3fDd0f6CDDf49",
+    "account": "0x649C7d8Ea95EE7F1EEd0Bace823b3ee3c199441c",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xBFaA278d37420DA2cDA6650D867a575Cf667eF4d",
+    "account": "0x6aB240ec5969C8349636640f0cdA73b5f6742078",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xBf02910A77281F3c279ee45dA17c3BE8163b108f",
+    "account": "0x729dD360C76F0df1Ad3561127782557611281471",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xBf891E7eFCC98A8239385D3172bA10AD593c7886",
+    "account": "0x7A2451f5c034889359555bc9119925aC7Fd8184e",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xBf74726898b94AD558714914310a427F6E04EFbe",
+    "account": "0x92c914A8505c685A1f96c62c781DF9a4Ac118175",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xBf74726898b94AD558714914310a427F6E04EFbe",
+    "account": "0xaE9a92d13a8014F75701DB98741454ee6a611C9e",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xbfcd7e267d0D5C896612d226ADfa1183D10e2693",
+    "account": "0xbCfF5acDEaFF9206c7A246a7166E9e9Ab2952E53",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xbfcd7e267d0D5C896612d226ADfa1183D10e2693",
+    "account": "0xDA98E8d0090749Bb094AAfACA131A9ac8cd52880",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xbfb496ACb99299e9eCE84B3FD1B3fDd0f6CDDf49",
+    "account": "0xEb4836A42C90F5A9c462BB83e9D8dDe1b0fb2AAe",
+    "underlyingToken": "0x4200000000000000000000000000000000000006",
+    "version": 300,
+    "chainId": 10
+  },
+  {
+    "borrower": "0xBfF35A13655249CF507C302fB5e5d5aad4e67332",
+    "account": "0x02FaD45E48A4D5E3FE132215d0d4affEc079D7D5",
+    "underlyingToken": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0xBfF35A13655249CF507C302fB5e5d5aad4e67332",
+    "account": "0x3cCaEeEf696549Dfe5C4d0446e2db175cE806Af5",
+    "underlyingToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0xBfF35A13655249CF507C302fB5e5d5aad4e67332",
+    "account": "0x559d813804D86b95bc59Cd78d3AfEca2A67a1833",
+    "underlyingToken": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0xBfF35A13655249CF507C302fB5e5d5aad4e67332",
+    "account": "0x7d6E7e3e59a09D0cc08508A7D370275415aD5835",
+    "underlyingToken": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0xBfF35A13655249CF507C302fB5e5d5aad4e67332",
+    "account": "0xD47902866fdcB1E838F234FE7b55A58c8651642E",
+    "underlyingToken": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0xBfF35A13655249CF507C302fB5e5d5aad4e67332",
+    "account": "0xe3d7ab9Dc522BF37790faB79424624Ae8796126F",
+    "underlyingToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "version": 300,
+    "chainId": 42161
+  }
+]

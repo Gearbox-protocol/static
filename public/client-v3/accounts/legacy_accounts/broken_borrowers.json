@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-04-02T07:17:56.570Z",
+  "brokenBorrowers": [
+    {
+      "borrower": "0x41797b5e0398af475422f6f33f2dc81d9a24ae33",
+      "error": "HTTP 500 borrower=0x41797b5e0398af475422f6f33f2dc81d9a24ae33 chainId=1\n{\"error\":\"runtime error: invalid memory address or nil pointer dereference\",\"message\":\"runtime error: invalid memory address or nil pointer dereference\"}"
+    }
+  ]
+}

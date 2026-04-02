@@ -1,0 +1,16 @@
+[
+  {
+    "borrower": "0xe63Ba03F3399ccDbC346977482920c7F782649B9",
+    "account": "0x61F48b059b01Acd8aaD82Afbe181Ebbda9247EB1",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe63Ba03F3399ccDbC346977482920c7F782649B9",
+    "account": "0xd5a704b2B7c9a9C348Ff8753dcdd337f39269A1d",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  }
+]
