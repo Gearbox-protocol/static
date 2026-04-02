@@ -1,4 +1,4 @@
-import type { TokenMigrationConfigPayload } from "../core/migration";
+import type { TokenMigrationConfigPayload } from "@gearbox-protocol/sdk/common-utils";
 
 export const TOKENS_MIGRATION_LIST: Array<TokenMigrationConfigPayload> = [
   {
