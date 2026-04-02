@@ -1,0 +1,121 @@
+[
+  {
+    "borrower": "0xe76D4F0B98755b704053940Cb035CE0a1AD36160",
+    "account": "0x1022eE7d07073C878cD24552D35C3786072A5712",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe76a6c084f9ae4Eee55be64854daD8666605Be8f",
+    "account": "0x2C77472f8644d95f9473A9495578D2570b8538E5",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7D4D40bf81d854405B6391071c94a8E131E5C30",
+    "account": "0x33de440d0A1693f44f9e8d22791F65284533841c",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xE7D3CF0c5DCD2cDe848Bd666A4270727a81bd77A",
+    "account": "0x3Be66136c27C9A203FD4b256926512e9423e6b55",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7D4D40bf81d854405B6391071c94a8E131E5C30",
+    "account": "0x42a64B57940192642Bc8cbC6De66ab6D9b4a06a3",
+    "underlyingToken": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7D4D40bf81d854405B6391071c94a8E131E5C30",
+    "account": "0x5137e22DD6a75Ffd05F51038C982DFDb7c7b2097",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7D4D40bf81d854405B6391071c94a8E131E5C30",
+    "account": "0x544C0d2149c149d4eFb1c8866c71906F005f70CA",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7D4D40bf81d854405B6391071c94a8E131E5C30",
+    "account": "0x676214Df43ad031AE551a6D93efB2B03Bc172D0D",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xE7006080E4A957Ad474d92450363FDadDbCfF47A",
+    "account": "0x7833439A7d82BFcFf81F6cc4795511e86a991fd0",
+    "underlyingToken": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7aE708269D68Ca6A959F9F2c26A98626085C6CC",
+    "account": "0x7A42687ED66e1b3F4D465Dd5c688442749849f79",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe77884CDdF148DD5f0e9191B33D8dBAdDB16DFB5",
+    "account": "0x860A28B87163c4C64D51a5e1D9b82D555d9065Ff",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xE7589a9435e27bF1443EbB279083f044C054E9fe",
+    "account": "0xaB1CB2e700bb575cb9083E77146390F254E36fD7",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 1,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe71CE4D9274173a0901FcDe8FfA0A09dF76d50e7",
+    "account": "0xCA36988FF3CDb5AE3e73838CB06D686E9224A707",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7158C21C24f55F5Aebc67F37e0b9781782b9d54",
+    "account": "0xd08c6238b6d2e35dbfA4c9323F451503233b178F",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 1,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe71CE4D9274173a0901FcDe8FfA0A09dF76d50e7",
+    "account": "0xd1275Ee4dda71A9d486940bebDAB5Ad351FEF963",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xE7c6ebFC37458A1e5a1296c4C88D2fa9C6d85aB3",
+    "account": "0xE7619a747278C796E8a860A4573495B2CBbfE88f",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0xe7D4D40bf81d854405B6391071c94a8E131E5C30",
+    "account": "0xf216bF9d4C6Db375CB37C833BD5010328bbb90c6",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  }
+]

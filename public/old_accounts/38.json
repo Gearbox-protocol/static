@@ -1,0 +1,114 @@
+[
+  {
+    "borrower": "0x38a1eE03b1E458E097A3a93D18902C4bA410dF2f",
+    "account": "0x19D7E0dfDFa136d6312877dE5Fc7610DCdecD79a",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x38170621B593Ce5dB9fc0F0D8754a41FB9bE90Db",
+    "account": "0x21678A29fdbEc5d4b82F62945d4BBcabe6888F11",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x38a1eE03b1E458E097A3a93D18902C4bA410dF2f",
+    "account": "0x370924A51BCea31c04301cD6764e963dBF9569ae",
+    "underlyingToken": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x3824aE6a823812d889c971d3CDF8EE54671451Ca",
+    "account": "0x47FED25C531Ee92ed60d937667165C2165c1e6F9",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x389Ca53949D864218e1EB0faD18382021BB1DDe5",
+    "account": "0x4Fb309EdEAde5fe9F476c4e2F4F1C8B99e0A76C9",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x38f932ff91F8AF058Cb37F2bE35B094AeC538C83",
+    "account": "0x6ad382850c06fC70E3186d63197c370b6c79CD21",
+    "underlyingToken": "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x387F12c8Cc024014C7570019967dCfCefdC0Ff35",
+    "account": "0x6e5A992D14db7aDC690EE1e67932C42E259a070B",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x387aB98666Cfd567428A627080f70ef933673787",
+    "account": "0x7c9ECfb3B819Db6300cC1434D3b63027FfaD8c79",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x381D629C10Ab83FA46879E65488C2Af1F80434B2",
+    "account": "0x7D56151072AA006C0cD53C2F81980438271e799f",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x38170621B593Ce5dB9fc0F0D8754a41FB9bE90Db",
+    "account": "0x7e063679A44901BBeF1593Af68d022A31aC72F2A",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x389Ca53949D864218e1EB0faD18382021BB1DDe5",
+    "account": "0x98D23261a5c7b95bb0141DABA952A5232A8CE163",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x38b05136633266FCCe958E7D3ac226f1235b834d",
+    "account": "0xa3FeaDBdB15Ff67df784553dd0eEEF24feF6F070",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x38d187bc25a84EFB6F29f9D544Aa7b3740C8Ac4D",
+    "account": "0xB72661F08CB241732Fe71eD6Fe7dD8EC12f07f47",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x380bdcf609fc706783335434E1e028013dC915DC",
+    "account": "0xc84ef85071AF5A627Aa06B01A3aD0832E1D3D85F",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x389Ca53949D864218e1EB0faD18382021BB1DDe5",
+    "account": "0xD2453256406E612844B57d5774c7d967a5ea1feF",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x389Ca53949D864218e1EB0faD18382021BB1DDe5",
+    "account": "0xE74B409AC795597048C4675Fe9ef94dcf22cE0a5",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  }
+]

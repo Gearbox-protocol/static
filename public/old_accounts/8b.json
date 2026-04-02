@@ -1,0 +1,65 @@
+[
+  {
+    "borrower": "0x8beeFB72c1F4DAe865dC8a6b7d9cC181D9d178FF",
+    "account": "0x0365AC5923666B68E17762CF6043C09CdB7F5ecC",
+    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x8bEbdB7f971d126bEd0084C4cc651BE40Bee0519",
+    "account": "0x1fD0c164d0175E65a628985Ca8411A44A33341A6",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x8B7e4F8D8D4b3C9C77A4930B7Ab3600c227b209f",
+    "account": "0x511d1cBBDD9A7317cD9Cf71eabc6e9C72C6E90e1",
+    "underlyingToken": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x8B9869A87d5D5128Eb742FBaed44441e90327e10",
+    "account": "0x53A75246897996F678Bfd5dEa46C26F034683B65",
+    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x8BA2d005DA1EA23271E7b61Efa52e72c6B372459",
+    "account": "0xeFC7743A118d749d302dc315cC1BF3B8f34a7C44",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x8B1E88DA73Af7b52189e3898418dccf7C6Eff940",
+    "account": "0xF3B4E541dEa821497868c778A63d1d33D0C03fb2",
+    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "version": 300,
+    "chainId": 1
+  },
+  {
+    "borrower": "0x8bC6b3fD67be8d0Ad383B71E6f6B1FBaFE0716e8",
+    "account": "0x126e772908D32A137f9E193FB26b7BC168A7D6be",
+    "underlyingToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0x8b382539b6b006c264cD25ec6E950B6D178A4Cce",
+    "account": "0x46B48e234C85a04Be1A5F178125aE332241a024B",
+    "underlyingToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "version": 300,
+    "chainId": 42161
+  },
+  {
+    "borrower": "0x8B752aE8c176dDD20a133B3f29f83727F6BcccBa",
+    "account": "0xa6b0aE7C938cc71919D0FaC07e95813d45b7e7FE",
+    "underlyingToken": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "version": 300,
+    "chainId": 42161
+  }
+]
