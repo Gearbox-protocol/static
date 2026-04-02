@@ -111,9 +111,9 @@ function trimSession(
 
 function accountVersionForPool(chainId: ChainId, poolLc: string): number {
   if (chainId === 1) {
-    return V2_MAINNET_LC.has(poolLc) ? 2 : 3;
+    return V2_MAINNET_LC.has(poolLc) ? 2 : 300;
   }
-  return 3;
+  return 300;
 }
 
 async function fetchBorrowerSessions(

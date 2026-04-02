@@ -52,15 +52,15 @@ const LIST_SOURCES: ListSource[] = [
   },
   {
     url: creditSessionsListUrl(1, POOL_ADDRESSES_V3_MAINNET),
-    accountVersion: 3,
+    accountVersion: 300,
   },
   {
     url: creditSessionsListUrl(42161, ARBITRUM_POOLS),
-    accountVersion: 3,
+    accountVersion: 300,
   },
   {
     url: creditSessionsListUrl(10, OPTIMISM_POOLS),
-    accountVersion: 3,
+    accountVersion: 300,
   },
 ];
 
