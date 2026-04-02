@@ -1,4 +1,4 @@
-import type { TradingPairConfigPayload } from "../core/trading";
+import type { TradingPairConfigPayload } from "@gearbox-protocol/sdk/common-utils";
 
 export const TRADING_PAIRS_LIST: Array<TradingPairConfigPayload> = [
   // long

@@ -1,4 +1,4 @@
-import type { PoolConfigPayload } from "../core/pools";
+import type { PoolConfigPayload } from "@gearbox-protocol/sdk/common-utils";
 
 export const POOLS_LIST: Array<PoolConfigPayload> = [
   {
