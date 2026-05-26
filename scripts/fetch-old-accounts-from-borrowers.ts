@@ -24,7 +24,7 @@ import {
 
 const REPO_ROOT = path.join(__dirname, "..");
 
-const CHARTS_API = "https://charts-server.fly.dev/api/chainlink";
+const CHARTS_API = "https://charts-legacy.gearbox.foundation/api/chainlink";
 const BORROWERS_JSON = path.join(
   REPO_ROOT,
   "public",
@@ -69,7 +69,7 @@ interface FetchStats {
   rawTotal: number;
   skippedStatus: number;
   skippedPool: number;
-  skippedNoAccount: number;
+  skippedTVL: number;
   skippedTrim: number;
 }
 
@@ -171,10 +171,22 @@ async function processBorrowerChain(
 ): Promise<FetchStats> {
   const sessions = await fetchBorrowerSessions(borrowerLc, chainId);
   const allowed = POOLS_ALLOWED_LC[chainId];
+  /**
+   * not active accounts
+   */
   let skippedStatus = 0;
+  /**
+   * disallowed pools
+   */
   let skippedPool = 0;
-  let skippedNoAccount = 0;
+  /**
+   * data issues
+   */
   let skippedTrim = 0;
+  /**
+   * TVL issues
+   */
+  let skippedTVL = 0;
 
   for (const row of sessions) {
     if (!row || typeof row !== "object") {
@@ -197,7 +209,7 @@ async function processBorrowerChain(
       continue;
     }
     if (typeof row.account !== "string" || !row.account.trim()) {
-      skippedNoAccount += 1;
+      skippedTrim += 1;
       continue;
     }
     if (
@@ -207,6 +219,11 @@ async function processBorrowerChain(
       skippedTrim += 1;
       continue;
     }
+    if (Number(row.debtUSD) < 1 && Number(row.totalValueUSD) < 1) {
+      skippedTVL += 1;
+      continue;
+    }
+
     const version = accountVersionForPool(chainId, poolLc);
     into.push(trimSession(row, chainId, version));
   }
@@ -217,7 +234,7 @@ async function processBorrowerChain(
     rawTotal: sessions.length,
     skippedStatus,
     skippedPool,
-    skippedNoAccount,
+    skippedTVL,
     skippedTrim,
   };
 }
@@ -267,7 +284,7 @@ async function main(): Promise<void> {
   let totalRawSessions = 0;
   let sumSkippedStatus = 0;
   let sumSkippedPool = 0;
-  let sumSkippedNoAccount = 0;
+  let sumSkippedTVL = 0;
   let sumSkippedTrim = 0;
   const brokenBorrowers: BrokenBorrowerEntry[] = [];
 
@@ -312,7 +329,7 @@ async function main(): Promise<void> {
         totalRawSessions += st.rawTotal;
         sumSkippedStatus += st.skippedStatus;
         sumSkippedPool += st.skippedPool;
-        sumSkippedNoAccount += st.skippedNoAccount;
+        sumSkippedTVL += st.skippedTVL;
         sumSkippedTrim += st.skippedTrim;
       }
       if (accepted.length === acceptedBeforeBorrower) {
@@ -327,7 +344,7 @@ async function main(): Promise<void> {
 
   const acceptedCount = accepted.length;
   const skippedTotal =
-    sumSkippedStatus + sumSkippedPool + sumSkippedNoAccount + sumSkippedTrim;
+    sumSkippedStatus + sumSkippedPool + sumSkippedTVL + sumSkippedTrim;
 
   const keyCounts = new Map<string, number>();
   for (const t of accepted) {
@@ -351,7 +368,7 @@ async function main(): Promise<void> {
   );
   console.log(`  Skipped (status !== 0):     ${sumSkippedStatus}`);
   console.log(`  Skipped (pool not allowed): ${sumSkippedPool}`);
-  console.log(`  Skipped (no account):       ${sumSkippedNoAccount}`);
+  console.log(`  Skipped (skipped by tvl):       ${sumSkippedTVL}`);
   console.log(`  Skipped (trim / bad row):   ${sumSkippedTrim}`);
   console.log(`  Skipped total:              ${skippedTotal}`);
   console.log(`  Accepted (trimmed):         ${acceptedCount}`);

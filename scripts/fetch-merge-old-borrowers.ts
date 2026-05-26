@@ -34,7 +34,7 @@ const BORROWERS_JSON = path.join(
 const PAGE_LIMIT = 200;
 
 const CHARTS_LIST_BASE =
-  "https://charts-server.fly.dev/api/chainlink/credit_sessions/list";
+  "https://charts-legacy.gearbox.foundation/api/chainlink/credit_sessions/list";
 
 const POOL_ADDRESSES_V3_MAINNET = POOL_ADDRESSES_ALL_MAINNET.filter(
   a => !V2_MAINNET_LC.has(a.toLowerCase()),
