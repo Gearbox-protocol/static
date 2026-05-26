@@ -1,85 +1,8 @@
 [
   {
-    "borrower": "0x7694EcD92425BC29705b8Ad58f7ad4A6C853e5A5",
-    "account": "0x19334e84D6893feE0eb549E0f410f85e1a43bb2C",
-    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x7694EcD92425BC29705b8Ad58f7ad4A6C853e5A5",
-    "account": "0x21E343aF8ec564b35d808465b40DDdC2dd88d8Bc",
-    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x7694EcD92425BC29705b8Ad58f7ad4A6C853e5A5",
-    "account": "0x4dF78a13A25Ec4Eb843fdadBd97f2F5ed7797172",
-    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x7642A02F2D3F4B64ee287D1a57B6653d8DC57A69",
-    "account": "0x74f6C80c5C41d34bF507adC38c1370E32Eb62dAc",
-    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x768c42AaA1423981f5167782DD8e2483D6432AE2",
-    "account": "0x847f792be71BA46D24B09D5adDee5b2f31Fd7aA5",
-    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x76DB9edf1451933711fc0A0c622E013ebD229EaB",
-    "account": "0x91bff6ab086743F3c0bf237928c0a1083e02fE00",
-    "underlyingToken": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x7694EcD92425BC29705b8Ad58f7ad4A6C853e5A5",
-    "account": "0xA6BF78cd406a5A44eaBBDbac511a946E76560CA5",
-    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x7608585661b20710e630c0763678BFc080F8F7AD",
-    "account": "0xcAB4D048F26513A40848e3B1D06498CDf23d64FF",
-    "underlyingToken": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x768c42AaA1423981f5167782DD8e2483D6432AE2",
-    "account": "0xdaD7d3905E9CE0FC8106F45adE16695c0BABA418",
-    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "version": 300,
-    "chainId": 1
-  },
-  {
-    "borrower": "0x76Fa5876ecEf7Cecfbe8f94566a1E7252C20BF39",
-    "account": "0xE9b37faDCd1a04AD379303f4302D327310c63DBc",
-    "underlyingToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "version": 300,
-    "chainId": 1
-  },
-  {
     "borrower": "0x7685F72EB0Ce061ebd46642E54dF483160835DE7",
     "account": "0x22D2B86aB4dCB9812EB8d05F74B0EEddB33d64Ce",
     "underlyingToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-    "version": 300,
-    "chainId": 42161
-  },
-  {
-    "borrower": "0x7693517008eee395E93dFC8E784d48E667222FA6",
-    "account": "0xCD50963a244D5DD13516bb6DB79079b99A829548",
-    "underlyingToken": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
     "version": 300,
     "chainId": 42161
   }
