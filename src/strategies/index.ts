@@ -1,20 +1,5 @@
 import type { StrategyConfigPayload } from "@gearbox-protocol/sdk/common-utils";
 
-// Each entry is a single (collateral, debt) pair. `tokenOutAddress` is the
-// collateral; `debt` is the borrowed underlying. When a collateral can be
-// opened against more than one debt, it is listed as separate pairs (the `id`
-// is suffixed with the debt symbol). Credit managers that share the same debt
-// are grouped under one entry.
-//
-// Debt tokens were verified on-chain via creditManager.underlying():
-//   Mainnet   USDC   0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
-//   Mainnet   WBTC   0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
-//   Mainnet   WETH   0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
-//   Mainnet   wstETH 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0
-//   Monad     USDC   0x754704bc059f8c67012fed69bc8a327a5aafb603
-//   Monad     AUSD   0x00000000efe302beaa2b3e6e1b18d08d69a9012a
-//   Monad     WMON   0x3bd359c1119da7da1d913d1c4d2b7c461115433a
-//   Etherlink USDC   0x796ea11fa2dd751ed01b53c372ffdb4aaa8f00f9
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Midas mEDGE",
