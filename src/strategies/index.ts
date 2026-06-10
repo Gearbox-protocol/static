@@ -33,7 +33,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Beefy WBTC/cbBTC/hemiBTC",
-    id: "wmooStakeDaoWBTC-cbBTC-hemiBTC",
+    id: "wmooStakeDaoWBTC-cbBTC-hemiBTC-WBTC",
     tokenOutAddress: "0x924d24c238db7ecae2aa3a19430239ed684bde4a",
     debt: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599", // WBTC
     strategyType: ["btc"],
@@ -81,7 +81,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "ETH+",
-    id: "ETH+",
+    id: "ETH+-WETH",
     tokenOutAddress: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
@@ -128,7 +128,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "mRe7YIELD",
-    id: "mRe7YIELD",
+    id: "mRe7YIELD-USDC",
     tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
     debt: "0x796ea11fa2dd751ed01b53c372ffdb4aaa8f00f9", // USDC
     strategyType: ["stable"],
@@ -192,7 +192,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     // apy: https://docs.hydrogenlabs.xyz/magma/developers/integrate-with-magma/historical-apy-indexing
     name: "Magma gMON",
-    id: "gMON",
+    id: "gMON-WMON",
     tokenOutAddress: "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
     debt: "0x3bd359c1119da7da1d913d1c4d2b7c461115433a", // WMON
     strategyType: ["mon"],
@@ -227,7 +227,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Renzo ETH",
-    id: "ezETH",
+    id: "ezETH-WETH",
     tokenOutAddress: "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
@@ -241,7 +241,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Ether.fi ETH",
-    id: "weETH",
+    id: "weETH-WETH",
     tokenOutAddress: "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
@@ -255,7 +255,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Ethena staked USDe",
-    id: "sUSDe",
+    id: "sUSDe-USDC",
     tokenOutAddress: "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
     debt: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", // USDC
     strategyType: ["stable"],
@@ -266,7 +266,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Treehouse tETH",
-    id: "tETH",
+    id: "tETH-WETH",
     tokenOutAddress: "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
@@ -281,7 +281,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Rocketpool ETH",
-    id: "rETH",
+    id: "rETH-WETH",
     tokenOutAddress: "0xae78736cd615f374d3085123a210448e74fc6393",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
@@ -295,7 +295,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     // API: the same as stETH on Mainnet
     name: "Lido wstETH",
-    id: "wstETH",
+    id: "wstETH-WETH",
     tokenOutAddress: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
@@ -310,7 +310,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     // icon: the same as cbETH on Arbitrum
     // API: the same as cbETH on Arbitrum
     name: "Coinbase cbETH",
-    id: "cbETH",
+    id: "cbETH-WETH",
     tokenOutAddress: "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
     debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
