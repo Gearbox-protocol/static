@@ -2,6 +2,10 @@
   "name": "@gearbox-protocol/static",
   "version": "1.0.0",
   "description": "Static files for gearbox services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gearbox-protocol/static.git"
+  },
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "exports": {
