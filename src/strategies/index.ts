@@ -20,7 +20,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "ACRED",
-    id: "ACRED",
+    id: "acred_dcusdc",
     tokenOutAddress: "0x17418038ecF73BA4026c4f428547BF099706F27B",
     strategyType: ["stable"],
     chainId: 1,
@@ -33,7 +33,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "ACRED",
-    id: "ACRED",
+    id: "acred_ocusdc",
     tokenOutAddress: "0x17418038ecF73BA4026c4f428547BF099706F27B",
     strategyType: ["stable"],
     chainId: 1,
@@ -46,7 +46,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "ACRED",
-    id: "ACRED",
+    id: "acred_dcrlusd",
     tokenOutAddress: "0x17418038ecF73BA4026c4f428547BF099706F27B",
     strategyType: ["stable"],
     chainId: 1,
@@ -59,7 +59,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "STAC",
-    id: "STAC",
+    id: "stac_dcusdc",
     tokenOutAddress: "0x51C2d74017390CbBd30550179A16A1c28F7210fc",
     strategyType: ["stable"],
     chainId: 1,
@@ -72,7 +72,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "STAC",
-    id: "STAC",
+    id: "stac_ocusdc",
     tokenOutAddress: "0x51C2d74017390CbBd30550179A16A1c28F7210fc",
     strategyType: ["stable"],
     chainId: 1,
@@ -85,7 +85,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "STAC",
-    id: "STAC",
+    id: "stac_dcrlusd",
     tokenOutAddress: "0x51C2d74017390CbBd30550179A16A1c28F7210fc",
     strategyType: ["stable"],
     chainId: 1,
@@ -98,7 +98,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "mF-ONE",
-    id: "mF-ONE",
+    id: "mf-one",
     tokenOutAddress: "0x238a700eD6165261Cf8b2e544ba797BC11e466Ba",
     strategyType: ["stable"],
     chainId: 1,
