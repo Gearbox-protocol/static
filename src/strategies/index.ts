@@ -30,6 +30,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0xE0Ca34a68C58f6576966047B9A2d95D60701c36f": true,
     },
+    hideInProd: true,
   },
   {
     name: "ACRED",
@@ -43,6 +44,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0x99f6bE465624F2cDF7Fe436697CeBd4bE7bAF56b": true,
     },
+    hideInProd: true,
   },
   {
     name: "ACRED",
@@ -56,6 +58,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0x2Fc5541073a30d16F12bcEd1ce98b38aa0F75126": true,
     },
+    hideInProd: true,
   },
   {
     name: "STAC",
@@ -69,6 +72,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0xE0Ca34a68C58f6576966047B9A2d95D60701c36f": true,
     },
+    hideInProd: true,
   },
   {
     name: "STAC",
@@ -82,6 +86,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0x99f6bE465624F2cDF7Fe436697CeBd4bE7bAF56b": true,
     },
+    hideInProd: true,
   },
   {
     name: "STAC",
@@ -95,6 +100,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0x2Fc5541073a30d16F12bcEd1ce98b38aa0F75126": true,
     },
+    hideInProd: true,
   },
   {
     name: "mF-ONE",
@@ -108,6 +114,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     zeroSlippage: {
       "0x34D0fD28083BcF4D1Cc71A5843F9298A4fbD2F13": true,
     },
+    hideInProd: true,
   },
   {
     name: "Beefy WBTC/cbBTC/hemiBTC",
