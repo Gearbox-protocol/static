@@ -10,6 +10,7 @@
 
 # production
 /dist
+.worktrees
 
 # misc
 .DS_Store
