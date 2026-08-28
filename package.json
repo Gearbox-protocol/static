@@ -6,38 +6,46 @@
     "type": "git",
     "url": "git+https://github.com/Gearbox-protocol/static.git"
   },
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "sideEffects": false,
   "exports": {
+    "./package.json": "./package.json",
     ".": {
-      "types": "./lib/index.d.ts",
-      "default": "./lib/index.js"
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "default": "./dist/cjs/index.cjs"
     },
     "./static": {
-      "types": "./lib/static/index.d.ts",
-      "default": "./lib/static/index.js"
+      "types": "./dist/types/static/index.d.ts",
+      "import": "./dist/esm/static/index.js",
+      "default": "./dist/cjs/static/index.cjs"
     },
     "./migration": {
-      "types": "./lib/migration/index.d.ts",
-      "default": "./lib/migration/index.js"
+      "types": "./dist/types/migration/index.d.ts",
+      "import": "./dist/esm/migration/index.js",
+      "default": "./dist/cjs/migration/index.cjs"
     },
     "./strategies": {
-      "types": "./lib/strategies/index.d.ts",
-      "default": "./lib/strategies/index.js"
+      "types": "./dist/types/strategies/index.d.ts",
+      "import": "./dist/esm/strategies/index.js",
+      "default": "./dist/cjs/strategies/index.cjs"
     },
     "./pools": {
-      "types": "./lib/pools/index.d.ts",
-      "default": "./lib/pools/index.js"
+      "types": "./dist/types/pools/index.d.ts",
+      "import": "./dist/esm/pools/index.js",
+      "default": "./dist/cjs/pools/index.cjs"
     }
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "license": "MIT",
   "scripts": {
-    "compile": "tsc",
-    "dev": "tsc && yarn generate-configs:ts",
-    "clean": "rm -rf ./lib",
+    "compile": "tsdown",
+    "dev": "tsdown && yarn generate-configs:ts",
+    "clean": "rm -rf ./dist",
     "build": "yarn compile && yarn generate-configs:ts",
     "generate-configs:ts": "npx ts-node scripts/generate-configs.ts",
     "fetch-old-borrowers:ts": "npx ts-node scripts/fetch-merge-old-borrowers.ts",
@@ -48,6 +56,15 @@
     "lint": "eslint . --ext .tsx,.ts --fix",
     "lint:ci": "eslint . --ext .tsx,.ts",
     "typecheck:ci": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@types/react": "^18 || ^19",
+    "react": "^18 || ^19"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
@@ -62,6 +79,7 @@
     "prettier": "^2.7.1",
     "react": "^19.2.1",
     "ts-node": "^10.9.2",
+    "tsdown": "^0.22.14",
     "typescript": "5.0.4"
   },
   "prettier": "@gearbox-protocol/prettier-config",

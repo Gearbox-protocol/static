@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src", "scripts"],
+  "include": ["src", "scripts", "tsdown.config.ts"],
   "compilerOptions": {
     "noEmit": true
   }

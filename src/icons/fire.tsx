@@ -1,5 +1,3 @@
-import React from "react";
-
 import type { IconProps } from "../core/icon";
 
 export const IconFire = ({
