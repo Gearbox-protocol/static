@@ -1,4 +1,4 @@
-import React from "react";
+import type { ReactElement } from "react";
 
 import type { IconProps } from "../core/icon";
 
@@ -7,7 +7,7 @@ export function IconGamepad({
   style,
   onClick,
   className,
-}: IconProps): React.ReactElement {
+}: IconProps): ReactElement {
   return (
     <svg
       className={className}
