@@ -1,4 +1,4 @@
-import type { StrategyConfigPayload } from "@gearbox-protocol/sdk/common-utils";
+import type { StrategyConfigPayload } from "./config-payload";
 
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
