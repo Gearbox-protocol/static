@@ -144,11 +144,11 @@ async function loadBorrowers(): Promise<string[]> {
   const list = Array.isArray(parsed)
     ? parsed
     : parsed &&
-      typeof parsed === "object" &&
-      "borrowers" in parsed &&
-      Array.isArray((parsed as Record<string, unknown>).borrowers)
-    ? ((parsed as Record<string, unknown[]>).borrowers as unknown[])
-    : null;
+        typeof parsed === "object" &&
+        "borrowers" in parsed &&
+        Array.isArray((parsed as Record<string, unknown>).borrowers)
+      ? ((parsed as Record<string, unknown[]>).borrowers as unknown[])
+      : null;
   if (list === null) {
     throw new Error(
       `Expected { "borrowers": string[] } or string[] in ${BORROWERS_JSON}`,

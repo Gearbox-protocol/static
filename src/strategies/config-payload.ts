@@ -10,14 +10,7 @@ type PartialRecord<K extends keyof any, T> = {
 };
 
 export type TokenTypeStrategy =
-  | "eth"
-  | "s"
-  | "btc"
-  | "stable"
-  | "wbnb"
-  | "wxtz"
-  | "bfBTC"
-  | "mon";
+  "eth" | "s" | "btc" | "stable" | "wbnb" | "wxtz" | "bfBTC" | "mon";
 
 export type StrategyMarketType = "common" | "rwa";
 

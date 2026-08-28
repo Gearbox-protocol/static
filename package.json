@@ -61,25 +61,21 @@
     "@types/react": "^18 || ^19",
     "react": "^18 || ^19"
   },
-  "peerDependenciesMeta": {
-    "@types/react": {
-      "optional": true
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@gearbox-protocol/eslint-config": "^2.0.0-next.2",
-    "@gearbox-protocol/prettier-config": "^2.0.0",
+    "@gearbox-protocol/prettier-config": "^2.1.0",
+    "@types/node": "^24",
     "@types/react": "^19.2.7",
     "eslint": "^8.57.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
+    "prettier": "^3.3.3",
     "react": "^19.2.1",
     "ts-node": "^10.9.2",
     "tsdown": "^0.22.14",
-    "typescript": "5.0.4"
+    "typescript": "^5.9.3"
   },
   "prettier": "@gearbox-protocol/prettier-config",
   "lint-staged": {

@@ -6,14 +6,7 @@
 import type { Address } from "../core/address";
 
 export type TokenTypePool =
-  | "eth"
-  | "stable"
-  | "btc"
-  | "wbnb"
-  | "s"
-  | "hemiBTC"
-  | "mon"
-  | "somi";
+  "eth" | "stable" | "btc" | "wbnb" | "s" | "hemiBTC" | "mon" | "somi";
 
 export interface PoolConfigPayload {
   // is used to recognize pool in the list; maybe show this name instead of version + underlying symbol?
