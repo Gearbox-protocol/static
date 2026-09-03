@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><svg x="8" y="8" width="16" height="16" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<defs>
+<mask id="cp0x-withdrawal-gap" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="white"/>
+<circle cx="8" cy="8" r="8.75" fill="black"/>
+</mask>
+</defs>
+<g mask="url(#cp0x-withdrawal-gap)"><svg x="8" y="8" width="16" height="16" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
 <g clip-path="url(#clip0_1_9764)">
 <path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12Z" fill="#00A3FF"/>
 <path opacity="0.6" d="M16.9224 11.1474L17.0568 11.3535C18.5721 13.678 18.2336 16.7223 16.2431 18.6726C15.0721 19.82 13.5374 20.3937 12.0026 20.3939C12.0026 20.3939 12.0026 20.3939 16.9224 11.1474Z" fill="white"/>
@@ -15,7 +22,7 @@
 <rect width="24" height="24" fill="white"/>
 </clipPath>
 </defs>
-</svg><svg x="0" y="0" width="16" height="16" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
+</svg></g><svg x="0" y="0" width="16" height="16" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet">
 <g clip-path="url(#clip0_38_9134)">
 <circle cx="12" cy="12" r="12" fill="url(#paint0_linear_38_9134)"/>
 <path d="M11.9983 2L11.8672 2.45578V15.6802L11.9983 15.8141L17.9963 12.1855L11.9983 2Z" fill="#E3E3E3"/>
