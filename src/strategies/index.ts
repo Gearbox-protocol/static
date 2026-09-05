@@ -2,7 +2,7 @@ import type { StrategyConfigPayload } from "./config-payload";
 
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
-    name: "Midas mEDGE",
+    name: "mEDGE",
     id: "mEDGE",
     tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
     strategyType: ["stable"],
@@ -132,7 +132,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     ],
   },
   {
-    name: "Aura wstETH/tETH (Optimized by Beefy)",
+    name: "Beefy wstETH/tETH",
     id: "wmooBalancerEthereumwstETH-tETH",
     tokenOutAddress: "0x403Cc0d2694eC2639101F32B146b90D766461CE9",
     strategyType: ["eth"],
@@ -163,7 +163,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Convex ETH+/WETH (Optimized by Beefy)",
+    name: "Beefy ETH+/WETH",
     id: "wmooCurveETH+-WETH",
     tokenOutAddress: "0x02a4cceed3c400b5ba9fd22ad6ec18d8f7a3d48e",
     strategyType: ["eth"],
@@ -221,7 +221,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     // apy: https://docs.hydrogenlabs.xyz/magma/developers/integrate-with-magma/historical-apy-indexing
-    name: "Magma gMON",
+    name: "gMON",
     id: "gMON",
     tokenOutAddress: "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
     strategyType: ["mon"],
@@ -232,7 +232,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
-    name: "Savings AUSD",
+    name: "sAUSD",
     id: "sAUSD",
     tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
     strategyType: ["stable"],
@@ -245,7 +245,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Renzo ETH",
+    name: "ezETH",
     id: "ezETH",
     tokenOutAddress: "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
     strategyType: ["eth"],
@@ -258,7 +258,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Ether.fi ETH",
+    name: "weETH",
     id: "weETH",
     tokenOutAddress: "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
     strategyType: ["eth"],
@@ -271,7 +271,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Ethena staked USDe",
+    name: "sUSDe",
     id: "sUSDe",
     tokenOutAddress: "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
     strategyType: ["stable"],
@@ -281,7 +281,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Treehouse tETH",
+    name: "tETH",
     id: "tETH",
     tokenOutAddress: "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
     strategyType: ["eth"],
@@ -295,7 +295,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
-    name: "Rocketpool ETH",
+    name: "rETH",
     id: "rETH",
     tokenOutAddress: "0xae78736cd615f374d3085123a210448e74fc6393",
     strategyType: ["eth"],
@@ -308,7 +308,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     // API: the same as stETH on Mainnet
-    name: "Lido wstETH",
+    name: "wstETH",
     id: "wstETH",
     tokenOutAddress: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
     strategyType: ["eth"],
@@ -322,7 +322,7 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     // icon: the same as cbETH on Arbitrum
     // API: the same as cbETH on Arbitrum
-    name: "Coinbase cbETH",
+    name: "cbETH",
     id: "cbETH",
     tokenOutAddress: "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
     strategyType: ["eth"],
