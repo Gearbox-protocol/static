@@ -1,4 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><defs><mask id="gap" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><rect width="24" height="24" fill="white"/><circle cx="8" cy="8" r="8.75" fill="black"/></mask></defs><g mask="url(#gap)"><svg x="8" y="8" width="16" height="16" viewBox="0 0 16 16" data-role="source"><defs><clipPath id="steak-source"><circle cx="8" cy="8" r="8"/></clipPath></defs><g clip-path="url(#steak-source)">
 <g clip-path="url(#clip0_467_866)">
 <g clip-path="url(#clip1_467_866)">
 <path d="M24 16C24 11.5817 20.4183 8 16 8C11.5817 8 8 11.5817 8 16C8 20.4183 11.5817 24 16 24C20.4183 24 24 20.4183 24 16Z" fill="#00A3FF"/>
@@ -22,4 +22,21 @@
 <rect width="16" height="16" fill="white" transform="translate(8 8)"/>
 </clipPath>
 </defs>
-</svg>
+</g></svg></g><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="16" height="16" data-role="target">
+<g clip-path="url(#target-clip0_1_9764)">
+<path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12Z" fill="#00A3FF"/>
+<path opacity="0.6" d="M16.9224 11.1474L17.0568 11.3535C18.5721 13.678 18.2336 16.7223 16.2431 18.6726C15.0721 19.82 13.5374 20.3937 12.0026 20.3939C12.0026 20.3939 12.0026 20.3939 16.9224 11.1474Z" fill="white"/>
+<path opacity="0.2" d="M12.0021 13.9577L16.9219 11.1474C12.0021 20.3939 12.0021 20.3939 12.0021 20.3939C12.0021 18.3801 12.0021 16.0725 12.0021 13.9577Z" fill="white"/>
+<path d="M7.07757 11.1474L6.94322 11.3535C5.42794 13.678 5.76638 16.7223 7.75688 18.6726C8.92786 19.82 10.4626 20.3937 11.9974 20.3939C11.9974 20.3939 11.9974 20.3939 7.07757 11.1474Z" fill="white"/>
+<path opacity="0.6" d="M11.996 13.9577L7.07617 11.1474C11.996 20.3939 11.996 20.3939 11.996 20.3939C11.996 18.3801 11.996 16.0725 11.996 13.9577Z" fill="white"/>
+<path opacity="0.2" d="M12.0039 7.67967V12.5265L16.2418 10.1047L12.0039 7.67967Z" fill="white"/>
+<path opacity="0.6" d="M12.0026 7.67967L7.76172 10.1046L12.0026 12.5265V7.67967Z" fill="white"/>
+<path d="M12.0026 3.60352L7.76172 10.1062L12.0026 7.67447V3.60352Z" fill="white"/>
+<path opacity="0.6" d="M12.0039 7.67372L16.245 10.1055L12.0039 3.59961V7.67372Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="target-clip0_1_9764">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg></svg>
