@@ -19,29 +19,19 @@ jobs:
       issues: write # semantic-release comments
       pull-requests: write # semantic-release comments
       id-token: write # OIDC for npm trusted publishing + provenance
-      deployments: write # cloudflare/pages-action
+      deployments: write # cloudflare/wrangler-action
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - name: Use Latest Corepack
-        run: |
-          echo "Before: corepack version => $(corepack --version || echo 'not installed')"
-          npm install -g corepack@latest
-          echo "After : corepack version => $(corepack --version)"
-          corepack enable
-
-      - uses: actions/setup-node@v4
+      - uses: pnpm/setup@v3
         with:
-          # npm docs recommend never using dependency caching in release
-          # builds (cache poisoning risk in privileged workflows)
-          node-version-file: ".nvmrc"
+          cache: true
+          require-lockfile: true
 
       # No lint or prettier here since they were supposed to run on PR action
       - name: Build
-        run: |
-          yarn install --immutable
-          yarn build
+        run: pnpm build
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v6
@@ -49,10 +39,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT }}
-          projectName: ${{ secrets.CF_PROJECT_NAME }}
-          directory: public
+          command: pages deploy public --project-name=${{ secrets.CF_PROJECT_NAME }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: mfinelli/cloudflare-pages-cleanup@v1
+        with:
+          cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT }}
+          cloudflare_api_token: ${{ secrets.CLOUDFLARE_TOKEN }}
+          project: ${{ secrets.CF_PROJECT_NAME }}
+          min-to-keep: 0
+          max-to-keep: 0

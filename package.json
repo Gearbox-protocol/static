@@ -44,15 +44,15 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsdown",
-    "dev": "tsdown && yarn generate-configs:ts",
+    "dev": "tsdown && pnpm generate-configs:ts",
     "clean": "rm -rf ./dist",
-    "build": "yarn compile && yarn generate-configs:ts",
-    "generate-configs:ts": "npx ts-node scripts/generate-configs.ts",
-    "fetch-old-borrowers:ts": "npx ts-node scripts/fetch-merge-old-borrowers.ts",
-    "fetch-old-accounts:ts": "npx ts-node scripts/fetch-old-accounts-from-borrowers.ts",
-    "prepare": "husky install",
+    "build": "pnpm compile && pnpm generate-configs:ts",
+    "generate-configs:ts": "ts-node scripts/generate-configs.ts",
+    "fetch-old-borrowers:ts": "ts-node scripts/fetch-merge-old-borrowers.ts",
+    "fetch-old-accounts:ts": "ts-node scripts/fetch-old-accounts-from-borrowers.ts",
+    "prepare": "husky",
     "prettier": "prettier --write .",
-    "prettier:ci": "npx prettier --check .",
+    "prettier:ci": "prettier --check .",
     "lint": "eslint . --ext .tsx,.ts --fix",
     "lint:ci": "eslint . --ext .tsx,.ts",
     "typecheck:ci": "tsc --noEmit"
@@ -71,9 +71,10 @@
     "@commitlint/config-conventional": "^19.6.0",
     "@gearbox-protocol/eslint-config": "^2.0.0-next.2",
     "@gearbox-protocol/prettier-config": "^2.0.0",
+    "@types/node": "^24.13.6",
     "@types/react": "^19.2.7",
     "eslint": "^8.57.1",
-    "husky": "^8.0.1",
+    "husky": "^9.1.7",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react": "^19.2.1",
@@ -89,5 +90,5 @@
     ],
     "*.{json,md}": "prettier --write"
   },
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "pnpm@12.6.0"
 }

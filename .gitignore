@@ -24,4 +24,4 @@
 
 .eslintcache
 .eslint.local.json
-.yarn/install-state.gz
+.vscode/mise-tools/
