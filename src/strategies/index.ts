@@ -3,15 +3,28 @@ import type { StrategyConfigPayload } from "./config-payload";
 export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     name: "Midas mEDGE",
-    id: "mEDGE",
+    id: "mEDGE-USDC",
     tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    debt: "0x754704bc059f8c67012fed69bc8a327a5aafb603", // USDC
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
-    creditManagers: [
-      "0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa",
-      "0x01b3b3c03269e2fdf654676f2e57a9e325a55e51",
-    ],
+    creditManagers: ["0xd9b000e3f14ea2dd27be07859ab3ab9e0ef62dfa"],
+    issuesOnClose: true,
+    zeroSlippage: {
+      // Edge
+      "0x6b343f7b797f1488aa48c49d540690f2b2c89751": true,
+    },
+  },
+  {
+    name: "Midas mEDGE",
+    id: "mEDGE-AUSD",
+    tokenOutAddress: "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+    debt: "0x00000000efe302beaa2b3e6e1b18d08d69a9012a", // AUSD
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0x01b3b3c03269e2fdf654676f2e57a9e325a55e51"],
     issuesOnClose: true,
     zeroSlippage: {
       // Edge
@@ -118,8 +131,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Beefy WBTC/cbBTC/hemiBTC",
-    id: "wmooStakeDaoWBTC-cbBTC-hemiBTC",
+    id: "wmooStakeDaoWBTC-cbBTC-hemiBTC-WBTC",
     tokenOutAddress: "0x924d24c238db7ecae2aa3a19430239ed684bde4a",
+    debt: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599", // WBTC
     strategyType: ["btc"],
     chainId: 1,
     network: "Mainnet",
@@ -133,15 +147,29 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Aura wstETH/tETH (Optimized by Beefy)",
-    id: "wmooBalancerEthereumwstETH-tETH",
+    id: "wmooBalancerEthereumwstETH-tETH-WETH",
     tokenOutAddress: "0x403Cc0d2694eC2639101F32B146b90D766461CE9",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
-    creditManagers: [
-      "0x1293a69e4ad4a93293a06b6303104be35bdd83af",
-      "0x68df4deeff1d9007063395cc190a486dceb05920",
+    creditManagers: ["0x1293a69e4ad4a93293a06b6303104be35bdd83af"],
+    issuesOnClose: true,
+    additionalCollaterals: [
+      "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "0xD11c452fc99cF405034ee446803b6F6c1F6d5ED8",
+      "0x9ed5175aecb6653c1bdaa19793c16fd74fbeeb37",
     ],
+  },
+  {
+    name: "Aura wstETH/tETH (Optimized by Beefy)",
+    id: "wmooBalancerEthereumwstETH-tETH-wstETH",
+    tokenOutAddress: "0x403Cc0d2694eC2639101F32B146b90D766461CE9",
+    debt: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0", // wstETH
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0x68df4deeff1d9007063395cc190a486dceb05920"],
     issuesOnClose: true,
     additionalCollaterals: [
       "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
@@ -151,8 +179,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "ETH+",
-    id: "ETH+",
+    id: "ETH+-WETH",
     tokenOutAddress: "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
@@ -164,15 +193,15 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Convex ETH+/WETH (Optimized by Beefy)",
-    id: "wmooCurveETH+-WETH",
+    id: "wmooCurveETH+-WETH-WETH",
     tokenOutAddress: "0x02a4cceed3c400b5ba9fd22ad6ec18d8f7a3d48e",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
     creditManagers: [
       "0x79c6c1ce5b12abcc3e407ce8c160ee1160250921",
       "0xc307a074bd5aec2d6ad1d9b74465c24a59b490fd",
-      "0x9fb5493deb601a0329ad8bff43cd182a61321ca7",
     ],
     additionalCollaterals: [
       "0x2c683fad51da2cd17793219cc86439c1875c353e",
@@ -181,9 +210,25 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     issuesOnClose: true,
   },
   {
+    name: "Convex ETH+/WETH (Optimized by Beefy)",
+    id: "wmooCurveETH+-WETH-wstETH",
+    tokenOutAddress: "0x02a4cceed3c400b5ba9fd22ad6ec18d8f7a3d48e",
+    debt: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0", // wstETH
+    strategyType: ["eth"],
+    chainId: 1,
+    network: "Mainnet",
+    creditManagers: ["0x9fb5493deb601a0329ad8bff43cd182a61321ca7"],
+    additionalCollaterals: [
+      "0x2c683fad51da2cd17793219cc86439c1875c353e",
+      "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
+    ],
+    issuesOnClose: true,
+  },
+  {
     name: "mRe7YIELD",
-    id: "mRe7YIELD",
+    id: "mRe7YIELD-USDC",
     tokenOutAddress: "0x733d504435a49FC8C4e9759e756C2846c92f0160",
+    debt: "0x796ea11fa2dd751ed01b53c372ffdb4aaa8f00f9", // USDC
     strategyType: ["stable"],
     chainId: 42793,
     network: "Etherlink",
@@ -192,38 +237,62 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Curve AZND/AUSD",
-    id: "AZNDAUSD",
+    id: "AZNDAUSD-USDC",
     tokenOutAddress: "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
+    debt: "0x754704bc059f8c67012fed69bc8a327a5aafb603", // USDC
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0xAB917E5397D67345d8d23ece26785582D8B4AE03"],
+    issuesOnClose: false,
+  },
+  {
+    name: "Curve AZND/AUSD",
+    id: "AZNDAUSD-AUSD",
+    tokenOutAddress: "0x2D84D79C852f6842AbE0304b70bBaA1506AdD457",
+    debt: "0x00000000efe302beaa2b3e6e1b18d08d69a9012a", // AUSD
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0x06F5b5062477DCf6723c30a76232A5C0B6FCb01A"],
+    issuesOnClose: false,
+  },
+  {
+    // apy: https://api.merkl.xyz/v4/opportunities?search=0x942644106B073E30D72c2C5D7529D5C296ea91ab
+    name: "Curve AUSD/USDC/USDT0",
+    id: "AUSDCT0-USDC",
+    tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
+    debt: "0x754704bc059f8c67012fed69bc8a327a5aafb603", // USDC
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
     creditManagers: [
-      "0xAB917E5397D67345d8d23ece26785582D8B4AE03",
-      "0x06F5b5062477DCf6723c30a76232A5C0B6FCb01A",
+      "0xf6f044485ac54eecbddfd71586daf351c3ebda88",
+      "0xe756919cc2e2b6e844a45dbbacf566b85cb928ab",
     ],
     issuesOnClose: false,
   },
   {
     // apy: https://api.merkl.xyz/v4/opportunities?search=0x942644106B073E30D72c2C5D7529D5C296ea91ab
     name: "Curve AUSD/USDC/USDT0",
-    id: "AUSDCT0",
+    id: "AUSDCT0-AUSD",
     tokenOutAddress: "0x942644106B073E30D72c2C5D7529D5C296ea91ab",
+    debt: "0x00000000efe302beaa2b3e6e1b18d08d69a9012a", // AUSD
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
     creditManagers: [
-      "0xf6f044485ac54eecbddfd71586daf351c3ebda88",
       "0xeCa8b626B91fbf1191230C5d11D5f5ebC1ADbB04",
       "0x3626c30d386f5900a444b77464ae1b78f8281481",
-      "0xe756919cc2e2b6e844a45dbbacf566b85cb928ab",
     ],
     issuesOnClose: false,
   },
   {
     // apy: https://docs.hydrogenlabs.xyz/magma/developers/integrate-with-magma/historical-apy-indexing
     name: "Magma gMON",
-    id: "gMON",
+    id: "gMON-WMON",
     tokenOutAddress: "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
+    debt: "0x3bd359c1119da7da1d913d1c4d2b7c461115433a", // WMON
     strategyType: ["mon"],
     chainId: 143,
     network: "Monad",
@@ -233,21 +302,32 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
     name: "Savings AUSD",
-    id: "sAUSD",
+    id: "sAUSD-USDC",
     tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
+    debt: "0x754704bc059f8c67012fed69bc8a327a5aafb603", // USDC
     strategyType: ["stable"],
     chainId: 143,
     network: "Monad",
-    creditManagers: [
-      "0xE01FEeBC233ee715592D056B0a53A4F316a62d1A",
-      "0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C",
-    ],
+    creditManagers: ["0xE01FEeBC233ee715592D056B0a53A4F316a62d1A"],
+    issuesOnClose: true,
+  },
+  {
+    // apy: https://api.upshift.finance/v1/tokenized_vaults/0xD793c04B87386A6bb84ee61D98e0065FdE7fdA5E -> historical_apy -> 7 (0.02 = 2%)
+    name: "Savings AUSD",
+    id: "sAUSD-AUSD",
+    tokenOutAddress: "0xd793c04b87386a6bb84ee61d98e0065fde7fda5e",
+    debt: "0x00000000efe302beaa2b3e6e1b18d08d69a9012a", // AUSD
+    strategyType: ["stable"],
+    chainId: 143,
+    network: "Monad",
+    creditManagers: ["0x5452971Fc17d025a1AFFDd5F7a44CCDD1BF0524C"],
     issuesOnClose: true,
   },
   {
     name: "Renzo ETH",
-    id: "ezETH",
+    id: "ezETH-WETH",
     tokenOutAddress: "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
@@ -259,8 +339,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Ether.fi ETH",
-    id: "weETH",
+    id: "weETH-WETH",
     tokenOutAddress: "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
@@ -272,8 +353,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Ethena staked USDe",
-    id: "sUSDe",
+    id: "sUSDe-USDC",
     tokenOutAddress: "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+    debt: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", // USDC
     strategyType: ["stable"],
     chainId: 1,
     network: "Mainnet",
@@ -282,8 +364,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Treehouse tETH",
-    id: "tETH",
+    id: "tETH-WETH",
     tokenOutAddress: "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
@@ -296,8 +379,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   },
   {
     name: "Rocketpool ETH",
-    id: "rETH",
+    id: "rETH-WETH",
     tokenOutAddress: "0xae78736cd615f374d3085123a210448e74fc6393",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
@@ -309,8 +393,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
   {
     // API: the same as stETH on Mainnet
     name: "Lido wstETH",
-    id: "wstETH",
+    id: "wstETH-WETH",
     tokenOutAddress: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
@@ -323,8 +408,9 @@ export const STRATEGIES_LIST: Array<StrategyConfigPayload> = [
     // icon: the same as cbETH on Arbitrum
     // API: the same as cbETH on Arbitrum
     name: "Coinbase cbETH",
-    id: "cbETH",
+    id: "cbETH-WETH",
     tokenOutAddress: "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+    debt: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", // WETH
     strategyType: ["eth"],
     chainId: 1,
     network: "Mainnet",
