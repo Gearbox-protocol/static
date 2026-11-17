@@ -5,7 +5,7 @@
  */
 import type { Address } from "../core/address";
 
-type PartialRecord<K extends keyof any, T> = {
+type PartialRecord<K extends PropertyKey, T> = {
   [P in K]?: T;
 };
 

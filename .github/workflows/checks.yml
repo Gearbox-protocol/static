@@ -37,5 +37,4 @@ jobs:
       - name: Perform checks
         run: |
           pnpm typecheck:ci
-          pnpm lint:ci
-          pnpm prettier:ci
+          pnpm check:ci

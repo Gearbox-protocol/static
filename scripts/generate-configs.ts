@@ -1,5 +1,5 @@
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "node:fs";
+import * as path from "node:path";
 
 import { TOKENS_MIGRATION_LIST } from "../src/migration";
 import { POOLS_LIST } from "../src/pools";
@@ -30,7 +30,7 @@ const CONFIG = [
 ];
 
 function generateStrategiesJson(): void {
-  for (let { outputDir: dir, outputFile: file, source } of CONFIG) {
+  for (const { outputDir: dir, outputFile: file, source } of CONFIG) {
     try {
       // Define the output directory and file path
       const outputDir = path.join(__dirname, ...dir);
