@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "commonjs",
-    "moduleResolution": "node16",
-    "skipLibCheck": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["DOM", "ESNext"],
+    "types": ["node"],
     "jsx": "react-jsx",
-    "noImplicitAny": true,
-    "removeComments": true,
     "declaration": true,
-    "outDir": "lib",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "include": ["src", "scripts", "tsdown.config.ts"],
+  "exclude": ["dist", "node_modules"]
 }

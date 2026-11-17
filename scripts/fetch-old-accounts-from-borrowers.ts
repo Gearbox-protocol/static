@@ -144,11 +144,11 @@ async function loadBorrowers(): Promise<string[]> {
   const list = Array.isArray(parsed)
     ? parsed
     : parsed &&
-      typeof parsed === "object" &&
-      "borrowers" in parsed &&
-      Array.isArray((parsed as Record<string, unknown>).borrowers)
-    ? ((parsed as Record<string, unknown[]>).borrowers as unknown[])
-    : null;
+        typeof parsed === "object" &&
+        "borrowers" in parsed &&
+        Array.isArray((parsed as Record<string, unknown>).borrowers)
+      ? ((parsed as Record<string, unknown[]>).borrowers as unknown[])
+      : null;
   if (list === null) {
     throw new Error(
       `Expected { "borrowers": string[] } or string[] in ${BORROWERS_JSON}`,
@@ -390,10 +390,12 @@ async function main(): Promise<void> {
   const byPrefix = new Map<string, TrimmedSession[]>();
   for (const t of accepted) {
     const prefix = borrowerPrefix(String(t.borrower));
-    if (!byPrefix.has(prefix)) {
-      byPrefix.set(prefix, []);
+    const group = byPrefix.get(prefix);
+    if (group) {
+      group.push(t);
+    } else {
+      byPrefix.set(prefix, [t]);
     }
-    byPrefix.get(prefix)!.push(t);
   }
 
   const prefixes = [...byPrefix.keys()].sort();
