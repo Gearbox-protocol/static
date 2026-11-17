@@ -2,6 +2,20 @@ allowBuilds:
   esbuild: true
   unrs-resolver: true
   workerd: true
-minimumReleaseAge: 1440
+
+minimumReleaseAge: 4320
 minimumReleaseAgeExclude:
   - "@gearbox-protocol/*"
+
+trustPolicy: no-downgrade
+
+overrides:
+  "minimatch@>=9.0.0 <9.0.7": 9.0.9
+
+# Edit by hand: `pnpm audit --ignore` writes here as a side effect.
+auditConfig:
+  ignoreGhsas:
+    # picomatch <=4.0.7 has no fix; 4.0.7 is the latest release. It reaches us only
+    # through dev tooling (@typescript-eslint via fast-glob/micromatch, tsdown via
+    # tinyglobby/fdir) and is not shipped in dist. Recheck 2027-02-17.
+    - GHSA-fc5q-39xc-vjpf
