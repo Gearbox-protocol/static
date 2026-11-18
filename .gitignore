@@ -22,6 +22,4 @@
 
 *.log
 
-.eslintcache
-.eslint.local.json
 .vscode/mise-tools/

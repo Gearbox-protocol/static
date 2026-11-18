@@ -47,14 +47,12 @@
     "dev": "tsdown && pnpm generate-configs:ts",
     "clean": "rm -rf ./dist",
     "build": "pnpm compile && pnpm generate-configs:ts",
-    "generate-configs:ts": "ts-node scripts/generate-configs.ts",
-    "fetch-old-borrowers:ts": "ts-node scripts/fetch-merge-old-borrowers.ts",
-    "fetch-old-accounts:ts": "ts-node scripts/fetch-old-accounts-from-borrowers.ts",
+    "generate-configs:ts": "tsx scripts/generate-configs.ts",
+    "fetch-old-borrowers:ts": "tsx scripts/fetch-merge-old-borrowers.ts",
+    "fetch-old-accounts:ts": "tsx scripts/fetch-old-accounts-from-borrowers.ts",
     "prepare": "husky",
-    "prettier": "prettier --write .",
-    "prettier:ci": "prettier --check .",
-    "lint": "eslint . --ext .tsx,.ts --fix",
-    "lint:ci": "eslint . --ext .tsx,.ts",
+    "check": "biome check --write",
+    "check:ci": "biome check --diagnostic-level=error",
     "typecheck:ci": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -67,29 +65,29 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@gearbox-protocol/eslint-config": "^2.0.0-next.2",
-    "@gearbox-protocol/prettier-config": "^2.0.0",
-    "@types/node": "^24.13.6",
-    "@types/react": "^19.2.7",
-    "eslint": "^8.57.1",
+    "@biomejs/biome": "2.6.7",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "@gearbox-protocol/biome-config": "^1.1.11",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
     "husky": "^9.1.7",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "react": "^19.2.1",
-    "ts-node": "^10.9.2",
-    "tsdown": "^0.22.14",
-    "typescript": "5.0.4",
-    "wrangler": "^4.136.3"
+    "lint-staged": "^17.6.0",
+    "react": "^19.3.1",
+    "tsdown": "^0.23.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.162.0"
   },
-  "prettier": "@gearbox-protocol/prettier-config",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,md}": "prettier --write"
+    "*.{ts,tsx,json}": [
+      "biome check --no-errors-on-unmatched --write"
+    ]
   },
-  "packageManager": "pnpm@12.6.0"
+  "packageManager": "pnpm@12.21.0"
 }

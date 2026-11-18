@@ -1,7 +1,0 @@
-{
-  "root": true,
-  "extends": ["@gearbox-protocol/eslint-config"],
-  "parserOptions": {
-    "project": "./tsconfig.eslint.json"
-  }
-}
