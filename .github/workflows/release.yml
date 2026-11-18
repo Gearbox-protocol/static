@@ -64,11 +64,16 @@ jobs:
       - name: Build
         run: pnpm build
 
+      # upload-artifact rejects file names containing characters such as ">"
+      # (e.g. tokens/cp0xlrt->wsteth.svg), so the site travels as one tarball.
+      - name: Pack site
+        run: tar -cf site.tar -C public .
+
       - name: Upload site artifact
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: site
-          path: public
+          path: site.tar
           if-no-files-found: error
           retention-days: 3
 
@@ -97,7 +102,13 @@ jobs:
         uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: site
-          path: site/public
+          path: site
+
+      - name: Unpack site
+        run: |
+          mkdir -p site/public
+          tar -xf site/site.tar -C site/public
+          rm site/site.tar
 
       # No checkout here, so wrangler is installed at a pinned version and branch
       # and commit are passed explicitly instead of being read from the working tree.
